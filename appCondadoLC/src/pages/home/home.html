@@ -18,29 +18,14 @@
   </ion-refresher>
 
     <ion-item-group>
-      <ion-item-divider color="light">Puerta</ion-item-divider>
-      <ion-item>
-        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
-        <ion-label>Luce1</ion-label>
-        <ion-toggle></ion-toggle>
-      </ion-item>
-      <ion-item-divider color="light">Sala</ion-item-divider>
-      <ion-item>
-        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
-        <ion-label>Luce1</ion-label>
-        <ion-toggle></ion-toggle>
-      </ion-item>
-      <ion-item>
-        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
-        <ion-label>Luce1</ion-label>
-        <ion-toggle></ion-toggle>
-      </ion-item>
-      <ion-item-divider color="light">Ventana</ion-item-divider>
-      <ion-item>
-        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
-        <ion-label>Luce1</ion-label>
-        <ion-toggle></ion-toggle>
-      </ion-item>
+      <div *ngFor="let luc of listPage">
+        <ion-item-divider color="light">{{luc.descp}}</ion-item-divider>
+        <ion-item *ngFor="let itemluces of luc.idLuces">
+          <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
+          <ion-label>{{itemluces.title}}</ion-label>
+          <ion-toggle [disabled]="itemluces.disp" [checked]="itemluces.estado"></ion-toggle>
+        </ion-item>
+      </div>
     </ion-item-group>
 
 </ion-content>

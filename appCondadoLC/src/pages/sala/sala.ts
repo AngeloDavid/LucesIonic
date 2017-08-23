@@ -39,7 +39,7 @@ export class SalaPage {
     this.ipPage=this.navParams.data.ipluces;
     this.listLuces=this.navParams.data.idLuces;
     console.log(this.listLuces);
-    this.lucesCtrlProv.comprobarPr(this.ipPage).subscribe(
+    this.lucesCtrlProv.comprobar(this.ipPage).subscribe(
       resp=>{
         /*console.log('hola');
         console.log(resp);

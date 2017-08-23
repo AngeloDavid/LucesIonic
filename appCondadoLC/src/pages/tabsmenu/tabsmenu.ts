@@ -23,10 +23,10 @@ export class TabsmenuPage {
       id:0,
       descp:'Puerta',
       icon:'ios-albums',
-      // ipluces:'192.168.0.110',
+      // ipluces:'192.168.0.115',
       ipluces:'localhost',
       idLuces:[
-        {id:1,title:'Lateral', estado: false,disp:true}
+        {id:1,title:'Tira led', estado: false,disp:true}
       ]
 
     },
@@ -34,7 +34,8 @@ export class TabsmenuPage {
       id:1,
       descp:'sala',
       icon:'ios-albums',
-      ipluces:'192.168.0.111',
+      //ipluces:'192.168.0.110',
+      ipluces:'localhost',
       idLuces:[
         {id:1,title:'Centrales', estado: false,disp:true},
         {id:2,title:'Comedor', estado: false,disp:true},
@@ -47,7 +48,8 @@ export class TabsmenuPage {
       id:2,
       descp:'Ventana',
       icon:'ios-albums',
-      ipluces:'192.168.0.111',
+      //ipluces:'192.168.0.111',
+      ipluces:'localhost',
       idLuces:[
         {id:1,title:'Lateral', estado: false,disp:true}
       ]

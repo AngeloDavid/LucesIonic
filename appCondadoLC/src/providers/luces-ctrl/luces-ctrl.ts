@@ -29,9 +29,17 @@ export class LucesCtrlProvider {
   }
 
 
-  comprobarPr(ip:string){
-    let urlP:string ="http://"+ip+":3001";
-
+  comprobarPr(ip:string,i:number){
+    let urlP:string='';
+    if(i==0){
+      urlP="http://"+ip+":3001/entrada";
+    }
+    if(i==1){
+      urlP="http://"+ip+":3001";
+    }
+    if(i==2){
+      urlP="http://"+ip+":3001/sala";
+    }
     console.log(urlP);
     return this.http.get(urlP).map(resp=>{return resp.text()});
   }
