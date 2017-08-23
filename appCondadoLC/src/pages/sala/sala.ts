@@ -59,7 +59,7 @@ export class SalaPage {
         }
       },
       err=>{
-        this.mostrarMsg(err);
+        this.mostrarMsg("Error de Conexion ip:"+this.ipPage);
       }
     );
   }

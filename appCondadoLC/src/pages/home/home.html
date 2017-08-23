@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
+    <ion-title text-center>
       SALA
     </ion-title>
   </ion-navbar>
@@ -19,7 +19,7 @@
 
     <ion-item-group>
       <div *ngFor="let luc of listPage">
-        <ion-item-divider color="light">{{luc.descp}}</ion-item-divider>
+        <ion-item-divider color="light">{{luc.descp | uppercase}}</ion-item-divider>
         <ion-item *ngFor="let itemluces of luc.idLuces">
           <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
           <ion-label>{{itemluces.title}}</ion-label>

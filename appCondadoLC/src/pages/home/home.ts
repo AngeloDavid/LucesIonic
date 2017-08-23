@@ -14,9 +14,13 @@ export class HomePage {
               public navParams: NavParams,
               private  lucesCtrlProv: LucesCtrlProvider,
               public toastCtrl: ToastController) {
-    console.log(this.navParams.data[0]);
+    this.CargaLuces();
 
 
+  }
+
+  CargaLuces(){
+    this.listPage=[];
     for( let data of this.navParams.data){
       this.listPage.push(data);
     }
@@ -24,9 +28,9 @@ export class HomePage {
       this.cargarLsitas(luce);
     }
   }
-
   cargarLsitas(luces:Luces){
-    this.lucesCtrlProv.comprobarPr(luces.ipluces,luces.id).subscribe(
+    this.lucesCtrlProv.comprobar(luces.ipluces).subscribe(
+    /*this.lucesCtrlProv.comprobarPr(luces.ipluces,luces.id).subscribe(*/
       resp=>{
         let parser = new DOMParser();
         let xmlData = parser.parseFromString(resp, "application/xml");
@@ -41,7 +45,7 @@ export class HomePage {
         }
       },
       err=>{
-        this.mostrarMsg(err);
+        this.mostrarMsg("Error de Conexion ip:"+luces.ipluces);
       }
     );
   }
@@ -54,5 +58,11 @@ export class HomePage {
     });
     toast.present();
   }
+  verificarIp(refresher){
 
+    setTimeout(() => {
+      this.CargaLuces();
+      refresher.complete();
+    }, 4000);
+  }
 }
