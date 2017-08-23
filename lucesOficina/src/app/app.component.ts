@@ -13,20 +13,17 @@ import { PuntoVentaPage,OficinasPage} from '../pages/index.pages';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = OficinasPage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any , icon:string}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home  ', component: HomePage },
-      { title: 'List', component: ListPage },
-      { title: 'Punto de Venta', component: PuntoVentaPage },
-      { title: 'Ofinica', component: OficinasPage }
-
+      { title: 'Control', component: OficinasPage , icon: 'ios-bulb'},
+      { title: 'Acerca', component: HomePage, icon: 'ios-information-circle' }
     ];
 
   }

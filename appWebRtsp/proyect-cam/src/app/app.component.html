@@ -1,0 +1,27 @@
+<h1>
+  {{title}}
+</h1>
+
+<video id="test_video" controls autoplay>
+  <source src="rtsp://admin:admin123@192.168.0.20:554/h264/ch1/main/av_stream" type="application/x-rtsp">
+</video>
+<embed
+  width="300"
+  height="300"
+  wmode="transparent"
+  id="vlc_1"
+  pluginspage="http://www.videolan.org"
+  type="application/x-vlc-plugin"
+  autoplay="true"
+  src="rtsp://admin:admin123@192.168.0.20:554/h264/ch1/main/av_stream">
+
+
+  <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
+          id="vlc_2"
+          codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab">
+    <param name="src" value="rtsp://admin:admin123@192.168.0.20:554/h264/ch1/main/av_stream" />
+    <param name="autoplay" value="true" />
+    <param name="toolbar" value="true" />
+  </object>
+
+  <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" autoplay="yes" loop="no" width="300" height="200" target="rtsp://admin:admin123@192.168.0.20:554/h264/ch1/main/av_stream" />

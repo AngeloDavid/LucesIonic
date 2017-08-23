@@ -2,10 +2,12 @@
   "Datos": [{
     "title": "Oficina",
     "icon": "briefcase",
-    "ip": "192.168.0.3"
+    "ip": "192.168.0.3",
+    "estado":"false"
   }, {
     "title": "Oficina2",
     "icon": "briefcase",
-    "ip": "192.168.0.4"
+    "ip": "192.168.0.4",
+    "estado":"false"
   }]
 }

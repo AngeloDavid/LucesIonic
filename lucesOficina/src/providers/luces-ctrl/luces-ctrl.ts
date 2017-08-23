@@ -12,18 +12,20 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class LucesCtrlProvider {
 
-  BDDComicPersonal="https://pokeapp-af-tp.firebaseio.com/pokeapp-af-tp";
-  urlDatos ="./datos.json";
   constructor(public http: Http) {
     console.log('Hello LucesCtrlProvider Provider');
   }
 
-  getDatos(){
-  console.log(this.urlDatos);
-    return this.http.get(this.urlDatos).map(
-      resultado => {
-        return resultado.json();
-      }
-    );
+  prender(ip:string, onF:string){
+    let urlP:string ="http://"+ip+"/"+onF;
+    return this.http.get(urlP).map( resp=>{return resp.json()});
   }
+
+  comprobar(ip:string){
+    let urlP:string ="http://"+ip+"/status";
+
+    console.log(urlP);
+    return this.http.get(urlP).map(resp=>{return resp.text()});
+  }
+
 }

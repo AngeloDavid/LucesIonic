@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      SALA
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <ion-refresher (ionRefresh)="verificarIp($event)">
+    <ion-refresher-content
+      pullingIcon="arrow-dropdown"
+      pullingText="Pulse para actualizar"
+      refreshingSpinner="bubbles"
+      refreshingText="Actualizando">
+    </ion-refresher-content>
+
+  </ion-refresher>
+
+    <ion-item-group>
+      <ion-item-divider color="light">Puerta</ion-item-divider>
+      <ion-item>
+        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
+        <ion-label>Luce1</ion-label>
+        <ion-toggle></ion-toggle>
+      </ion-item>
+      <ion-item-divider color="light">Sala</ion-item-divider>
+      <ion-item>
+        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
+        <ion-label>Luce1</ion-label>
+        <ion-toggle></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
+        <ion-label>Luce1</ion-label>
+        <ion-toggle></ion-toggle>
+      </ion-item>
+      <ion-item-divider color="light">Ventana</ion-item-divider>
+      <ion-item>
+        <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
+        <ion-label>Luce1</ion-label>
+        <ion-toggle></ion-toggle>
+      </ion-item>
+    </ion-item-group>
+
+</ion-content>
