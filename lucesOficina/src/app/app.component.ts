@@ -23,6 +23,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Control', component: OficinasPage , icon: 'ios-bulb'},
+      { title: 'Cronometro', component: PuntoVentaPage , icon: 'ios-bulb'},
       { title: 'Acerca', component: HomePage, icon: 'ios-information-circle' }
     ];
 

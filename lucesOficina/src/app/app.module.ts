@@ -3,10 +3,12 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { HttpModule } from '@angular/http';
 
+
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-import { PuntoVentaPage,OficinasPage} from '../pages/index.pages';
+import { PuntoVentaPage,OficinasPage,ModalCronometroPage} from '../pages/index.pages';
+import { BackgroundMode } from '@ionic-native/background-mode';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LucesCtrlProvider } from '../providers/luces-ctrl/luces-ctrl';
@@ -18,7 +20,7 @@ import { LucesCtrlProvider } from '../providers/luces-ctrl/luces-ctrl';
     ListPage,
     PuntoVentaPage,
     OficinasPage ,
-
+    ModalCronometroPage
   ],
   imports: [
     BrowserModule,
@@ -31,9 +33,11 @@ import { LucesCtrlProvider } from '../providers/luces-ctrl/luces-ctrl';
     HomePage,
     ListPage,
     PuntoVentaPage,
-    OficinasPage
+    OficinasPage,
+    ModalCronometroPage
   ],
   providers: [
+    BackgroundMode,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},

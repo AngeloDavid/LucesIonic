@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams,ModalController,ToastController   } from 'ionic-angular';
 import {LucesCtrlProvider} from '../../providers/luces-ctrl/luces-ctrl';
 import {Luces} from '../../Interfaces/luces.interfaces';
-import { ToastController } from 'ionic-angular';
 import { parseString } from 'xml2js';
+import {ModalCronometroPage} from '../modal-cronometro/modal-cronometro';
 /**
  * Generated class for the OficinasPage page.
  *
@@ -43,7 +43,7 @@ export class OficinasPage {
        disp:true
      }];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams , private  lucespro : LucesCtrlProvider,public toastCtrl: ToastController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams , private  lucespro : LucesCtrlProvider,public toastCtrl: ToastController,public modalCtrl: ModalController) {
 
     for (let luz of this.luces){
       this.lucespro.comprobar(luz.ip).subscribe(
@@ -106,6 +106,10 @@ export class OficinasPage {
   }
 
 
+  presentModal(luce:Luces) {
+    let modal = this.modalCtrl.create(ModalCronometroPage,{ luz: luce });
+    modal.present();
+  }
 
 
 

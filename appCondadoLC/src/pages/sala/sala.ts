@@ -18,11 +18,13 @@ export class SalaPage {
   title:string='';
   listLuces:any[]=[];
   ipPage:string;
+  icon:string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               private  lucesCtrlProv: LucesCtrlProvider,
               public toastCtrl: ToastController) {
   this.title=this.navParams.data.descp;
+
 
   this.cargarListLuces();
 
@@ -90,7 +92,8 @@ export class SalaPage {
       message: msg,
       duration: 3000 ,
       showCloseButton: true,
-      closeButtonText: 'Ok'
+      closeButtonText: 'Ok',
+      position: 'middle'
     });
     toast.present();
   }

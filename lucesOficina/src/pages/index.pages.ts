@@ -4,3 +4,4 @@
 
 export {OficinasPage} from './oficinas/oficinas';
 export {PuntoVentaPage} from './punto-venta/punto-venta';
+export {ModalCronometroPage} from './modal-cronometro/modal-cronometro';

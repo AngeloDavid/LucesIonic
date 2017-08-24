@@ -37,9 +37,9 @@ export class TabsmenuPage {
       ipluces:'192.168.0.110',
       //ipluces:'localhost',
       idLuces:[
-        {id:1,title:'Centrales', estado: false,disp:true},
+        {id:1,title:'Centrales', estado: true,disp:false},
         {id:2,title:'Comedor', estado: false,disp:true},
-        {id:3,title:'Cuadro', estado: false,disp:true},
+        {id:3,title:'Cuadro', estado: false,disp:false},
         {id:4,title:'Lateral', estado: false,disp:true}
 
       ]
@@ -60,7 +60,7 @@ export class TabsmenuPage {
     {
       id:0,
       descp:'Dorm - Master',
-      icon:'ios-albums',
+      icon:'md-people',
       ipluces:'192.168.0.112',
       idLuces:[
         {id:1,title:'Tira Led', estado: false,disp:true},
@@ -71,7 +71,7 @@ export class TabsmenuPage {
     {
       id:1,
       descp:'Dorm - Roberto',
-      icon:'ios-albums',
+      icon:'md-happy',
       ipluces:'192.168.0.114',
       idLuces:[
         {id:1,title:'Tira Led', estado: false,disp:true},
@@ -82,7 +82,7 @@ export class TabsmenuPage {
     {
       id:2,
       descp:"Dorm - Belen",
-      icon:'ios-albums',
+      icon:'ios-happy-outline',
       ipluces:'192.168.0.113',
       idLuces:[
         {id:1,title:'centrales', estado: false,disp:true},

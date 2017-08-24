@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
+
 /**
  * Generated class for the PuntoVentaPage page.
  *
@@ -15,10 +16,17 @@ import { NavController, NavParams } from 'ionic-angular';
 export class PuntoVentaPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PuntoVentaPage');
   }
+
+
+
+
+
 
 }

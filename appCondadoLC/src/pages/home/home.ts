@@ -54,6 +54,7 @@ export class HomePage {
       message: msg,
       duration: 3000 ,
       showCloseButton: true,
+      position: 'middle',
       closeButtonText: 'Ok'
     });
     toast.present();
@@ -65,4 +66,5 @@ export class HomePage {
       refresher.complete();
     }, 4000);
   }
+
 }

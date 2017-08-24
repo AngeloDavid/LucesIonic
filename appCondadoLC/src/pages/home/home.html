@@ -1,13 +1,19 @@
-<ion-header>
-  <ion-navbar>
+<ion-header >
+  <ion-navbar  color="titulo" >
     <ion-title text-center>
       SALA
     </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
+
 </ion-header>
 
-<ion-content >
-  <ion-refresher (ionRefresh)="verificarIp($event)">
+<ion-content     class="no-scroll"  >
+  <ion-refresher color="content" (ionRefresh)="verificarIp($event)">
     <ion-refresher-content
       pullingIcon="arrow-dropdown"
       pullingText="Pulse para actualizar"
@@ -17,11 +23,11 @@
 
   </ion-refresher>
 
-    <ion-item-group>
-      <div *ngFor="let luc of listPage">
-        <ion-item-divider color="light">{{luc.descp | uppercase}}</ion-item-divider>
-        <ion-item *ngFor="let itemluces of luc.idLuces">
-          <ion-icon  name="ios-bulb-outline" item-start></ion-icon>
+    <ion-item-group >
+      <div *ngFor="let luc of listPage;let j=index2 ">
+        <ion-item-divider color="subtitulo">{{luc.descp | uppercase}}</ion-item-divider>
+        <ion-item  *ngFor="let itemluces of luc.idLuces;let i = index" (click)="prender(itemluces)">
+          <ion-icon  color="content" name="ios-bulb-outline" item-start></ion-icon>
           <ion-label>{{itemluces.title}}</ion-label>
           <ion-toggle [disabled]="itemluces.disp" [checked]="itemluces.estado"></ion-toggle>
         </ion-item>
