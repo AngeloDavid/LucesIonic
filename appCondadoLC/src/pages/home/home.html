@@ -1,7 +1,7 @@
 <ion-header >
   <ion-navbar  color="titulo" >
     <ion-title text-center>
-      SALA
+      PRINCIPAL
     </ion-title>
     <ion-buttons end>
       <button ion-button icon-only>
@@ -26,7 +26,7 @@
     <ion-item-group >
       <div *ngFor="let luc of listPage;let j=index2 ">
         <ion-item-divider color="subtitulo">{{luc.descp | uppercase}}</ion-item-divider>
-        <ion-item  *ngFor="let itemluces of luc.idLuces;let i = index" (click)="prender(itemluces)">
+        <ion-item  *ngFor="let itemluces of luc.idLuces;let i = index" (click)="prender(luc,i)">
           <ion-icon  color="content" name="ios-bulb-outline" item-start></ion-icon>
           <ion-label>{{itemluces.title}}</ion-label>
           <ion-toggle [disabled]="itemluces.disp" [checked]="itemluces.estado"></ion-toggle>
