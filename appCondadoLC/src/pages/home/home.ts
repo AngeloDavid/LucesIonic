@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams,ToastController,Events } from 'ionic-angular';
+import { NavController, NavParams,ToastController
+        ,Events,PopoverController  } from 'ionic-angular';
 import { LucesCtrlProvider} from '../../providers/luces-ctrl/luces-ctrl';
 import {Luces} from '../../interfaces/luces.interfaces';
+import {PopoverTimerPage} from '../index.pages';
 
 @Component({
   selector: 'page-home',
@@ -12,14 +14,19 @@ export class HomePage {
 
 
   listPage:Luces[]=[];
-
+  timer:boolean=false;
+  timerCount:string='';
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               private  lucesCtrlProv: LucesCtrlProvider,
               public toastCtrl: ToastController,
+              public popoverCtrl: PopoverController,
               public events:Events) {
     this.CargaLuces();
     this.events.publish('msg',0)
+    this.events.subscribe('timerCount',(tc)=>{
+      this.timerCount=tc;
+    })
   }
 
   CargaLuces(){
@@ -61,19 +68,8 @@ export class HomePage {
       }
     );
   }
-  mostrarMsg(msg:string) {
-    let toast = this.toastCtrl.create({
-      message: msg,
-      duration: 3000 ,
-      showCloseButton: true,
-      position: 'middle',
-      closeButtonText: 'Ok'
-    });
-    toast.present();
-  }
+
   verificarIp(refresher){
-
-
     const promise = new Promise((resp,reject)=>{
       this.CargaLuces();
       this.events.subscribe('msg',(msg)=>{
@@ -99,7 +95,6 @@ export class HomePage {
   prender(luc:Luces,i:number){
     console.log("prender",luc);
     let luces= luc.idLuces[i];
-    console.log("predenr",luces);
     if(!luces.disp){
       if(luces.estado){
         this.lucesCtrlProv.prender(luc.ipluces,'off',luces.id+'').subscribe(
@@ -118,5 +113,24 @@ export class HomePage {
     }
 
   }
+
+  mostrarMsg(msg:string) {
+    let toast = this.toastCtrl.create({
+      message: msg,
+      duration: 3000 ,
+      showCloseButton: true,
+      position: 'middle',
+      closeButtonText: 'Ok'
+    });
+    toast.present();
+  }
+
+  mostarTimer(){
+    console.log(this.listPage);
+    let popover = this.popoverCtrl.create(PopoverTimerPage,{data:this.listPage});
+    popover.present();
+
+  }
+
 
 }

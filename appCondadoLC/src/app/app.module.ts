@@ -5,8 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import {SalaPage,TabsmenuPage} from '../pages/index.pages';
+import {SalaPage,TabsmenuPage,PopoverTimerPage,HomePage} from '../pages/index.pages';
 import { LucesCtrlProvider } from '../providers/luces-ctrl/luces-ctrl';
 import { HttpModule } from '@angular/http';
 
@@ -15,19 +14,24 @@ import { HttpModule } from '@angular/http';
     MyApp,
     HomePage,
     SalaPage,
-    TabsmenuPage
+    TabsmenuPage,
+    PopoverTimerPage
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp,{
+      cancelText:'Atras',
+      doneText:'OK'
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
     SalaPage,
-    TabsmenuPage
+    TabsmenuPage,
+    PopoverTimerPage
   ],
   providers: [
     StatusBar,
