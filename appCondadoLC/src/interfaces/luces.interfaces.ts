@@ -9,6 +9,7 @@ export  class Luces{
         icon?:string;
         estado?:boolean;
         disp:boolean;
+        temp?:boolean;
       }
       ];
 }

@@ -1,8 +1,5 @@
 {
   "name": "appCondadoLC",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
+  "app_id": "abe0dc99",
+  "type": "ionic-angular"
 }

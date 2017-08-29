@@ -1,18 +1,19 @@
 <ion-header >
   <ion-navbar  color="titulo" >
     <ion-title text-center>
-      SALA
+      PRINCIPAL
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only>
-        <ion-icon name="more"></ion-icon>
+      <button ion-button icon-only (click)="timer=!timer">
+        <ion-icon name="timer"></ion-icon>
       </button>
+      {{timerCount}}
     </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
-<ion-content     class="no-scroll"  >
+<ion-content     class="no-scroll"  text-center >
   <ion-refresher color="content" (ionRefresh)="verificarIp($event)">
     <ion-refresher-content
       pullingIcon="arrow-dropdown"
@@ -26,12 +27,14 @@
     <ion-item-group >
       <div *ngFor="let luc of listPage;let j=index2 ">
         <ion-item-divider color="subtitulo">{{luc.descp | uppercase}}</ion-item-divider>
-        <ion-item  *ngFor="let itemluces of luc.idLuces;let i = index" (click)="prender(itemluces)">
+        <ion-item  *ngFor="let itemluces of luc.idLuces;let i = index" (click)="prender(luc,i)">
+          <ion-checkbox  [(ngModel)]="itemluces.temp" *ngIf="timer"  color="content"></ion-checkbox>
           <ion-icon  color="content" name="ios-bulb-outline" item-start></ion-icon>
           <ion-label>{{itemluces.title}}</ion-label>
           <ion-toggle [disabled]="itemluces.disp" [checked]="itemluces.estado"></ion-toggle>
         </ion-item>
       </div>
     </ion-item-group>
+  <button ion-button large  round *ngIf="timer" (click)="mostarTimer()">Temporizar</button>
 
 </ion-content>

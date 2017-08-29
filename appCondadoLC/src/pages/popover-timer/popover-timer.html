@@ -1,0 +1,21 @@
+<ion-content padding class="no-scroll"  text-center >
+  <h2>TIEMPO</h2>
+  <ion-grid>
+    <ion-row>
+
+      <ion-col offset-4>
+        <ion-datetime align-self-center displayFormat="mm:ss" [(ngModel)]="event.timeStarts"></ion-datetime>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col align-self-center text-right>OFF</ion-col>
+      <ion-col>
+        <ion-toggle text-center [(ngModel)]="des"></ion-toggle>
+      </ion-col>
+      <ion-col align-self-center  text-left>ON</ion-col>
+    </ion-row>
+  </ion-grid>
+  <button ion-button round color="titulo" (click)="start()">OK</button>
+  <button ion-button round color="titulo" (click)="cerrar()">CERRAR</button>
+</ion-content>

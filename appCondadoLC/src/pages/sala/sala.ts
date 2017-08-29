@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams,ToastController } from 'ionic-angular';
+import { NavController, NavParams,ToastController,Events } from 'ionic-angular';
 import { LucesCtrlProvider} from '../../providers/luces-ctrl/luces-ctrl';
 
 /**
@@ -22,7 +22,8 @@ export class SalaPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               private  lucesCtrlProv: LucesCtrlProvider,
-              public toastCtrl: ToastController) {
+              public toastCtrl: ToastController,
+              public events:Events) {
   this.title=this.navParams.data.descp;
 
 
@@ -41,7 +42,7 @@ export class SalaPage {
     this.ipPage=this.navParams.data.ipluces;
     this.listLuces=this.navParams.data.idLuces;
     console.log(this.listLuces);
-    this.lucesCtrlProv.comprobar(this.ipPage).subscribe(
+   this.lucesCtrlProv.comprobar(this.ipPage).subscribe(
       resp=>{
         /*console.log('hola');
         console.log(resp);
@@ -59,9 +60,15 @@ export class SalaPage {
             this.listLuces[i].estado = false;
           }
         }
+        this.events.publish('msg',2);
       },
       err=>{
-        this.mostrarMsg("Error de Conexion ip:"+this.ipPage);
+        this.mostrarMsg("Error de Conexion disp:"+this.title);
+        this.events.publish('msg',2);
+        for(let luce of this.listLuces){
+          luce.disp=true;
+          luce.estado=false;
+        }
       }
     );
   }
@@ -98,10 +105,22 @@ export class SalaPage {
     toast.present();
   }
   verificarIp(refresher){
-
-    setTimeout(() => {
+    const promise = new Promise((resp,reject)=>{
       this.cargarListLuces();
-      refresher.complete();
-    }, 4000);
+      this.events.subscribe('msg',(msg)=>{
+        console.log(msg);
+        if(msg==2){
+          resp(123);
+          this.events.publish('msg',1)
+        }
+      });
+      console.log('promise');
+    });
+    promise.then(
+      (resp)=>{
+        console.log('refreses',resp);
+        refresher.complete();
+      }
+    );
   }
 }
