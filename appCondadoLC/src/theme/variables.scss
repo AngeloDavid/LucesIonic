@@ -56,7 +56,8 @@ $colors: (
 // iOS only Sass variables can go here
 
 $toggle-ios-background-color-on:$naranja;
-$tabs-ios-tab-max-width: 500px;
+$tabs-ios-tab-text-color-active:$naranja;
+$tabs-ios-tab-icon-color-active:$naranja;
 
 
 // App Material Design Variables
@@ -66,6 +67,8 @@ $tabs-ios-tab-max-width: 500px;
 
 $toggle-md-handle-background-color-on:#fff;
 $toggle-md-track-background-color-on:$naranja;
+$tabs-md-tab-text-color-active:$naranja;
+$tabs-md-tab-icon-color-active:$naranja;
 
 // App Windows Variables
 // --------------------------------------------------
