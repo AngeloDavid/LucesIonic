@@ -32,7 +32,7 @@
   <ion-list>
     <ion-item *ngFor="let luz of listLuces;let i= index" (click)="prender(i)">
       <ion-icon color="subtitulo"  name="ios-bulb-outline" item-start></ion-icon>
-      <ion-label>{{luz.title}}</ion-label>
+      <ion-label color="label">{{luz.title}}</ion-label>
       <ion-toggle [disabled]="luz.disp" [checked]="luz.estado"></ion-toggle>
     </ion-item>
   </ion-list>

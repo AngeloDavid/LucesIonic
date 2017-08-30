@@ -63,7 +63,7 @@ export class TabsmenuPage {
       icon:'md-people',
       ipluces:'192.168.0.112',
       idLuces:[
-        {id:1,title:'Tira Led', estado: false,disp:true},
+        {id:1,title:'Tira Led', estado: true,disp:false},
         {id:2,title:'Ditroicos laterales', estado: false,disp:true},
         {id:3,title:'Centrales', estado: false,disp:true}
       ]
@@ -76,7 +76,7 @@ export class TabsmenuPage {
       idLuces:[
         {id:1,title:'Tira Led', estado: false,disp:true},
         {id:2,title:'Ditroicos laterales', estado: false,disp:true},
-        {id:3,title:'centrales', estado: false,disp:true}
+        {id:3,title:'Centrales', estado: false,disp:true}
       ]
     },
     {
@@ -85,7 +85,7 @@ export class TabsmenuPage {
       icon:'ios-happy-outline',
       ipluces:'192.168.0.113',
       idLuces:[
-        {id:1,title:'centrales', estado: false,disp:true},
+        {id:1,title:'Centrales', estado: false,disp:true},
         {id:2,title:'Tira Led', estado: false,disp:true},
         {id:3,title:'Ditroicos laterales', estado: false,disp:true}
       ]

@@ -33,24 +33,30 @@ $app-direction: ltr;
 // colors so you can add, rename and remove colors as needed.
 // The "primary" color is the only required color in the map.
 
+$naranja: #ffb74d;
+
 $colors: (
   //primary:    #006064,
-  primary:    #00BCD4,
+  //primary:    #00BCD4,
+  primary:    #b0bec5,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222   ,
-  titulo:     #006064,
-  subtitulo:  #00ACC1,
-  content:    #0097A7
+  //titulo:     #006064,
+  titulo:     #f5f5f5,
+  subtitulo:  $naranja,
+  label:      #37474f,
+  //content:    #0097A7,
+  content:    #f5f5f5,
 );
-
 
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
-
+$toggle-ios-background-color-on:$naranja;
+$tabs-ios-tab-max-width: 500px;
 
 
 // App Material Design Variables
@@ -58,7 +64,8 @@ $colors: (
 // Material Design only Sass variables can go here
 
 
-
+$toggle-md-handle-background-color-on:#fff;
+$toggle-md-track-background-color-on:$naranja;
 
 // App Windows Variables
 // --------------------------------------------------
