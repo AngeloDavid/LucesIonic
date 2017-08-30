@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams,Events,ViewController } from 'ionic-angular';
 import {Luces} from '../../interfaces/luces.interfaces';
 import {LucesCtrlProvider} from '../../providers/luces-ctrl/luces-ctrl';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the PopoverTimerPage page.
  *
@@ -19,23 +20,33 @@ export class PopoverTimerPage {
   List:Luces[]=[];
   t;
   event = {
-    timeStarts: '00:30:00',
+    timeStarts: '00:00:15',
   };
   min=0;
   seg=0;
   segs=0;
   des:boolean=false;
-
+  startTimer:boolean=true;
 
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
-              private  lucesCtrlProv: LucesCtrlProvider,public events:Events,private viewCtrl :ViewController) {
+              private  lucesCtrlProv: LucesCtrlProvider,public events:Events,
+              private viewCtrl :ViewController,public storage: Storage) {
     this.List=this.navParams.get('data');
-    console.log(this.List);
+
     this.events.subscribe('timerCount',(tc)=>{
+      console.log(tc);
       this.event.timeStarts=tc;
-    })
-  }
+    });
+    this.events.subscribe('startBool',(sb)=>{
+        console.log(sb);
+       this.startTimer=sb;
+    });
+    storage.get('startBool').then(resp=>{
+      console.log('respStrp',resp);
+      this.startTimer=resp;
+    });
+   }
 
 
   ionViewDidLoad() {
@@ -43,18 +54,20 @@ export class PopoverTimerPage {
   }
 
   start(){
-    console.log(this.event.timeStarts);
+    this.startTimer=false;
     let horaarray= this.event.timeStarts.split(":");
-    console.log(horaarray);
     this.min=  parseInt(horaarray[1]);
     this.seg=  parseInt(horaarray[2]);
     this.min=60*this.min;
     this.segs=this.min+this.seg;
+    console.log(this.segs);
+    this.events.publish('segse',this.segs);
+    this.storage.set('des',this.des);
+    this.events.publish('startBool',this.startTimer);
 
-
-    this.t=setInterval(()=>{this.okTimer();}, 1000);
 
   }
+
   aumentarZero(i:number){
     if(i<10){
        return `0${i}`;
@@ -65,35 +78,47 @@ export class PopoverTimerPage {
   segMim(segu:number){
     let min= Math.floor(segu/60);
     let seg=segu % 60;
-    console.log(min,'-',seg);
     return `00:${this.aumentarZero(min)}:${this.aumentarZero(seg)}`
   }
 
 
   okTimer(){
-    // console.log(this.segs);
     if(this.segs<=0){
-        clearTimeout(this.t);
-        for(let luz of this.List){
-          for (let lindex in luz.idLuces){
-            if(luz.idLuces[lindex].temp &&!luz.idLuces[lindex].disp)
-              this.prender(luz, parseInt(lindex),this.des);
-          }
+      clearTimeout(this.t);
+      for(let luz of this.List){
+        for (let lindex in luz.idLuces){
+          if(luz.idLuces[lindex].temp &&!luz.idLuces[lindex].disp)
+            this.prender(luz, parseInt(lindex),this.des);
+          console.log(lindex,this.des);
         }
+      }
+      this.cerrar();
     } else {
-        this.segs--;
-        this.event.timeStarts=this.segMim(this.segs);
+      this.segs--;
+      this.event.timeStarts=this.segMim(this.segs);
     }
     this.events.publish('timerCount',this.event.timeStarts);
+    this.events.subscribe('startBool',(sb)=>{
+       if(sb){
+         clearTimeout(this.t);
+         this.cerrar();
+       }
+    });
   }
 
   cerrar(){
-    clearTimeout(this.t);
-    this.viewCtrl.dismiss();
-    this.events.publish('timerCount','');
+    /*this.storage.get('timerCtrl').then((val)=>{
+      clearTimeout(val);
+    });
+    this.storage.remove('timerCtrl');*/
 
+    this.startTimer=true;
+    this.events.publish('startBool',this.startTimer);
+    /*this.events.subscribe('TimerCtrl',(tc)=>{
+      console.log(tc);
+      clearTimeout(tc);
+    })*/
   }
-
 
   prender(luc:Luces,i:number, desi:boolean){
     console.log("prender",luc);
@@ -111,8 +136,9 @@ export class PopoverTimerPage {
             console.log(resp);
           }
         );
+
       }
-      luces.estado=!luces.estado;
+      luces.estado=desi;
     }
 
   }

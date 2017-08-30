@@ -4,6 +4,7 @@ import { NavController, NavParams,ToastController
 import { LucesCtrlProvider} from '../../providers/luces-ctrl/luces-ctrl';
 import {Luces} from '../../interfaces/luces.interfaces';
 import {PopoverTimerPage} from '../index.pages';
+import { Storage } from '@ionic/storage';
 
 @Component({
   selector: 'page-home',
@@ -15,32 +16,52 @@ export class HomePage {
 
   listPage:Luces[]=[];
   timer:boolean=false;
+  timerBotton:boolean=true;
   timerCount:string='';
+  timerCtrl;
+  segs:number=0;
+
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               private  lucesCtrlProv: LucesCtrlProvider,
               public toastCtrl: ToastController,
               public popoverCtrl: PopoverController,
-              public events:Events) {
+              public events:Events,
+              public storage: Storage
+  ) {
     this.CargaLuces();
-    this.events.publish('msg',0)
+    this.events.publish('msg',0);
     this.events.subscribe('timerCount',(tc)=>{
       this.timerCount=tc;
-    })
+    });
+    this.events.subscribe('segse',(segs)=>{
+      console.log(segs);
+      this.segs=segs;
+    });
+    this.events.subscribe('startBool',(sb)=>{
+      storage.set('startBool',sb);
+      if(sb){
+
+        console.log('startbool',sb);
+        clearTimeout(this.timerCtrl);
+        console.log('tct',this.timerCtrl);
+      } else
+      {
+        this.timerCtrl =setInterval(()=>{this.okTimer();}, 1000);
+      }
+    });
   }
 
   CargaLuces(){
     this.listPage=[];
-
     for( let data of this.navParams.data){
       this.listPage.push(data);
     }
-
-     for(let luce of this.listPage){
+    for(let luce of this.listPage){
        this.cargarLsitas(luce);
     }
-
   }
+
   cargarLsitas(luces:Luces){
     // this.lucesCtrlProv.comprobar(luces.ipluces).subscribe(
     this.lucesCtrlProv.comprobarPr(luces.ipluces,luces.id).subscribe(
@@ -132,5 +153,77 @@ export class HomePage {
 
   }
 
+  verificarTimer(){
+    let tip=0;
+    for(let pag of this.listPage){
+        for(let luce of pag.idLuces){
+          if(luce.temp){
+            tip++;
+          }
+        }
+    }
+    if(tip==0)
+      this.timerBotton =true;
+    else
+      this.timerBotton= false;
+
+  }
+
+  aumentarZero(i:number){
+    if(i<10){
+      return `0${i}`;
+    } else {
+      return  `${i}`;
+    }
+  }
+  segMim(segu:number){
+    let min= Math.floor(segu/60);
+    let seg=segu % 60;
+    return `00:${this.aumentarZero(min)}:${this.aumentarZero(seg)}`
+  }
+
+  okTimer(){
+    if(this.segs<=0){
+      clearTimeout(this.timerCtrl);
+      for(let luz of this.listPage){
+        for (let lindex in luz.idLuces){
+          if(luz.idLuces[lindex].temp &&!luz.idLuces[lindex].disp){
+            this.storage.get('des').then(des=>{
+              this.prenderTC(luz, parseInt(lindex),des);
+            });
+          }
+        }
+      }
+      this.events.publish('startBool',true);
+
+    }else {
+      this.segs--;
+    }
+    this.events.publish('timerCount',this.segMim(this.segs));
+  }
+
+  prenderTC(luc:Luces,i:number, desi:boolean){
+
+    let luces= luc.idLuces[i];
+    console.log("prender",luces);
+    if(!luces.disp){
+      if(!desi){
+        this.lucesCtrlProv.prender(luc.ipluces,'off',luces.id+'').subscribe(
+          resp=>{
+            console.log(resp);
+          }
+        );
+      } else {
+        this.lucesCtrlProv.prender(luc.ipluces,'on',luces.id+'').subscribe(
+          resp=>{
+            console.log(resp);
+          }
+        );
+
+      }
+      luces.estado=desi;
+    }
+
+  }
 
 }

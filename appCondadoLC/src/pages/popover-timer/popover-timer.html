@@ -4,7 +4,7 @@
     <ion-row>
 
       <ion-col offset-4>
-        <ion-datetime align-self-center displayFormat="mm:ss" [(ngModel)]="event.timeStarts"></ion-datetime>
+        <ion-datetime align-self-center displayFormat="mm:ss" pickerFormat="m s" cancelText="Atras" doneText="OK" [(ngModel)]="event.timeStarts"></ion-datetime>
       </ion-col>
       <ion-col></ion-col>
     </ion-row>
@@ -16,6 +16,6 @@
       <ion-col align-self-center  text-left>ON</ion-col>
     </ion-row>
   </ion-grid>
-  <button ion-button round color="titulo" (click)="start()">OK</button>
-  <button ion-button round color="titulo" (click)="cerrar()">CERRAR</button>
+  <button ion-button round color="titulo" *ngIf="startTimer"  [disabled]="event.timeStarts=='00:00:00'" (click)="start()"><ion-icon name="play"></ion-icon></button>
+  <button ion-button round color="titulo" *ngIf="!startTimer" [disabled]="event.timeStarts=='00:00:00'"  (click)="cerrar()"><ion-icon name="square"></ion-icon></button>
 </ion-content>

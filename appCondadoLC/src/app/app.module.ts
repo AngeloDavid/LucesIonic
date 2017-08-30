@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import {SalaPage,TabsmenuPage,PopoverTimerPage,HomePage} from '../pages/index.pages';
 import { LucesCtrlProvider } from '../providers/luces-ctrl/luces-ctrl';
 import { HttpModule } from '@angular/http';
+import { IonicStorageModule } from '@ionic/storage';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HttpModule } from '@angular/http';
     IonicModule.forRoot(MyApp,{
       cancelText:'Atras',
       doneText:'OK'
-    })
+    }),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
