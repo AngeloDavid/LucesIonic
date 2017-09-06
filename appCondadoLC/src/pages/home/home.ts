@@ -63,8 +63,8 @@ export class HomePage {
   }
 
   cargarLsitas(luces:Luces){
-    // this.lucesCtrlProv.comprobar(luces.ipluces).subscribe(
-    this.lucesCtrlProv.comprobarPr(luces.ipluces,luces.id).subscribe(
+    this.lucesCtrlProv.comprobar(luces.ipluces).subscribe(
+    //this.lucesCtrlProv.comprobarPr(luces.ipluces,luces.id).subscribe(
       resp=>{
         let parser = new DOMParser();
         let xmlData = parser.parseFromString(resp, "application/xml");

@@ -34,8 +34,8 @@ export class TabsmenuPage {
       id:1,
       descp:'sala',
       icon:'ios-albums',
-      //ipluces:'192.168.0.110',
-      ipluces:'localhost',
+      ipluces:'192.168.0.110',
+      //ipluces:'localhost',
       idLuces:[
         {id:1,title:'Centrales', estado: false,disp:true},
         {id:2,title:'Comedor', estado: false,disp:true},

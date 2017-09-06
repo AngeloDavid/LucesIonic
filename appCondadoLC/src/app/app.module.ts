@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import {SalaPage,TabsmenuPage,PopoverTimerPage,HomePage} from '../pages/index.pages';
+import {SalaPage,TabsmenuPage,PopoverTimerPage,HomePage,PopoverTimerSalaPage} from '../pages/index.pages';
 import { LucesCtrlProvider } from '../providers/luces-ctrl/luces-ctrl';
 import { HttpModule } from '@angular/http';
 import { IonicStorageModule } from '@ionic/storage';
@@ -16,7 +16,8 @@ import { IonicStorageModule } from '@ionic/storage';
     HomePage,
     SalaPage,
     TabsmenuPage,
-    PopoverTimerPage
+    PopoverTimerPage,
+    PopoverTimerSalaPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +34,8 @@ import { IonicStorageModule } from '@ionic/storage';
     HomePage,
     SalaPage,
     TabsmenuPage,
-    PopoverTimerPage
+    PopoverTimerPage,
+    PopoverTimerSalaPage
   ],
   providers: [
     StatusBar,

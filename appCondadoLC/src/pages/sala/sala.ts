@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams,ToastController,Events } from 'ionic-angular';
+import { NavController, NavParams,ToastController,Events,PopoverController } from 'ionic-angular';
 import { LucesCtrlProvider} from '../../providers/luces-ctrl/luces-ctrl';
-
+import {PopoverTimerSalaPage} from '../index.pages';
+import {Luces} from '../../interfaces/luces.interfaces';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the SalaPage page.
  *
@@ -15,19 +17,33 @@ import { LucesCtrlProvider} from '../../providers/luces-ctrl/luces-ctrl';
 })
 export class SalaPage {
 
-  title:string='';
-  listLuces:any[]=[];
-  ipPage:string;
-  icon:string;
+  luz:Luces={
+    id:0,
+    descp:'',
+    icon:'',
+    ipluces:'',
+    idLuces:[{
+      id:0,
+      title:'',
+      disp:true
+    }]
+  };
+  timer:boolean=false;
+  timerBotton:boolean=true;
+  timerCount:string='';
+  timerCtrl;
+  segs:number=0;
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               private  lucesCtrlProv: LucesCtrlProvider,
               public toastCtrl: ToastController,
-              public events:Events) {
-  this.title=this.navParams.data.descp;
+              public popoverCtrl: PopoverController,
+              public events:Events,
+              public storage: Storage) {
+      this.luz=this.navParams.data;
 
-
-  this.cargarListLuces();
+      this.cargarListLuces();
 
 
   }
@@ -38,59 +54,106 @@ export class SalaPage {
 
   cargarListLuces(){
 
-    this.listLuces=[];
-    this.ipPage=this.navParams.data.ipluces;
-    this.listLuces=this.navParams.data.idLuces;
-    console.log(this.listLuces);
-   this.lucesCtrlProv.comprobar(this.ipPage).subscribe(
+    this.lucesCtrlProv.comprobar(this.luz.ipluces).subscribe(
       resp=>{
-        /*console.log('hola');
-        console.log(resp);
-        console.log('Luces',this.listLuces);*/
 
         let parser = new DOMParser();
         let xmlData = parser.parseFromString(resp, "application/xml");
         let xmlArray=  xmlData.getElementsByTagName("LUZ");
         for(let i=0;i<xmlArray.length;i++){
           // console.log(xmlArray[i].childNodes[0].nodeValue);
-          this.listLuces[i].disp=false;
+          this.luz.idLuces[i].disp=false;
           if(xmlArray[i].childNodes[0].nodeValue=='1'){
-            this.listLuces[i].estado=true;
+            this.luz.idLuces[i].estado=true;
           }else {
-            this.listLuces[i].estado = false;
+            this.luz.idLuces[i].estado = false;
           }
         }
         this.events.publish('msg',2);
       },
       err=>{
-        this.mostrarMsg("Error de Conexion disp:"+this.title);
+        this.mostrarMsg("Error de Conexion disp:"+this.luz.descp);
         this.events.publish('msg',2);
-        for(let luce of this.listLuces){
+        for(let luce of this.luz.idLuces){
           luce.disp=true;
           luce.estado=false;
         }
       }
     );
   }
+  okTimer(){
+    if(this.segs<=0){
+      clearTimeout(this.timerCtrl);
+        for (let lindex in this.luz.idLuces){
+          if(this.luz.idLuces[lindex].temp &&!this.luz.idLuces[lindex].disp) {
+            this.storage.get('des').then(des => {
+              this.prenderTC(parseInt(lindex), des);
+            });
+          }
+      }
+      this.events.publish('startBool'+this.luz.id,true);
+
+    }else {
+      this.segs--;
+    }
+    this.events.publish('timerCount'+this.luz.id,this.segMim(this.segs));
+  }
 
   prender(i:any){
-    let luces= this.listLuces[i];
+    let luces= this.luz.idLuces[i];
     if(!luces.disp){
       if(luces.estado){
-        this.lucesCtrlProv.prender(this.ipPage,'off',luces.id).subscribe(
+        this.lucesCtrlProv.prender(this.luz.ipluces,'off',luces.id+'').subscribe(
           resp=>{
             console.log(resp);
           }
         );
       } else {
-        this.lucesCtrlProv.prender(this.ipPage,'on',luces.id).subscribe(
+        this.lucesCtrlProv.prender(this.luz.ipluces,'on',luces.id+'').subscribe(
           resp=>{
             console.log(resp);
           }
         );
       }
-      this.listLuces[i].estado=!this.listLuces[i].estado;
+      this.luz.idLuces[i].estado=!this.luz.idLuces[i].estado;
     }
+
+  }
+  prenderTC(i:number, desi:boolean){
+
+    let luces= this.luz.idLuces[i];
+    console.log("prender",luces);
+    if(!luces.disp){
+      if(!desi){
+        this.lucesCtrlProv.prender(this.luz.ipluces,'off',luces.id+'').subscribe(
+          resp=>{
+            console.log(resp);
+          }
+        );
+      } else {
+        this.lucesCtrlProv.prender(this.luz.ipluces,'on',luces.id+'').subscribe(
+          resp=>{
+            console.log(resp);
+          }
+        );
+      }
+      luces.estado=desi;
+    }
+
+  }
+  verificarTimer(){
+    let tip=0;
+
+      for(let luce of this.luz.idLuces){
+        if(luce.temp){
+          tip++;
+        }
+      }
+
+    if(tip==0)
+      this.timerBotton =true;
+    else
+      this.timerBotton= false;
 
   }
 
@@ -104,6 +167,13 @@ export class SalaPage {
     });
     toast.present();
   }
+
+  mostarTimer(){
+    let popover = this.popoverCtrl.create(PopoverTimerSalaPage,{idPage:this.luz.id});
+    popover.present();
+
+  }
+
   verificarIp(refresher){
     const promise = new Promise((resp,reject)=>{
       this.cargarListLuces();
@@ -123,4 +193,21 @@ export class SalaPage {
       }
     );
   }
+
+
+  aumentarZero(i:number){
+    if(i<10){
+      return `0${i}`;
+    } else {
+      return  `${i}`;
+    }
+  }
+  segMim(segu:number){
+    let min= Math.floor(segu/60);
+    let seg=segu % 60;
+    return `00:${this.aumentarZero(min)}:${this.aumentarZero(seg)}`
+  }
+
+
+
 }
