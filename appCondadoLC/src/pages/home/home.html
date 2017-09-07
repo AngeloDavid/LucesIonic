@@ -27,13 +27,14 @@
       <div *ngFor="let luc of listPage;let j=index2 ">
         <ion-item-divider style="color:#725b53;">{{luc.descp | uppercase}}</ion-item-divider>
         <ion-item  *ngFor="let itemluces of luc.idLuces;let i = index" >
-          <ion-checkbox [disabled]="itemluces.disp" (click)="verificarTimer()"  [(ngModel)]="itemluces.temp" *ngIf="timer"  color="content"></ion-checkbox>
+          <ion-checkbox [disabled]="itemluces.disp" (click)="verificarTimer()"  [(ngModel)]="itemluces.temp" *ngIf="timer"  ></ion-checkbox>
           <ion-icon  color="focos" name="ios-bulb-outline" item-start></ion-icon>
           <ion-label>{{itemluces.title}}</ion-label>
           <ion-toggle [disabled]="itemluces.disp" [checked]="itemluces.estado" (click)="prender(luc,i)"></ion-toggle>
         </ion-item>
       </div>
     </ion-item-group>
+
   <button ion-button large  round [disabled]="timerBotton"  *ngIf="timer" (click)="mostarTimer()">Temporizar</button>
 
 </ion-content>

@@ -45,6 +45,27 @@ export class SalaPage {
 
       this.cargarListLuces();
 
+    this.events.publish('msg',0);
+    this.events.subscribe('timerCount'+ this.luz.id,(tc)=>{
+      this.timerCount=tc;
+    });
+    this.events.subscribe('segse'+ this.luz.id,(segs)=>{
+      console.log(segs);
+      this.segs=segs;
+    });
+    this.events.subscribe('startBool'+ this.luz.id,(sb)=>{
+      storage.set('startBool',sb);
+      if(sb){
+
+        console.log('startbool',sb);
+        clearTimeout(this.timerCtrl);
+        console.log('tct',this.timerCtrl);
+      } else
+      {
+        this.timerCtrl =setInterval(()=>{this.okTimer();}, 1000);
+      }
+    });
+
 
   }
 
@@ -207,6 +228,7 @@ export class SalaPage {
     let seg=segu % 60;
     return `00:${this.aumentarZero(min)}:${this.aumentarZero(seg)}`
   }
+
 
 
 

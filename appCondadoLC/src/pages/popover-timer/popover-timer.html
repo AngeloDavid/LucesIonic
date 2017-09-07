@@ -16,6 +16,6 @@
       <ion-col text-left>ON</ion-col>
     </ion-row>
   </ion-grid>
-  <button ion-button round color="titulo" *ngIf="startTimer"  [disabled]="event.timeStarts=='00:00:00'" (click)="start()"><ion-icon name="play"></ion-icon></button>
-  <button ion-button round color="titulo" *ngIf="!startTimer" [disabled]="event.timeStarts=='00:00:00'"  (click)="cerrar()"><ion-icon name="square"></ion-icon></button>
+  <button ion-button round color="boton" *ngIf="startTimer"  [disabled]="event.timeStarts=='00:00:00'" (click)="start()"><ion-icon name="play"></ion-icon></button>
+  <button ion-button round color="boton" *ngIf="!startTimer" [disabled]="event.timeStarts=='00:00:00'"  (click)="cerrar()"><ion-icon name="square"></ion-icon></button>
 </ion-content>

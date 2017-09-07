@@ -19,6 +19,7 @@
 
 
 <ion-content padding class="no-scroll" >
+
   <ion-refresher (ionRefresh)="verificarIp($event)">
     <ion-refresher-content
       pullingIcon="arrow-dropdown"
@@ -31,7 +32,7 @@
   </ion-refresher>
   <ion-list>
     <ion-item *ngFor="let luces of luz.idLuces;let i= index" (click)="prender(i)">
-      <ion-checkbox (click)="verificarTimer()"  [(ngModel)]="luces.temp" *ngIf="timer"  color="content"></ion-checkbox>
+      <ion-checkbox [disabled]="luces.disp" (click)="verificarTimer()"  [(ngModel)]="luces.temp" *ngIf="timer"></ion-checkbox>
       <ion-icon color="focos"  name="ios-bulb-outline" item-start></ion-icon>
       <ion-label color="label">{{luces.title}}</ion-label>
       <ion-toggle [disabled]="luces.disp" [checked]="luces.estado"></ion-toggle>

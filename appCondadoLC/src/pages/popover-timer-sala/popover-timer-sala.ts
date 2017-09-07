@@ -18,9 +18,13 @@ export class PopoverTimerSalaPage {
   event={
     id:0,
     timestart:'00:00:15',
+    min:0,
+    seg:0,
+    segs:0,
     des:false,
     startTimer:true
   };
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
         public events:Events,public storage: Storage) {
@@ -42,8 +46,41 @@ export class PopoverTimerSalaPage {
 
   }
 
+
+
   ionViewDidLoad(){
     console.log('ionViewDidLoad PopoverTimerSalaPage');
   }
+
+
+  start(){
+    this.event.startTimer=false;
+    let horaarray= this.event.timestart.split(":");
+    this.event.min=  parseInt(horaarray[1]);
+    this.event.seg=  parseInt(horaarray[2]);
+    this.event.min=60*this.event.min;
+    this.event.segs=this.event.min+this.event.seg;
+    console.log(this.event.segs);
+    this.events.publish('segse',this.event.segs);
+    this.storage.set('des',this.event.des);
+    this.events.publish('startBool',this.event.startTimer);
+
+
+  }
+
+  cerrar(){
+    /*this.storage.get('timerCtrl').then((val)=>{
+      clearTimeout(val);
+    });
+    this.storage.remove('timerCtrl');*/
+
+    this.event.startTimer=true;
+    this.events.publish('startBool',this.event.startTimer);
+    /*this.events.subscribe('TimerCtrl',(tc)=>{
+      console.log(tc);
+      clearTimeout(tc);
+    })*/
+  }
+
 
 }
