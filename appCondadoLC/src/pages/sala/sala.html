@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar color="titulo">
+  <ion-navbar color="cabecera">
     <ion-title text-center>{{luz.descp| uppercase}}</ion-title>
     <ion-buttons end>
       <button ion-button icon-only (click)="timer=!timer">
@@ -32,10 +32,10 @@
   <ion-list>
     <ion-item *ngFor="let luces of luz.idLuces;let i= index" (click)="prender(i)">
       <ion-checkbox (click)="verificarTimer()"  [(ngModel)]="luces.temp" *ngIf="timer"  color="content"></ion-checkbox>
-      <ion-icon color="subtitulo"  name="ios-bulb-outline" item-start></ion-icon>
+      <ion-icon color="focos"  name="ios-bulb-outline" item-start></ion-icon>
       <ion-label color="label">{{luces.title}}</ion-label>
       <ion-toggle [disabled]="luces.disp" [checked]="luces.estado"></ion-toggle>
     </ion-item>
   </ion-list>
-  <button ion-button large  round [disabled]="timerBotton"  *ngIf="timer" (click)="mostarTimer()">Temporizar</button>
+  <button style="margin-left: 20%" ion-button large  round [disabled]="timerBotton"  *ngIf="timer" (click)="mostarTimer()">Temporizar</button>
 </ion-content>

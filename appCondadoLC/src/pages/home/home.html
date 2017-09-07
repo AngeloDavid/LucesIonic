@@ -1,5 +1,5 @@
 <ion-header >
-  <ion-navbar  color="titulo" >
+  <ion-navbar color="cabecera" >
     <ion-title text-center>
       PRINCIPAL
     </ion-title>
@@ -13,7 +13,7 @@
 </ion-header>
 
 <ion-content     class="no-scroll"  text-center >
-  <ion-refresher color="content" (ionRefresh)="verificarIp($event)">
+  <ion-refresher (ionRefresh)="verificarIp($event)">
     <ion-refresher-content
       pullingIcon="arrow-dropdown"
       pullingText="Pulse para actualizar"
@@ -25,10 +25,10 @@
 
     <ion-item-group >
       <div *ngFor="let luc of listPage;let j=index2 ">
-        <ion-item-divider color="subtitulo">{{luc.descp | uppercase}}</ion-item-divider>
+        <ion-item-divider style="color:#725b53;">{{luc.descp | uppercase}}</ion-item-divider>
         <ion-item  *ngFor="let itemluces of luc.idLuces;let i = index" >
           <ion-checkbox [disabled]="itemluces.disp" (click)="verificarTimer()"  [(ngModel)]="itemluces.temp" *ngIf="timer"  color="content"></ion-checkbox>
-          <ion-icon  color="content" name="ios-bulb-outline" item-start></ion-icon>
+          <ion-icon  color="focos" name="ios-bulb-outline" item-start></ion-icon>
           <ion-label>{{itemluces.title}}</ion-label>
           <ion-toggle [disabled]="itemluces.disp" [checked]="itemluces.estado" (click)="prender(luc,i)"></ion-toggle>
         </ion-item>

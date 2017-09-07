@@ -1,5 +1,5 @@
 <ion-content padding class="no-scroll"  text-center >
-  <h2>TIEMPO</h2>
+  <h3 style="color:#725b53;">TIEMPO</h3>
   <ion-grid>
     <ion-row>
 
@@ -9,11 +9,11 @@
       <ion-col></ion-col>
     </ion-row>
     <ion-row>
-      <ion-col align-self-center text-right>OFF</ion-col>
+      <ion-col text-right>OFF</ion-col>
       <ion-col>
         <ion-toggle text-center [(ngModel)]="des"></ion-toggle>
       </ion-col>
-      <ion-col align-self-center  text-left>ON</ion-col>
+      <ion-col text-left>ON</ion-col>
     </ion-row>
   </ion-grid>
   <button ion-button round color="titulo" *ngIf="startTimer"  [disabled]="event.timeStarts=='00:00:00'" (click)="start()"><ion-icon name="play"></ion-icon></button>
