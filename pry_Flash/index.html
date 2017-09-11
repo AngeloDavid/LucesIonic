@@ -1,0 +1,279 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="indexPage">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="iedge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <style type="text/css">
+            .parallax-window {
+                min-height: 400px;
+                background: transparent;
+            }
+        </style>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/angular.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body  data-spy="scroll" data-target="#menuprin">
+
+    <div class="parallax-window text-center"  data-parallax="scroll"  data-image-src="img/fondo1.jpg">
+        <div id="menuprin">
+            <ul class="nav" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Inicio">
+                        Inicio
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#Servicios">
+                        Servicios
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#Precios">Precio</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#Contactenos">Contacto</a>
+
+                </li>
+            </ul>
+        </div>
+        <div id="Inicio" ng-controller="index as ind" >
+            <div class="container">
+                <img src="img/ESCUDO.gif" height="412px">
+                <h1>{{ind.titulo}}</h1>
+                <h2>{{ind.subtitulo}}</h2>
+            </div>
+            <a href="#Servicios">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+
+        </div>
+        <div id="Servicios" ng-controller="servicios as servictrl">
+            <div class="container">
+                <h1>SERVICIOS</h1>
+                <hr>
+                <div class="row contenido">
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="{{servicio.id}}" ng-repeat="servicio in servictrl.list" class="{{servicio.clas}}" ></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div ng-repeat="servicio in servictrl.list" class="carousel-item {{servicio.clas}}">
+                                    <img class="d-block w-100"  ng-src="{{servicio.src}}" alt="{{servicio.titulo}}" height="100%" width="100%">
+                                    <div class="carousel-caption d-md-block">
+                                        <h3>{{servicio.titulo}}</h3>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="0" type="button" class="btn btn-secondary">{{servictrl.list[0].titulo}}</button></div>
+                            <div class="col"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="1" class="btn btn-secondary">{{servictrl.list[1].titulo}}</button></div></div>
+                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="2" type="button" class="btn btn-secondary">{{servictrl.list[2].titulo}}</button></div>
+                            <div class="col"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="3" class="btn btn-secondary">{{servictrl.list[3].titulo}}</button></div></div>
+                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="4" type="button" class="btn btn-secondary">{{servictrl.list[4].titulo}}</button></div>
+                            <div class="col"><button data-target="#carouselExampleIndicators"  data-slide-to="5" type="button" class="btn btn-secondary">{{servictrl.list[5].titulo}}</button></div></div>
+                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="6"  type="button" class="btn btn-secondary">{{servictrl.list[6].titulo}}</button></div>
+                            <div class="col"><button data-target="#carouselExampleIndicators"  data-slide-to="7" type="button" class="btn btn-secondary">{{servictrl.list[7].titulo}}</button></div></div>
+                    </div>
+                </div>
+                <a href="#Precios">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+
+            </div></div>
+        <div id="Precios" class="parallax-window" data-parallax="scroll" ng-controller="Precios as prec">
+            <div class="container">
+                <div class="titulo">
+                    <h1>NUESTROS PRECIOS</h1><hr>
+                </div>
+
+                <div class="row" >
+                    <div class="col-3" ng-repeat="plan in prec.list1">
+                        <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}" type="button" class="btn btn-secondary">{{plan.titulo}}</button>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-3" ng-repeat="plan in prec.list2">
+                        <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}"   type="button" class="btn btn-secondary">{{plan.titulo}}</button>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-3" ng-repeat="plan in prec.list3">
+                        <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}"  type="button" class="btn btn-secondary">{{plan.titulo}}</button>
+                    </div>
+                </div>
+
+                <a href="#Contactenos">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+        </div>
+        <div id="Contactenos" class="parallax-window" data-parallax="scroll">
+            <div class="container">
+                <h1>Contacto</h1><hr>
+                <div class="conSer">
+                    <div class="row">
+                        <div class="col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.1132526127043!2d-78.48229785132746!3d-0.20611517500395965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a0c1e03a933%3A0x778a36fe53b4e483!2sAve+La+Coruna+%26+Valladolid%2C+Quito+170109!5e0!3m2!1ses!2sec!4v1504891038424" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleSelect1" placeholder="Asunto">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Por defecto"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btSumbit">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col info">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fa fa-building" aria-hidden="true"></i>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-10">
+                                        <h3>Dirección</h3>
+                                        Valladolid N24-663 y Av. Coruña. Edif. Brana 2 piso</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-10">
+                                        <h3>Teléfonos</h3>
+                                        (+539) 2 5127 246<br>
+
+                                        (+539) 983 372 923
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-10">
+                                        <h3>E-Mail</h3>
+                                        info@braininglabs.com</div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center redes">
+
+                        <a  href="https://www.facebook.com/BrainingLabs/">
+                            <div class="icon">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+
+                            </div>
+                        </a>
+                        <a href="https://www.twitter.com/braininglabs/">
+
+                                <div class="icon">
+
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+
+                                </div>
+                        </a>
+                        <a href="https://www.instagram.com/braininglabs/">
+                            <div class="icon">
+
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </div>
+                        </a>
+
+                    </div>
+                    <div class="row justify-content-center">
+                        CopyRigth@2017-Braininglabs
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="modal fade bd-example-modal-sm" id="PreciosModales" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center">
+                        <i class="fa fa-usd fa-5x"></i>
+                    </div>
+                    <hr>
+                    <div class="row contenido">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/vendor/tether.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/parallax.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
