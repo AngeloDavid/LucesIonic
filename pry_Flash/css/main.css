@@ -128,11 +128,11 @@ textarea {
 }
 #Inicio .container h1{
     font-family: "vintage_straps";
-    font-size: 195%;
+    font-size: 245%;
     line-height: 0.2;
 }
 #Inicio .container h2 {
-    font-size: 160%;
+    font-size: 200%;
     font-family: "next_art";
     line-height: 0.2;
 }
@@ -185,7 +185,7 @@ textarea {
     background-color: #454545;
     color: white;
     text-transform: uppercase;
-    border-radius: 3px;
+    border-radius: 4px;
     border-right: 2px solid #353333;
     border-bottom: 3px solid #353333;
     width: 100%;
@@ -234,45 +234,7 @@ textarea {
     margin-bottom: 9px;
 }
 
-#Precios .conSer .centro{
-    position: relative;
-    width: 30%;
-    top: -166px;
-    left: 1px;
-}
-#Precios .conSer .centro_txt{
-    position: relative;
-    font-size: 59px;
-    font-family: "Batavia-Regular";
-    top: -187px;
-    left: 1px;
-}
 
-#Precios .conSer .up {
-    position: relative;
-    font-size: 30px;
-    font-family: "Batavia-Regular";
-    top: -173px;
-    left: -19px;
-}
-#Precios .conSer .col{
-    width: 90%;
-}
-#Precios .conSer img{
-    width: 70%;
-}
-#Precios .conSer img.imgFondo{
-    transform:rotate(7deg);
-    -ms-transform:rotate(7deg); /* IE 9 en adelante*/
-    -webkit-transform:rotate(7deg); /* Opera, Chrome, y Safari */
-}
-#Precios .conSer .mas{
-    align-content: center;
-    vertical-align: middle;
-    color: #ff9a08;
-    font-size: 50px;
-    padding-top: 7%;
-}
 #Precios .row{
     padding-bottom: 2%;
 }
@@ -283,15 +245,16 @@ textarea {
     background-color: #454545;
     color: white;
     text-transform: uppercase;
-    border-radius: 0%;
+    border-radius: 4px;
     border: none;
     border-right: 2px solid #353333;
     border-bottom: 3px solid #353333;
     width: 100%;
-    height: 70px;
-    font-size: 15px;
+    height: 50px;
+    font-size: 80%;
     font-family: "next_art";
-    border-radius: 3px;
+    letter-spacing: 2px;
+    margin:3% auto;
 }
 #Precios .container  .row  button:hover,#Servicios .container  .row .col .row button:hover{
     background-color:#ff9a08;
@@ -353,7 +316,7 @@ textarea {
     background-color: #454545;
     border-radius: 50px;
     padding-top: 5px;
-    margin: 1% auto;
+    margin: 2% auto;
 }
 
 #Contactenos  a{
@@ -424,68 +387,54 @@ textarea {
 #PreciosModales .modal-header .modal-title{
     text-align: center;
 }
-#PreciosModales  .modal-body{
+.modal-body{
     background-color: white;
-    margin-right: 10px;
-    margin-left: 10px;
     border-radius: 0px 0px 5px 5px;
+    color:#ff9a08;
 }
-#PreciosModales  .modal-body li,#PreciosModales  .modal-body{
+.modal-body li{
     color:#ff9a08;
     padding-bottom: 5px;
 }
-#PreciosModales  .modal-body li span{
+.modal-body li span{
     color: black;
 }
 
-#PreciosModales .modal-body hr{
+.modal-body hr{
     margin-top: 3px;
 }
 
 /*Extra small devices*/
-@media (max-width: 575px) {
 
-}
 /*Small devices*/
 @media (min-width: 576px) and (max-width: 767px) {
-
+    #Inicio .container h1{
+        font-size: 255%;
+    }
+    #Inicio .container h2 {
+        font-size: 210%;
+    }
+    #Inicio i,#Servicios i,#Precios i{
+        font-size: 200%;
+    }
+    #Inicio .container img {
+        height: 300px;
+    }
+    #Servicios h1, #Precios h1, #Contactenos h1{
+        font-size: 180%;
+    }
+    #Servicios .container  .row .col-12 .row button{
+        width: 100%;
+        height: 55px;
+        font-size: 100%;
+        letter-spacing: 3px;
+    }
 }
 /*Medium devices*/
 @media (min-width: 768px) and (max-width: 991px) {
-    #Inicio .container h1{
-        font-family: "vintage_straps";
-        font-size: 74px;
-        line-height: 0.2;
-    }
-    #Inicio .container h2 {
-        font-size: 62px;
-        font-family: "next_art";
-        line-height: 0.2;
-    }
-    #Inicio i,#Servicios i,#Precios i{
-        color: #ff9a08;
-        font-size: 75px;
-    }
-    #Servicios h1, #Precios h1, #Contactenos h1{
-        font-family: "Batavia-Regular";
-        font-size: 50px;
-        margin-bottom: 17px ;
-        text-transform: uppercase;
-    }
-    #Servicios .container  .row .col-12 .row button{
-        border: none;
-        background-color: #454545;
-        color: white;
-        text-transform: uppercase;
-        border-radius: 3px;
-        border-right: 2px solid #353333;
-        border-bottom: 3px solid #353333;
-        width: 100%;
-        height: 55px;
-        font-size: x-large;
-        font-family: "next_art";
-        letter-spacing: 4px;
-    }
+
+
+
     #Servicios .container .carousel-inner .carousel-caption h3{
         font-size: 120%;
     }
@@ -502,6 +451,19 @@ textarea {
         font-family: "Batavia-Regular";
         letter-spacing: 6px;
 
+    }
+    #Precios .container  .row  button{
+        background-color: #454545;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 4px;
+        border: none;
+        border-right: 2px solid #353333;
+        border-bottom: 3px solid #353333;
+        width: 100%;
+        height: 70px;
+        font-size: 15px;
+        font-family: "next_art";
     }
 }
 /*Large devices*/
