@@ -262,7 +262,36 @@ textarea {
     border-bottom: 3px solid #d4891e;
 
 }
+#Precios .row #desPre0, #Precios .row #desPre1, #Precios .row #desPre2,#Precios .row #desPre3, #Precios .row #desPre4, #Precios .row #desPre5,#Precios .row #desPre6,
+#Precios .row #desPre7, #Precios .row #desPre8, #Precios .row #desPre9, #Precios .row #desPre10, #Precios .row #desPre11, #Precios .row #desPre12,#Precios .row #desPre13{
+    margin-top: -3%;
+    padding: 0;
+}
+.modal-body{
+    margin: auto 3%;
+    background-color: white;
+    border-radius: 0 0 3px 3px;
+    color:#ff9a08;
+    padding: 5% 5% 5% 0;
+}
+.modal-body i .fa{
+    font-size: 200%;
+}
+.modal-body li{
+    color:#ff9a08;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.modal-body li span{
+    color: #454545;
+    font-size: 70%;
+    margin: 0;
+}
 
+.modal-body hr{
+    margin-top: 3px;
+}
 #Contactenos .container .row{
     margin-bottom: 30px;
 }
@@ -367,42 +396,7 @@ textarea {
     border: 3px solid #ffffff;
 }
 
-#PreciosModales .modal-dialog{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#PreciosModales .modal-content{
-    background-color: transparent;
-    border: none;
-}
-#PreciosModales .modal-header{
-    background-color:#ff9a08;
-    text-transform: uppercase;
-    font-family: next_art;
-    color: white;
-    text-align: center;
-    border-radius: 3px;
-    border-bottom: none;
-}
-#PreciosModales .modal-header .modal-title{
-    text-align: center;
-}
-.modal-body{
-    background-color: white;
-    border-radius: 0px 0px 5px 5px;
-    color:#ff9a08;
-}
-.modal-body li{
-    color:#ff9a08;
-    padding-bottom: 5px;
-}
-.modal-body li span{
-    color: black;
-}
 
-.modal-body hr{
-    margin-top: 3px;
-}
 
 /*Extra small devices*/
 
