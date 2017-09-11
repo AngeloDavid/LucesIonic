@@ -65,7 +65,7 @@
                 <h1>SERVICIOS</h1>
                 <hr>
                 <div class="row contenido">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="{{servicio.id}}" ng-repeat="servicio in servictrl.list" class="{{servicio.clas}}" ></li>
@@ -82,7 +82,7 @@
 
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="0" type="button" class="btn btn-secondary">{{servictrl.list[0].titulo}}</button></div>
                             <div class="col-6"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="1" class="btn btn-secondary">{{servictrl.list[1].titulo}}</button></div></div>
                         <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="2" type="button" class="btn btn-secondary">{{servictrl.list[2].titulo}}</button></div>
@@ -103,11 +103,9 @@
                 <div class="titulo">
                     <h1>NUESTROS PRECIOS</h1><hr>
                 </div>
-
-
                 <div id="PreList" data-children=".precio" class="row" >
-                    <div class="col-6 col-sm-6 col-md-3 col-lg-3" ng-repeat="plan in prec.list1">
-                        <button data-toggle="collapse" ng-mouseover="prec.mostrar(plan,true)" ng-mouseleave="prec.mostrar(plan,false)" data-parent="#PreList" href="#desPre{{plan.id}}" aria-expanded="true" aria-controls="exampleAccordion1" type="button" class="precio btn btn-secondary">{{plan.titulo}}</button>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3" ng-repeat="plan in prec.list1">
+                        <button ng-mouseover="prec.mostrar(plan,true)" ng-mouseleave="prec.mostrar(plan,false)"  type="button" class="precio btn btn-secondary">{{plan.titulo}}</button>
                         <div id="desPre{{plan.id}}" class="collapse {{plan.cssShow}}" role="tabpanel">
                             <div class="modal-body">
                             <div class="row justify-content-center">
@@ -133,7 +131,7 @@
             </div>
 
         </div>
-        <div id="Contactenos" class="parallax-window" data-parallax="scroll">
+        <div id="Contactenos" class="parallax-window" data-parallax="scroll" ng-controller="Contacto as contc">
             <div class="container">
                 <h1>Contacto</h1><hr>
                 <div class="conSer">
@@ -167,63 +165,26 @@
                             </form>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 info">
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-sm-2 col-md-2 col-lg-2  align-self-center">
+                                <div class="row" ng-repeat=" dato in contc.address[0].datos">
+                                    <div class="col-12 col-sm-2 col-md-2 col-lg-2">
                                         <div class="icon">
-                                            <i class="fa fa-building" aria-hidden="true"></i>
+                                            <i class="fa fa-{{dato.ico}}" aria-hidden="true"></i>
                                         </div>
 
                                     </div>
                                     <div class="col-12 col-sm-10 col-md-10 col-lg-10">
-                                        <h3>Dirección</h3>
-                                        Valladolid N24-663 y Av. Coruña. Edif. Brana 2 piso</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-2 col-md-2 col-lg-2">
-                                        <div class="icon">
-                                        <i class="fa fa-phone" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-10 col-md-10 col-lg-10">
-                                        <h3>Teléfonos</h3>
-                                        (+539) 2 5127 246<br>
-
-                                        (+539) 983 372 923
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-2 col-md-2 col-lg-2">
-                                        <div class="icon">
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-10 col-md-10 col-lg-10">
-                                        <h3>E-Mail</h3>
-                                        info@braininglabs.com</div>
+                                        <h3>{{dato.titulo}}</h3>
+                                        {{dato.desp}}</div>
                                 </div>
                         </div>
                     </div>
                     <div class="row justify-content-center redes">
 
-                        <a  href="https://www.facebook.com/BrainingLabs/">
+                        <a ng-if="redSoc.disp" href="{{redSoc.link}}" ng-repeat="redSoc in contc.redes">
                             <div class="icon">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <i class="fa fa-{{redSoc.ico}}" aria-hidden="true"></i>
 
                             </div>
-                        </a>
-                        <a href="https://www.twitter.com/braininglabs/">
-
-                                <div class="icon">
-
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-
-                                </div>
-                        </a>
-                        <a href="https://www.instagram.com/braininglabs/">
-                            <div class="icon">
-
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </div>
                         </a>
 
                     </div>

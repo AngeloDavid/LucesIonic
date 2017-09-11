@@ -110,6 +110,50 @@ angular.module('indexPage', []).controller('index',function () {
             plan.cssShow=''
         }
     }
+    precio.mostrarcli =function (plan) {
+        console.log(plan.cssShow);
+        if(plan.cssShow==''){
+            plan.cssShow='show';
+        }else{
+            plan.cssShow=''
+        }
+    }
+}).controller('Contacto',function () {
+    var contacto= this;
+    contacto.address=[
+        {
+            lng: 'esp',
+            datos: [
+                {
+                id: 0,
+                titulo: 'Dirección',
+                ico: 'building',
+                desp: 'Valladolid N24-663 y Av. Coruña. Edif. Brana 2 piso'
+                },
+                {id:1,titulo:'Teléfonos',ico:'phone',desp:"(+539) 2 5127 246<br>(+539) 983 372 923"},
+                {
+                    id:2,titulo: 'E-Mail',ico:'envelope',desp:'info@braininglabs.com'
+                }
+            ]
+        }
+    ];
+    contacto.redes=[
+        {
+            ico:'facebook',
+            link:'https://www.facebook.com/BrainingLabs/',
+            disp:true
+        },
+        {
+            ico:'twitter',
+            link:'https://www.twitter.com/braininglabs/',
+            disp:true
+        },
+        {
+            ico:'instagram',
+            link:'https://www.instagram.com/braininglabs/',
+            disp:true
+        }
+    ]
 });
 
 
