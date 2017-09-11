@@ -447,6 +447,9 @@ header span:after{
         font-size: 50%;
         text-overflow: ellipsis;
     }
+    .modal-body li span{
+        font-size: 50%;
+    }
     #Contactenos form button.btSumbit{
         font-size: 120%;
         font-family: "Batavia-Regular";
@@ -480,7 +483,11 @@ header span:after{
     }
     #Precios .container  .row  button{
         height: 60px;
-        font-size: 70%;
+        font-size: 80%;
+        letter-spacing: 2px;
+    }
+    .modal-body li span{
+        font-size: 80%;
     }
     #Contactenos form button.btSumbit{
         font-size: 120%;
@@ -518,15 +525,18 @@ header span:after{
     }
     #Servicios .container  .row .col-12 .row button{
         height: 60px;
-        font-size: 70%;
-        letter-spacing: 1px;
+        font-size: 90%;
+        letter-spacing: 3px;
     }
     #Servicios .container .carousel-inner .carousel-caption h3{
         font-size: 130%;
     }
     #Precios .container  .row  button{
         height: 60px;
-        font-size: 70%;
+        font-size: 90%;
+    }
+    .modal-body li span{
+        font-size: 90%;
     }
     #Contactenos form button.btSumbit{
         font-size: 120%;
@@ -573,7 +583,10 @@ header span:after{
     }
     #Precios .container  .row  button{
         height: 60px;
-        font-size: 60%;
+        font-size: 80%;
+    }
+    .modal-body li span{
+        font-size: 80%;
     }
     #Contactenos form button.btSumbit{
         font-size: 120%;
@@ -620,7 +633,10 @@ header span:after{
     }
     #Precios .container  .row  button{
         height: 60px;
-        font-size: 80%;
+        font-size: 100%;
+    }
+    .modal-body li span{
+        font-size: 100%;
     }
     #Contactenos form button.btSumbit{
         font-size: 120%;
