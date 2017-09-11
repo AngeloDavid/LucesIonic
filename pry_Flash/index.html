@@ -50,7 +50,7 @@
 
         </div>
         <div id="Inicio" ng-controller="index as ind" >
-            <div class="container animated fadeInDown">
+            <div class="container">
                 <img  src="img/ESCUDO.gif">
                 <h1 >{{ind.titulo}}</h1>
                 <h2>{{ind.subtitulo}}</h2>
@@ -90,7 +90,7 @@
                         <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="4" type="button" class="btn btn-secondary">{{servictrl.list[4].titulo}}</button></div>
                             <div class="col-6"><button data-target="#carouselExampleIndicators"  data-slide-to="5" type="button" class="btn btn-secondary">{{servictrl.list[5].titulo}}</button></div></div>
                         <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="6"  type="button" class="btn btn-secondary">{{servictrl.list[6].titulo}}</button></div>
-                            <div class="col"><button data-target="#carouselExampleIndicators"  data-slide-to="7" type="button" class="btn btn-secondary">{{servictrl.list[7].titulo}}</button></div></div>
+                            <div class="col-6"><button data-target="#carouselExampleIndicators"  data-slide-to="7" type="button" class="btn btn-secondary">{{servictrl.list[7].titulo}}</button></div></div>
                     </div>
                 </div>
                 <a href="#Precios">
@@ -137,7 +137,7 @@
                 <h1>Contacto</h1><hr>
                 <div class="conSer">
                     <div class="row">
-                        <div class="col">
+                        <div class="col" ng-if="contc.mapaMostrar">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.1132526127043!2d-78.48229785132746!3d-0.20611517500395965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a0c1e03a933%3A0x778a36fe53b4e483!2sAve+La+Coruna+%26+Valladolid%2C+Quito+170109!5e0!3m2!1ses!2sec!4v1504891038424" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                             </form>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 info">
-                                <div class="row" ng-repeat=" dato in contc.address[0].datos">
+                                <div class="row" ng-if="dato.disp" ng-repeat=" dato in contc.address[0].datos">
                                     <div class="col-12 col-sm-2 col-md-2 col-lg-2">
                                         <div class="icon">
                                             <i class="fa fa-{{dato.ico}}" aria-hidden="true"></i>

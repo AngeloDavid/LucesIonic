@@ -78,7 +78,7 @@ angular.module('indexPage', []).controller('index',function () {
             '20% desc, Cursos y Talleres',
             '10% desc. Sala de Eventos y Auditorio'
         ],precio:'',cssShow:''},
-        {id:7,titulo:'Paquete Arquitecto',carac:[
+        {id:7,titulo:' Arquitecto',carac:[
             '100 horas espacio Coworking',
             'Internet Alta Velocidad ' ,
             'Sala de Reuniones'        ,
@@ -120,6 +120,7 @@ angular.module('indexPage', []).controller('index',function () {
     }
 }).controller('Contacto',function () {
     var contacto= this;
+    contacto.mapaMostrar=false;
     contacto.address=[
         {
             lng: 'esp',
@@ -128,11 +129,14 @@ angular.module('indexPage', []).controller('index',function () {
                 id: 0,
                 titulo: 'Dirección',
                 ico: 'building',
-                desp: 'Valladolid N24-663 y Av. Coruña. Edif. Brana 2 piso'
+                desp: 'Valladolid N24-663 y Av. Coruña. Edif. Brana 2 piso',
+                    disp:false
                 },
-                {id:1,titulo:'Teléfonos',ico:'phone',desp:"(+539) 2 5127 246<br>(+539) 983 372 923"},
+                {id:1,titulo:'Teléfonos',ico:'phone',desp:"(+539) 2 5127 246<br>(+539) 983 372 923",
+                    disp:true},
                 {
                     id:2,titulo: 'E-Mail',ico:'envelope',desp:'info@braininglabs.com'
+                    ,disp:true
                 }
             ]
         }
