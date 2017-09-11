@@ -51,7 +51,7 @@
         </div>
         <div id="Inicio" ng-controller="index as ind" >
             <div class="container">
-                <img src="img/ESCUDO.gif" height="412px">
+                <img src="img/ESCUDO.gif">
                 <h1>{{ind.titulo}}</h1>
                 <h2>{{ind.subtitulo}}</h2>
             </div>
@@ -65,7 +65,7 @@
                 <h1>SERVICIOS</h1>
                 <hr>
                 <div class="row contenido">
-                    <div class="col col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="{{servicio.id}}" ng-repeat="servicio in servictrl.list" class="{{servicio.clas}}" ></li>
@@ -82,7 +82,7 @@
 
                         </div>
                     </div>
-                    <div class="col col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="0" type="button" class="btn btn-secondary">{{servictrl.list[0].titulo}}</button></div>
                             <div class="col-6"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="1" class="btn btn-secondary">{{servictrl.list[1].titulo}}</button></div></div>
                         <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="2" type="button" class="btn btn-secondary">{{servictrl.list[2].titulo}}</button></div>
@@ -104,7 +104,17 @@
                     <h1>NUESTROS PRECIOS</h1><hr>
                 </div>
 
-                <div class="row" >
+
+                <div id="PreList" data-children=".precio" class="row" >
+                    <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list1">
+                        <button data-toggle="collapse" data-parent="#PreList" href="#desPre{{plan.id}}" aria-expanded="true" aria-controls="exampleAccordion1" type="button" class="precio btn btn-secondary">{{plan.titulo}}</button>
+                        <div id="desPre{{plan.id}}" class="collapse" role="tabpanel">
+                            <p class="mb-3">
+                                {{plan.titulo}}
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+                            </p>
+                        </div>
+                    </div>
                     <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list1">
                         <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}" type="button" class="btn btn-secondary">{{plan.titulo}}</button>
                     </div>
@@ -219,7 +229,7 @@
 
                     </div>
                     <div class="row justify-content-center">
-                        CopyRigth@2017-Braininglabs
+                        CopyRight@2017-Braininglabs
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@ angular.module('indexPage', []).controller('index',function () {
 }).controller('Precios',function () {
     var precio = this;
     precio.list1=[
-        {id:0,titulo:'Ejecutivo'},
+        {id:0,titulo:'Ejecutivo',},
         {id:1,titulo:'Emprendor'},
         {id:2,titulo:'Freelancer'},
         {id:3,titulo:'Económico'},
