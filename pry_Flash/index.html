@@ -107,22 +107,14 @@
 
                 <div id="PreList" data-children=".precio" class="row" >
                     <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list1">
-                        <button data-toggle="collapse" data-parent="#PreList" href="#desPre{{plan.id}}" aria-expanded="true" aria-controls="exampleAccordion1" type="button" class="precio btn btn-secondary">{{plan.titulo}}</button>
-                        <div id="desPre{{plan.id}}" class="collapse" role="tabpanel">
+                        <button data-toggle="collapse" ng-mouseover="prec.mostrar(plan)" ng-mouseleave="prec.ocultar(plan)" data-parent="#PreList" href="#desPre{{plan.id}}" aria-expanded="true" aria-controls="exampleAccordion1" type="button" class="precio btn btn-secondary">{{plan.titulo}}</button>
+                        <div id="desPre{{plan.id}}" class="collapse {{plan.cssShow}}" role="tabpanel">
                             <p class="mb-3">
-                                {{plan.titulo}}
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+                                <ul>
+                                    <li ng-repeat="carac in plan.carac">{{carac}}</li>
+                                </ul>
                             </p>
                         </div>
-                    </div>
-                    <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list1">
-                        <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}" type="button" class="btn btn-secondary">{{plan.titulo}}</button>
-                    </div>
-                    <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list2">
-                        <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}"   type="button" class="btn btn-secondary">{{plan.titulo}}</button>
-                    </div>
-                    <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list3">
-                        <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}"  type="button" class="btn btn-secondary">{{plan.titulo}}</button>
                     </div>
                 </div>
 
@@ -168,24 +160,24 @@
                             </form>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 info">
-                                <div class="row">
-                                    <div class="col-2">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-sm-2 col-md-2 col-lg-2  align-self-center">
                                         <div class="icon">
                                             <i class="fa fa-building" aria-hidden="true"></i>
                                         </div>
 
                                     </div>
-                                    <div class="col-10">
+                                    <div class="col-12 col-sm-10 col-md-10 col-lg-10">
                                         <h3>Dirección</h3>
                                         Valladolid N24-663 y Av. Coruña. Edif. Brana 2 piso</div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-2">
+                                    <div class="col-12 col-sm-2 col-md-2 col-lg-2">
                                         <div class="icon">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <div class="col-10">
+                                    <div class="col-12 col-sm-10 col-md-10 col-lg-10">
                                         <h3>Teléfonos</h3>
                                         (+539) 2 5127 246<br>
 
@@ -193,12 +185,12 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-2">
+                                    <div class="col-12 col-sm-2 col-md-2 col-lg-2">
                                         <div class="icon">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <div class="col-10">
+                                    <div class="col-12 col-sm-10 col-md-10 col-lg-10">
                                         <h3>E-Mail</h3>
                                         info@braininglabs.com</div>
                                 </div>

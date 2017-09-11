@@ -19,21 +19,98 @@ angular.module('indexPage', []).controller('index',function () {
 }).controller('Precios',function () {
     var precio = this;
     precio.list1=[
-        {id:0,titulo:'Ejecutivo',},
-        {id:1,titulo:'Emprendor'},
-        {id:2,titulo:'Freelancer'},
-        {id:3,titulo:'Económico'},
+        {id:0,titulo:'Ejecutivo', carac:[
+            '160 horas espacio Coworking',
+            '8 horas Sala de Reuniones',
+            'Internet Alta Velocidad',
+            'Escritorio Fijo',
+            'Dirección Postal ',
+            'Locker ',
+            '2 charlas mensuales gratuitas',
+            'Desc. 20% talleres y charlas ',
+            'Cafetería Ilimitada'],
+            precio:'',cssShow:''},
+        {id:1,titulo:'Emprendor', carac:[
+            '80 horas espacio Coworking',
+            '6 horas Sala de Reuniones ',
+            'Internet Alta Velocidad',
+            'Dirección Postal',
+            'Locker ',
+            '1 charla mensual gratuita',
+            'Desc. 15% talleres y charlas',
+            'Cafetería Ilimitada'],
+            precio:'',cssShow:''},
+        {id:2,titulo:'Freelancer', carac:[
+            '40 horas espacio coworking',
+            'horas Sala de Reuniones',
+            'Internet Alta Velocidad',
+            'Dirección Postal',
+            'Locker',
+            'Desc. 10% talleres y charlas',
+            'Cafetería Ilimitada'],
+            precio:'',cssShow:''},
+        {id:3,titulo:'Económico', carac:[
+            '20 horas espacio Coworking',
+            '3 horas Sala de Reuniones',
+            'Internet Alta Velocidad ',
+            'Dirección Postal',
+            'Locker ',
+            'Cafetería Ilimitada'],
+            precio:'',cssShow:''},
+        {id:4,titulo:'Básico',carac:[
+            '10 horas espacio Coworking ',
+            '1 horas Sala de Reuniones',
+            'Internet Alta Velocidad',
+            'Locker',
+            'Cafetería Ilimitada'
+        ],precio:'',cssShow:''},
+        {id:5,titulo:'Day',carac:[
+            '8 horas espacio coworking',
+            'Internet Alta Velocidad',
+            'Locker',
+            'Cafetería Ilimitada'
+        ],precio:'',cssShow:''},
+        {id:6,titulo:'Oficina Privada',carac:[
+            'Recepcionista',
+            'Internet Alta Velocidad',
+            '12 horas Sala de Reuniones',
+            '10% desc. VirtualLab y FabLab',
+            '20% desc, Cursos y Talleres',
+            '10% desc. Sala de Eventos y Auditorio'
+        ],precio:'',cssShow:''},
+        {id:7,titulo:'Paquete Arquitecto',carac:[
+            '100 horas espacio Coworking',
+            'Internet Alta Velocidad ' ,
+            'Sala de Reuniones'        ,
+            '20 horas Mesas Arquitectónicas',
+            '2 horas Impresión 3D',
+            '20% desc, Cursos y Talleres',
+            'Dirección Postal',
+            'Locker'
+        ],precio:'',cssShow:''},
+        {id:8,titulo:'Casillero',carac:[
+            'Servicio de Oficina Virtual',
+            'Llamadas y Mensajes',
+            'Recepción de Documentos'
+        ],precio:'',cssShow:''},
+        {id:9,titulo:'VirtualLab',carac:[
+            'Sistema de Realidad Virtual'
+        ],precio:'',cssShow:''},
+        {id:10,titulo:'Diseño 3D',carac:[
+            'Diseño 3D en computador'
+        ],precio:'',cssShow:''},
+        {id:11,titulo:'FabLab',carac:[
+            'Impresión 3D (cda gramo)'
+        ],precio:'',cssShow:''}
     ];
-    precio.list2=[
-        {id:4,titulo:'Básico'},
-        {id:5,titulo:'Day'},
-        {id:6,titulo:'Oficina Privada'},
-        {id:7,titulo:'Paquete Arquitecto'},
-    ];
-    precio.list3=[{id:8,titulo:'Casillero'},
-        {id:9,titulo:'VirtualLab'},
-        {id:10,titulo:'Diseño 3D'},
-        {id:11,titulo:'FabLab'}];
+    precio.mostrar= function (plan) {
+        console.log('hola',plan);
+        plan.cssShow='show'
+    }
+    precio.ocultar=function (plan) {
+        console.log('hola',plan);
+        plan.cssShow=''
+    }
 });
 
 

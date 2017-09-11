@@ -128,3 +128,15 @@ $('#PreciosModales').on('show.bs.modal', function (event) {
     modal.find('.contenido').html(hmlString);
 
 });
+
+$(".precio").hover(
+    function(){
+        var thisdiv = $(this).attr("href")
+        console.log(thisdiv)
+        $(thisdiv).collapse("show");
+    },
+    function(){
+        var thisdiv = $(this).attr("href")
+        $(thisdiv).collapse("hide");
+    }
+);
