@@ -14,7 +14,7 @@ angular.module('indexPage', []).controller('index',function () {
         {id:4,titulo:'SpiritLab',src:'img/servicios/incuba.jpg',link:'',clas:''},
         {id:5,titulo:'VirtualLab',src:'img/servicios/virtuallab.jpg',link:'',clas:''},
         {id:6,titulo:'TechLab', src:'img/servicios/cursoseventos.jpg',link:'',clas:''},
-        {id:7,titulo:'Artistlab',src:'img/servicios/artislab.jpg',link:'',clas:''}
+        {id:7,titulo:'Artist lab',src:'img/servicios/artislab.jpg',link:'',clas:''}
         ];
 }).controller('Precios',function () {
     var precio = this;

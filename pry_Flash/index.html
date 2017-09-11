@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="iedge">
-        <title></title>
+        <title>Braininglabs</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,14 +11,9 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <style type="text/css">
-            .parallax-window {
-                min-height: 400px;
-                background: transparent;
-            }
-        </style>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/main.js"></script>
@@ -50,9 +45,9 @@
             </ul>
         </div>
         <div id="Inicio" ng-controller="index as ind" >
-            <div class="container">
-                <img src="img/ESCUDO.gif">
-                <h1>{{ind.titulo}}</h1>
+            <div class="container animated fadeInDown">
+                <img  src="img/ESCUDO.gif">
+                <h1 >{{ind.titulo}}</h1>
                 <h2>{{ind.subtitulo}}</h2>
             </div>
             <a href="#Servicios">
