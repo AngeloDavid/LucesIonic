@@ -160,6 +160,13 @@ textarea {
     padding-left: 10%;
     padding-right: 10%;
 }
+#Servicios .container .carousel-inner{
+    margin-bottom: 5%;
+}
+#Servicios .container .carousel-inner img{
+    border-radius: 4px;
+}
+
 #Servicios .container hr,#Precios .container hr,#Contactenos .container hr, .modal-body hr{
     border-top: none;
     margin: auto;
@@ -274,9 +281,6 @@ textarea {
     color:#ff9a08;
     padding: 5% 5% 5% 0;
 }
-.modal-body i .fa{
-    font-size: 200%;
-}
 .modal-body li{
     color:#ff9a08;
     padding: 0;
@@ -331,7 +335,7 @@ textarea {
     font-size: 80%;
 }
 #Contactenos .info h3{
-    font-size: 120%;
+    font-size: 140%;
 }
 #Contactenos .info .row{
     margin-bottom: 30px;
@@ -429,39 +433,161 @@ textarea {
         height: 60px;
         font-size: 70%;
     }
+    #Contactenos form button.btSumbit{
+        font-size: 120%;
+        font-family: "Batavia-Regular";
+        letter-spacing: 6px;
+    }
+    #Contactenos .form-group input, #Contactenos form textarea{
+        text-align: left;
+    }
+    #Contactenos .info{
+        text-align: left;
+        font-size: 90%;
+    }
+    #Contactenos .info h3{
+        font-size: 150%;
+    }
 }
 /*Medium devices*/
 @media (min-width: 768px) and (max-width: 991px) {
 
-
-
-
+    #Inicio .container h1{
+        font-size: 340%;
+    }
+    #Inicio .container h2 {
+        font-size: 280%;
+    }
+    #Inicio i,#Servicios i,#Precios i{
+        font-size: 300%;
+    }
+    #Inicio .container img {
+        height: 370px;
+    }
+    #Servicios h1, #Precios h1, #Contactenos h1{
+        font-size: 200%;
+    }
+    #Servicios .container  .row .col-12 .row button{
+        height: 60px;
+        font-size: 70%;
+        letter-spacing: 1px;
+    }
+    #Servicios .container .carousel-inner .carousel-caption h3{
+        font-size: 130%;
+    }
+    #Precios .container  .row  button{
+        height: 60px;
+        font-size: 70%;
+    }
     #Contactenos form button.btSumbit{
-        text-align: center;
-        background-color: black;
-        color: white;
-        text-transform: uppercase;
-        border-radius: 0%;
-        border-color: #454545;
-        border-bottom: 3px solid #454545;
-        width: 100%;
-        font-size: x-large;
+        font-size: 120%;
         font-family: "Batavia-Regular";
         letter-spacing: 6px;
-
+    }
+    #Contactenos .form-group input, #Contactenos form textarea{
+        text-align: left;
+    }
+    #Contactenos .info{
+        text-align: left;
+        font-size: 90%;
+    }
+    #Contactenos .info h3{
+        font-size: 150%;
     }
 
 }
 /*Large devices*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    #Inicio .container h1{
+        font-size: 340%;
+    }
+    #Inicio .container h2 {
+        font-size: 280%;
+    }
+    #Inicio i,#Servicios i,#Precios i{
+        font-size: 300%;
+    }
+    #Inicio .container img {
+        height: 400px;
+    }
+    #Servicios h1, #Precios h1, #Contactenos h1{
+        font-size: 220%;
+    }
+    #Servicios .container  .row .col-12 .row button{
+        height: 60px;
+        font-size: 100%;
+        letter-spacing: 3px;
+    }
+    #Servicios .container .carousel-inner .carousel-caption h3{
+        font-size: 130%;
+    }
+    #Precios .container  .row  button{
+        height: 60px;
+        font-size: 60%;
+    }
+    #Contactenos form button.btSumbit{
+        font-size: 120%;
+        font-family: "Batavia-Regular";
+        letter-spacing: 6px;
+    }
+    #Contactenos .form-group input, #Contactenos form textarea{
+        text-align: left;
+    }
+    #Contactenos .info{
+        text-align: left;
+        font-size: 100%;
+    }
+    #Contactenos .info h3{
+        font-size: 150%;
+    }
 }
 
 /*Extra large devices*/
 
 @media (min-width: 1200px) {
-
+    #Inicio .container h1{
+        font-size: 380%;
+    }
+    #Inicio .container h2 {
+        font-size: 320%;
+    }
+    #Inicio i,#Servicios i,#Precios i{
+        font-size: 300%;
+    }
+    #Inicio .container img {
+        height: 460px;
+    }
+    #Servicios h1, #Precios h1, #Contactenos h1{
+        font-size: 250%;
+    }
+    #Servicios .container  .row .col-12 .row button{
+        height: 60px;
+        font-size: 100%;
+        letter-spacing: 3px;
+    }
+    #Servicios .container .carousel-inner .carousel-caption h3{
+        font-size: 150%;
+    }
+    #Precios .container  .row  button{
+        height: 60px;
+        font-size: 80%;
+    }
+    #Contactenos form button.btSumbit{
+        font-size: 120%;
+        font-family: "Batavia-Regular";
+        letter-spacing: 6px;
+    }
+    #Contactenos .form-group input, #Contactenos form textarea{
+        text-align: left;
+    }
+    #Contactenos .info{
+        text-align: left;
+        font-size: 100%;
+    }
+    #Contactenos .info h3{
+        font-size: 180%;
+    }
 }
 
 
