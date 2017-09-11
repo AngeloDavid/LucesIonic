@@ -418,7 +418,41 @@ header span:after{
 
 
 /*Extra small devices*/
-
+@media (max-width: 414px) {
+    #Inicio .container h1{
+        font-size: 100%;
+    }
+    #Inicio .container h2 {
+        font-size: 80%;
+    }
+    #Inicio i,#Servicios i,#Precios i{
+        font-size: 200%;
+    }
+    #Inicio .container img {
+        height: 200px;
+    }
+    #Servicios h1, #Precios h1, #Contactenos h1{
+        font-size: 150%;
+    }
+    #Servicios .container  .row .col-12 .row button{
+        height: 50px;
+        font-size: 80%;
+        letter-spacing: 1px;
+    }
+    #Servicios .container .carousel-inner .carousel-caption h3{
+        font-size: 100%;
+    }
+    #Precios .container  .row  button{
+        height: 60px;
+        font-size: 50%;
+        text-overflow: ellipsis;
+    }
+    #Contactenos form button.btSumbit{
+        font-size: 120%;
+        font-family: "Batavia-Regular";
+        letter-spacing: 6px;
+    }
+}
 /*Small devices*/
 @media (min-width: 576px) and (max-width: 767px) {
     #Inicio .container h1{
@@ -699,6 +733,8 @@ header span:after{
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
+
+
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
