@@ -129,6 +129,12 @@ $('#PreciosModales').on('show.bs.modal', function (event) {
 
 });
 
+
+$("button.btn-secondary").hover(function(){
+        var thisdiv = $(this).attr("data-target");
+        var dato =$(this).attr("data-slide-to");
+        $(thisdiv).carousel(parseInt(dato));
+    });
 $(".precio").hover(
     function(){
         var thisdiv = $(this).attr("href")

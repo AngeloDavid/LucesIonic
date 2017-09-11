@@ -109,14 +109,14 @@
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3" ng-repeat="plan in prec.list1">
                         <button data-toggle="collapse" ng-mouseover="prec.mostrar(plan,true)" ng-mouseleave="prec.mostrar(plan,false)" data-parent="#PreList" href="#desPre{{plan.id}}" aria-expanded="true" aria-controls="exampleAccordion1" type="button" class="precio btn btn-secondary">{{plan.titulo}}</button>
                         <div id="desPre{{plan.id}}" class="collapse {{plan.cssShow}}" role="tabpanel">
-                            <p class="mb-3">
+                            <p class="modal-body">
                             <div class="row justify-content-center">
                                 <i class="fa fa-usd fa-5x"></i>
                             </div>
                             <hr>
                             <div class= row"contenido">
                                 <ul>
-                                    <li ng-repeat="carac in plan.carac">{{carac}}</li>
+                                    <li ng-repeat="carac in plan.carac"><span>{{carac}}</span></li>
                                 </ul>
                             </div>
 
