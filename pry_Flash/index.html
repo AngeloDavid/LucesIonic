@@ -65,7 +65,7 @@
                 <h1>SERVICIOS</h1>
                 <hr>
                 <div class="row contenido">
-                    <div class="col">
+                    <div class="col col-sm-12 col-md-6">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="{{servicio.id}}" ng-repeat="servicio in servictrl.list" class="{{servicio.clas}}" ></li>
@@ -82,14 +82,14 @@
 
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="0" type="button" class="btn btn-secondary">{{servictrl.list[0].titulo}}</button></div>
-                            <div class="col"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="1" class="btn btn-secondary">{{servictrl.list[1].titulo}}</button></div></div>
-                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="2" type="button" class="btn btn-secondary">{{servictrl.list[2].titulo}}</button></div>
-                            <div class="col"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="3" class="btn btn-secondary">{{servictrl.list[3].titulo}}</button></div></div>
-                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="4" type="button" class="btn btn-secondary">{{servictrl.list[4].titulo}}</button></div>
-                            <div class="col"><button data-target="#carouselExampleIndicators"  data-slide-to="5" type="button" class="btn btn-secondary">{{servictrl.list[5].titulo}}</button></div></div>
-                        <div class="row"><div class="col cf"><button data-target="#carouselExampleIndicators"  data-slide-to="6"  type="button" class="btn btn-secondary">{{servictrl.list[6].titulo}}</button></div>
+                    <div class="col col-sm-12 col-md-6">
+                        <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="0" type="button" class="btn btn-secondary">{{servictrl.list[0].titulo}}</button></div>
+                            <div class="col-6"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="1" class="btn btn-secondary">{{servictrl.list[1].titulo}}</button></div></div>
+                        <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="2" type="button" class="btn btn-secondary">{{servictrl.list[2].titulo}}</button></div>
+                            <div class="col-6"><button type="button" data-target="#carouselExampleIndicators"  data-slide-to="3" class="btn btn-secondary">{{servictrl.list[3].titulo}}</button></div></div>
+                        <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="4" type="button" class="btn btn-secondary">{{servictrl.list[4].titulo}}</button></div>
+                            <div class="col-6"><button data-target="#carouselExampleIndicators"  data-slide-to="5" type="button" class="btn btn-secondary">{{servictrl.list[5].titulo}}</button></div></div>
+                        <div class="row"><div class="col-6 cf"><button data-target="#carouselExampleIndicators"  data-slide-to="6"  type="button" class="btn btn-secondary">{{servictrl.list[6].titulo}}</button></div>
                             <div class="col"><button data-target="#carouselExampleIndicators"  data-slide-to="7" type="button" class="btn btn-secondary">{{servictrl.list[7].titulo}}</button></div></div>
                     </div>
                 </div>
@@ -105,20 +105,17 @@
                 </div>
 
                 <div class="row" >
-                    <div class="col-3" ng-repeat="plan in prec.list1">
+                    <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list1">
                         <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}" type="button" class="btn btn-secondary">{{plan.titulo}}</button>
                     </div>
-                </div>
-                <div class="row" >
-                    <div class="col-3" ng-repeat="plan in prec.list2">
+                    <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list2">
                         <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}"   type="button" class="btn btn-secondary">{{plan.titulo}}</button>
                     </div>
-                </div>
-                <div class="row" >
-                    <div class="col-3" ng-repeat="plan in prec.list3">
+                    <div class="col-3 col-sm-6 col-md-3" ng-repeat="plan in prec.list3">
                         <button  data-toggle="modal" data-target="#PreciosModales" data-whatever="{{plan.id}}"  type="button" class="btn btn-secondary">{{plan.titulo}}</button>
                     </div>
                 </div>
+
 
                 <a href="#Contactenos">
                     <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -137,7 +134,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-sm-12 col-md-6">
                             <form>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
@@ -160,7 +157,7 @@
                                 <button type="submit" class="btn btn-primary btSumbit">Enviar</button>
                             </form>
                         </div>
-                        <div class="col info">
+                        <div class="col-12 col-sm-12 col-md-6 info">
                                 <div class="row">
                                     <div class="col-2">
                                         <div class="icon">
