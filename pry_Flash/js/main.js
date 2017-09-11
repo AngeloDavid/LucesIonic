@@ -103,13 +103,12 @@ angular.module('indexPage', []).controller('index',function () {
             'Impresión 3D (cda gramo)'
         ],precio:'',cssShow:''}
     ];
-    precio.mostrar= function (plan) {
-        console.log('hola',plan);
-        plan.cssShow='show'
-    }
-    precio.ocultar=function (plan) {
-        console.log('hola',plan);
-        plan.cssShow=''
+    precio.mostrar= function (plan,desp) {
+        if(desp){
+            plan.cssShow='show'
+        }else {
+            plan.cssShow=''
+        }
     }
 });
 
