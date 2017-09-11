@@ -424,10 +424,16 @@ textarea {
         font-size: 180%;
     }
     #Servicios .container  .row .col-12 .row button{
-        width: 100%;
-        height: 55px;
+        height: 60px;
         font-size: 100%;
         letter-spacing: 3px;
+    }
+    #Servicios .container .carousel-inner .carousel-caption h3{
+        font-size: 130%;
+    }
+    #Precios .container  .row  button{
+        height: 60px;
+        font-size: 70%;
     }
 }
 /*Medium devices*/
@@ -435,9 +441,7 @@ textarea {
 
 
 
-    #Servicios .container .carousel-inner .carousel-caption h3{
-        font-size: 120%;
-    }
+
     #Contactenos form button.btSumbit{
         text-align: center;
         background-color: black;
@@ -452,19 +456,7 @@ textarea {
         letter-spacing: 6px;
 
     }
-    #Precios .container  .row  button{
-        background-color: #454545;
-        color: white;
-        text-transform: uppercase;
-        border-radius: 4px;
-        border: none;
-        border-right: 2px solid #353333;
-        border-bottom: 3px solid #353333;
-        width: 100%;
-        height: 70px;
-        font-size: 15px;
-        font-family: "next_art";
-    }
+
 }
 /*Large devices*/
 
