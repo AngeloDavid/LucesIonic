@@ -123,13 +123,16 @@ textarea {
     width: 100%;*/
 
 }
+#Inicio .container img {
+    height: 230px;
+}
 #Inicio .container h1{
     font-family: "vintage_straps";
-    font-size: 74px;
+    font-size: 195%;
     line-height: 0.2;
 }
 #Inicio .container h2 {
-    font-size: 62px;
+    font-size: 160%;
     font-family: "next_art";
     line-height: 0.2;
 }
@@ -138,7 +141,7 @@ textarea {
 }
 #Inicio i,#Servicios i,#Precios i{
     color: #ff9a08;
-    font-size: 75px;
+    font-size: 150%;
 }
 
 
@@ -148,7 +151,7 @@ textarea {
 }
 #Servicios h1, #Precios h1, #Contactenos h1{
     font-family: "Batavia-Regular";
-    font-size: 50px;
+    font-size: 150%;
     margin-bottom: 17px ;
     text-transform: uppercase;
 }
@@ -424,6 +427,49 @@ textarea {
 
 #PreciosModales .modal-body hr{
     margin-top: 3px;
+}
+
+/*Extra small devices*/
+@media (max-width: 575px) {
+
+}
+/*Small devices*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #Inicio .container h1{
+        font-family: "vintage_straps";
+        font-size: 74px;
+        line-height: 0.2;
+    }
+    #Inicio .container h2 {
+        font-size: 62px;
+        font-family: "next_art";
+        line-height: 0.2;
+    }
+    #Inicio i,#Servicios i,#Precios i{
+        color: #ff9a08;
+        font-size: 75px;
+    }
+    #Servicios h1, #Precios h1, #Contactenos h1{
+        font-family: "Batavia-Regular";
+        font-size: 50px;
+        margin-bottom: 17px ;
+        text-transform: uppercase;
+    }
+}
+/*Large devices*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*Extra large devices*/
+
+@media (min-width: 1200px) {
+
 }
 
 
