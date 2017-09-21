@@ -1,7 +1,7 @@
 angular.module('indexPage', []).controller('index',function () {
     var inicio =this;
     inicio.titulo="NO ES UNA OFICINA, ES TU CENTRO DE";
-    inicio.subtitulo="INOVACIÓN Y COWORKING";
+    inicio.subtitulo="INNOVACIÓN Y COWORKING";
 
 
 }).controller('servicios',function () {
@@ -123,7 +123,7 @@ angular.module('indexPage', []).controller('index',function () {
 }).controller('Contacto',function () {
     var contacto= this;
     contacto.titulo="Contacto";
-    contacto.mapaMostrar=true;
+    contacto.mapaMostrar=false;
     contacto.planes=[
         {id:0,titulo:'Ejecutivo', carac:[
             '160 horas espacio Coworking',

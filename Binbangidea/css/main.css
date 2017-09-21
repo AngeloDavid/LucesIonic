@@ -1,0 +1,64 @@
+
+
+#home{
+    background-color:#AAC617 ;
+    height: 600px;
+}
+/*#home #ojo {
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    right: 0;
+    border-radius: 0px 50px 50px 0px;
+    
+}*/
+#home svg{
+    top:0;
+    right: 0;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 500px;
+}
+#home svg circle{
+    top:0;
+    right: 0;
+
+    position: absolute;
+}
+#home #puplila{
+    position: absolute;
+    
+}
+#home img{
+    width: 10%;
+}
+nav{
+    top:0;
+    left: 0;
+    z-index: 5;
+    position: absolute;
+}
+nav ul.navbar-nav li.nav-item a.nav-link {
+    color: #E96E17;
+    font-weight: bold;
+    font-size: x-large;
+    padding-right: 15px;
+    
+}
+#home h1{
+    top:330px;
+    padding-left: 3%;
+    width:45%;
+    z-index: 3;
+    position: absolute;
+    
+    font-size: 500%;
+    color: #E96E17;
+}
+#leyenda{
+    background-color: #E96E17;
+    height: 500px;
+}
+
+
