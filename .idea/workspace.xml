@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="92174495-3039-4927-bbc3-5b0f482a122a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pry_Flash/css/main.css" afterPath="$PROJECT_DIR$/pry_Flash/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pry_Flash/index.html" afterPath="$PROJECT_DIR$/pry_Flash/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pry_Flash/js/main.js" afterPath="$PROJECT_DIR$/pry_Flash/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,15 +80,11 @@
           <file leaf-file-name="sala.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2346">
-                  <caret line="143" column="18" lean-forward="false" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+                <state relative-caret-position="2703">
+                  <caret line="164" column="18" lean-forward="false" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
-                    <element signature="n#!!block;n#verificarTimer#0;n#SalaPage#0" expanded="false" />
-                    <element signature="n#!!block;n#mostrarMsg#0;n#SalaPage#0" expanded="false" />
-                    <element signature="n#!!block;n#verificarIp#0;n#SalaPage#0" expanded="false" />
-                    <element signature="n#!!block;n#aumentarZero#0;n#SalaPage#0" expanded="false" />
-                    <element signature="n#!!block;n#segMim#0;n#SalaPage#0" expanded="false" />
+                    <marker date="1505141345147" expanded="true" signature="1178:1248" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -98,8 +97,8 @@
           <file leaf-file-name="popover-timer-sala.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="52" />
+                <state relative-caret-position="429">
+                  <caret line="51" column="52" lean-forward="false" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
                   </folding>
@@ -111,7 +110,7 @@
             <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
-                  <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+                  <caret line="19" column="94" lean-forward="false" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
                   <folding />
                 </state>
               </provider>
@@ -121,8 +120,10 @@
             <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="493">
-                  <caret line="29" column="155" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="155" />
-                  <folding />
+                  <caret line="29" column="140" lean-forward="false" selection-start-line="29" selection-start-column="140" selection-end-line="29" selection-end-column="140" />
+                  <folding>
+                    <marker date="1505141345103" expanded="true" signature="1335:1468" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -130,9 +131,11 @@
           <file leaf-file-name="sala.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-                  <folding />
+                <state relative-caret-position="578">
+                  <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+                  <folding>
+                    <marker date="1505141345137" expanded="true" signature="1303:1425" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -245,8 +248,8 @@
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/home/home.ts" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.ts" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.html" />
-        <option value="$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.ts" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer/popover-timer.ts" />
+        <option value="$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.ts" />
       </list>
     </option>
   </component>
@@ -266,7 +269,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
-    <option name="width" value="1924" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
     <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -285,8 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,6 +335,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,24 +488,24 @@
       <workItem from="1504711410839" duration="3785000" />
       <workItem from="1504719861873" duration="2605000" />
       <workItem from="1504798485280" duration="1831000" />
+      <workItem from="1505786610172" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264581000" />
+    <option name="totallyTimeSpent" value="265209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1924" height="1042" extended-state="0" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22450052" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22447917" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39726028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39840183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -810,23 +814,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="143" column="18" lean-forward="false" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+        <state relative-caret-position="2703">
+          <caret line="164" column="18" lean-forward="false" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="18" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="n#!!block;n#verificarTimer#0;n#SalaPage#0" expanded="false" />
-            <element signature="n#!!block;n#mostrarMsg#0;n#SalaPage#0" expanded="false" />
-            <element signature="n#!!block;n#verificarIp#0;n#SalaPage#0" expanded="false" />
-            <element signature="n#!!block;n#aumentarZero#0;n#SalaPage#0" expanded="false" />
-            <element signature="n#!!block;n#segMim#0;n#SalaPage#0" expanded="false" />
+            <marker date="1505141345147" expanded="true" signature="1178:1248" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="429">
+          <caret line="51" column="52" lean-forward="false" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -836,7 +836,7 @@
     <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+          <caret line="19" column="94" lean-forward="false" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
           <folding />
         </state>
       </provider>
@@ -844,16 +844,20 @@
     <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="155" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="155" />
-          <folding />
+          <caret line="29" column="140" lean-forward="false" selection-start-line="29" selection-start-column="140" selection-end-line="29" selection-end-column="140" />
+          <folding>
+            <marker date="1505141345103" expanded="true" signature="1335:1468" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="578">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <marker date="1505141345137" expanded="true" signature="1303:1425" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -375,16 +375,23 @@ header span:after{
 
 }
 #Contactenos .redes .icon{
-    padding-right: 3px;
     margin-right: 7px;
-
-
+}
+#Contactenos .redes :hover .icon{
+    background-color:  #ffffff;
+    color: #454545;
 }
 #Contactenos iframe{
     width: 100%;
     height: 250px;
     border-color: #454545;
     border-bottom: 3px solid #454545;
+}
+#Contactenos form option[value=""][disabled] {
+    display: none;
+}
+#Contactenos form select{
+    height: 30px;
 }
 
 #menuprin {

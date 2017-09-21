@@ -1,0 +1,426 @@
+body{
+	color: #5f4332;
+}
+/*Menu*/
+.menu{
+	background-color: transparent;
+	background-image: none;
+	border-color: transparent;
+	border-style: none;
+	box-shadow: none;
+	padding-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;	
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.3;
+	font-family: Poppins, sans-serif;
+	letter-spacing: 0px;
+}
+.navbar-default .navbar-nav>li{
+	margin-right: 10px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    color: white;
+    background-image: none;
+    box-shadow: none;
+
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover{
+	background-image: none;
+	/*background-color: #8d817b;	*/
+	/*opacity: 0.6;*/
+	/*/border-radius: 45px 45px 45px 45px;*/
+	color: white;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #caab8a;
+
+}
+.navbar-default a{
+	/*font-size: medium;*/
+}
+
+/*Inicio*/
+
+/*video de fondo*/
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+	background-image: url("../video/Snapshots/Coverr-office.jpg");
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+
+.title-container{
+	vertical-align: middle;
+	z-index: 1000;
+    position: absolute;
+	top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.title-container h1{
+	font-family: "adobe-caslon-pro","serif";
+	font-size: 96.818px; 
+	display: block; 
+	opacity: 1; 
+	margin-top: -40px;
+	text-shadow: 3px 6px 1px rgba(0,0,0,0.3);
+	/*color: #5f4332;	*/
+	color: #781d1d;
+}
+.title-container img{
+	width: 50%;
+}
+.title-container .r1{
+	padding-right: 10%;
+	-webkit-animation-duration: 2s;
+}
+.title-container .r2{
+	-webkit-animation-duration: 3s;
+}
+.title-container h2{
+	font-style: oblique;
+	/*color: #7a7a7a;*/
+	color: #f2f2f2;
+	text-shadow: 0px -1px 0px #424242;
+	/*color: rgba(255, 255, 255, 0.8)*/
+
+}
+#inicio{
+
+}
+.container-fluid{
+	height: 10px;
+}
+
+
+#Pasos{
+	padding-top: 10%;
+	padding-bottom: 20%;
+	/*background-color: #7a7a7a;*/
+	/*background-image: url("../img/fondos/index.png");*/
+/*/	min-height: 1000px;*/
+	color: white;
+	align-items: center;
+	
+}
+.parallax-mirror{
+	 min-height: 1000px !important;
+}
+.parallax-window {
+	min-height: 600px;
+	background: transparent;
+}
+#Pasos h1{
+	/*font-family: 'Pacifico', cursive;*/
+	/*font-family: avenir, 'avenir next', helvetica, arial, sans-serif ,cursive; */
+	font-family:'Avenir Next';
+	font-size: 60px;
+	text-align: right;
+	margin-bottom: 10%;
+	font-weight: bold;
+	font-style: oblique;
+	/*color: #5f4332;*/
+	color: #FFFFFF;
+	text-shadow: -1px 2px 3px #781d1d;
+
+	
+}
+#Pasos .celda{
+	text-align: center;
+	height: 400px;
+	max-height: 400px;
+}
+#Pasos .celda:hover {
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+#Pasos a{
+	color: #fff;
+
+}
+#Pasos a h3{
+
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 35px;
+
+}
+#Pasos a img{
+	width: 60%;
+	height: 60%;
+}
+#Pasos a i{
+	
+}
+
+/*#Pasos .collapse.in h4,#Pasos .collapse h4{
+	font-weight: bold;
+	text-align: center;
+}
+#Pasos .collapse  p{
+	text-align: center;
+
+}*/
+#Pasos .celda .cont-div ul{
+	text-align: left;
+	font-size: medium;
+	margin-left: 10%;
+}
+#Pasos .celda .cont-div{
+    text-align: center;
+}
+#Pasos .celda .cont-div h4{
+    font-weight: bold;
+}
+
+.popover.bottom {
+	margin-top: 0%;
+	color: white;
+	border: none;
+	background-color: transparent;
+	padding: 10px;
+
+	
+}
+
+/*seccion contectemonos*/
+#Contactenos {
+	
+	color: white;
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-top: 7%;
+	padding-bottom: 7%;		
+}
+
+#Contactenos h1{
+
+	padding-bottom: 3%; 
+	text-align: center;
+}
+#Contactenos .datos{
+	text-align: left;
+	padding-left: 10%;
+
+}
+.redes{
+	margin-top: 3%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+.redes i{
+	padding: 1%;
+}
+.redes a{
+	color: #fff;
+}
+.redes i:hover{
+	color: #5f4332;	
+	cursor: pointer;	
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.form-control{
+	border: none;
+	border-radius: 0px;
+}
+#txtPhone{
+	padding-right: 0px;
+}
+.btn-enviar{
+	border-radius: 0px;
+	color:#243a70 !important;
+	font-weight: 700;
+	background-color: #dddddd;
+	background-image: none;
+	padding: 3%;
+	border: none;
+}
+.btn-enviar:hover{
+	color: white !important;
+	background-color: #891812;
+}
+
+/*seccion footer*/
+#Footer{
+	color: white;	
+	background-color: #caab8a;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	text-align: center;
+	height: auto;
+
+}
+.redes1{
+	position: static;
+	padding-bottom: 10px;
+}
+#Footer .redes1>a{
+	
+	color: white;
+}
+.redes1>i{
+	padding-right: 1%;
+}
+.redes1>a:hover {
+	cursor: pointer;	
+	color: #626262;
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+ @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              top:200px;
+          }
+          .side-collapse {
+          	  float: right;
+          	  text-align:right;
+              top:5px;
+              bottom:0;
+              left:0px; 
+              right: 10px;             
+              width:160px;              
+              padding-right: 15px;
+              position:static;
+              overflow:hidden;
+              transition:height 2s;
+          }
+          .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover{
+          border-radius:0px;
+          }
+          .side-collapse.in {
+              width:0;
+              padding-right: 0px;
+          }
+          #Pasos img{
+          	width: 55%;
+          	height: 55%;
+          	margin: 0px auto;
+			display:block;
+          }
+          #Pasos i{
+			  margin-top: -10%;  
+			  display:block;
+          }
+		  #Pasos .celda{
+			  margin-bottom: 3%;
+			  max-height: 350px;
+		  }
+	      #Pasos .celda #paso2{
+			  max-height: 400px;
+		  }
+		 #Pasos .celda:hover{
+			 -webkit-transform: none;
+			 -ms-transform: none;
+			 transform: none;
+			 
+		 }
+
+	 	#Pasos .celda:hover img{
+			height: 40%;
+			width: 40%;
+		}
+		 #Pasos .celda .cont-div{
+			padding-left: 4%;
+			 padding-right: 4%;
+
+		 }
+		 #Pasos .celda  ul{
+			padding-right: 15%;
+			 padding-left: 25%;
+			 text-align: justify;
+			 /*list-style: none;*/
+		 }
+		 #menu{
+			 max-height: 100px;
+		 }
+		 .n1{
+			 top: 2881.91px; /*top: 1632px!important;*/
+		 }
+
+
+		   .email{
+			  padding-right: 0px;
+		  }
+
+      }
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #Pasos .celda:hover{
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+
+    }
+    #Pasos .celda:hover img{
+        height: 40%;
+        width: 40%;
+    }
+    #Pasos .celda .cont-div{
+        padding-left: 4%;
+        padding-right: 4%;
+
+    }
+    #Pasos .celda  ul{
+        padding-right: 15%;
+        padding-left: 25%;
+        text-align: justify;
+        /*list-style: none;*/
+    }
+}

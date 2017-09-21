@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html ng-app="indexwasihome">
+<head>
+	<title>WasiHome - Inmobiliaria</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content="inmoboliaria,WasiHome,Wasihome,WASI, HOME, WASI HOME, alquiler, venta, Inmobilaria,INMOBILIARIA, quito,QUITO,ECUADOR,ecuador,casas en venta,casas, departammentos, DEPARTAMENTOS, Edificios, inmobiliaria virtual,virtual,  ">
+	<link rel="icon" type="image/x-icon" href="Info/img/logos/logo.png">
+
+	<link rel="stylesheet" type="text/css" href="Info/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Info/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="Info/iconos/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Info/css/flaticon.css">
+    	<link rel="stylesheet" type="text/css" href="Info/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="Info/css/video.css">
+
+
+	<script type="text/javascript" src="Info/js/angular.min.js"></script>
+	<script type="text/javascript" src="Info/js/correo.js"></script>
+</head>
+<body data-spy="scroll" data-target="#menu">
+	<nav id="menu" class="navbar navbar-default navbar-fixed-top menu">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="/">
+	        <img alt="WasiHome_logo" src="Info/img/logos/logo_index.png">
+	      </a>
+	      <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-right">
+	      	<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	    </div>
+	    <div id="navbar" class="navbar side-collapse in">
+		      <ul class="nav navbar-nav navbar-right">
+				  <li class="active" ><a href="/" >INICIO</a></li>
+				  <li><a href="https://wasihome.com/inmobiliaria/">INMOBILIARIA</a></li>
+				  <li><a href="./servicios.html">SERVICIOS</a></li>
+				  <li><a href="./punto_venta.html">PUNTO DE VENTA</a></li>
+				  <li><a href="#Contactenos">CONTÁCTENOS</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div id="Inicio">
+		<div class="homepage-hero-module">
+	    <div class="video-container">
+
+		        <div class="title-container">
+					<!--<button id="prueba">ohla</button>-->
+					<div id="txt1" class="row r1 animated bounceInRight"><img src="Info/img/index/f1.png" alt="Sueña en Grande"> </div>
+					<div id="txt2" class="row r2 animated bounceInLeft"><img src="Info/img/index/f7.png" alt="vive la realidad"> </div>
+			   		
+		        </div>
+		        <video autoplay loop class="fillWidth">
+		            <source src="Info/video/Mp4/Coverr-officebn.mp4" type="video/mp4" />Su navegador no soporta la etiqueta de vídeo. Le sugiero que actualice su navegador.
+		            <source src="Info/video/Webm/Coverr-office.webm" type="video/webm" />Su navegador no soporta la etiqueta de vídeo. Le sugiero que actualice su navegador.
+		        </video>
+		        <div class="poster hidden">
+		            <img src="Info/video/Snapshots/Coverr-officebn.jpg" alt="WasiHome Inmobiliaria">
+		        </div>
+		    </div>
+		</div>
+	</div>
+
+	<div id="Pasos" class="parallax-window" data-parallax="scroll" data-image-src ="Info/img/fondos/index.png" data-speed="0.1" data-bleed="3" data-naturalHeight="1000px">
+
+		<div class="container">
+			<div class="row">
+				<div id="icon1"  class="col-md-3 col-sm-6 col-xs-12 celda" >
+					<a class="btn" role="button" data-toggle="collapse" href="#paso1" aria-expanded="false" aria-controls="paso1">
+						<h3>Visítanos</h3>
+						<img src="Info/img/index/VISITANOS.png" alt="Visitanos"><br>
+
+						<i class="fa fa-angle-down fa-4x" aria-hidden="true"></i>
+					</a>
+					<div class="collapse" id="paso1">
+						   <div class="cont-div">
+							<h4>Dirección</h4>
+							   <p>Juan Pablo Sanz e Iñaquito esquina <br> Edif. CAMICON 5to piso</p>
+						   </div>
+						
+					</div>
+				</div>
+				<div id="icon2" class="col-md-3 col-sm-6 col-xs-12   celda">
+					<a class="btn" role="button" data-toggle="collapse" href="#paso2" aria-expanded="false" aria-controls="paso2">
+						<h3>Experimenta</h3>
+						<img src="Info/img/index/EXPERIMENTA.png" alt="Experimenta"/><br>
+						<i  class="fa fa-angle-down fa-4x" aria-hidden="true"></i>
+					</a>
+					<div class="collapse" id="paso2">
+                        <div class="cont-div">
+                            <h4>Nuestros Productos</h4>
+                            <ul>
+                                <li>Domótica</li>
+                                <li>Fotos y videos 360°</li>
+                                <li>Realidad virtual</li>
+                                <li>Realidad Aumentada</li>
+                                <li>Tour Virtual</li>
+                                <li>Drones</li>
+                            </ul>
+                        </div>
+					</div>
+				</div>
+				<div id="icon3" class="col-md-3 col-sm-6 col-xs-12  celda">
+					<a class="btn" role="button" data-toggle="collapse" href="#paso3" aria-expanded="false" aria-controls="paso3">
+						<h3>Siente</h3>
+						<img src="Info/img/index/SIENTE.png" alt="Siente"/><br>
+						<i  class="fa fa-angle-down fa-4x" aria-hidden="true"></i>
+					</a>
+
+					<div class="collapse" id="paso3">
+                        <div class="cont-div">
+							<ul>
+								<li>Usa la tecnología</li>
+								<li>Vive la Experiencia</li>
+								<li>Disfruta</li>
+							</ul>
+                        </div>
+					</div>
+				</div>
+				<div id="icon4" class="col-md-3 col-sm-6 col-xs-12  celda">
+					<a class="btn" role="button" data-toggle="collapse" href="#paso4" aria-expanded="false" aria-controls="paso4">
+						<h3>Ahorra</h3><img src="Info/img/index/AHORRO.png" alt="Ahorra" /><br>
+						<i  class="fa fa-angle-down fa-4x" aria-hidden="true"></i>
+					</a>
+					<div class="collapse" id="paso4">
+                        <div class="cont-div">
+							<ul>
+								<li>Tiempo</li>
+								<li>Dinero</li>
+								<li>Todo en un solo lugar</li>
+							</ul>
+                        </div>
+				</div>
+
+			</div>
+		</div>
+		</div>
+	</div>
+	<div></div>
+	<div id="Contactenos" ng-controller="Contactenos as cont">
+		<div class="container">
+		<h1>Contáctenos</h1>
+		<div class="col-md-6 col-sm-12 col-xs-12 datos">
+			<div class="row">
+			<h3><i class="fa fa-building-o fa-pull-left" aria-hidden="true"></i>Dirección:</h3>
+			<p>Juan Pablo Sanz e Iñaquito esquina – Edif. CAMICON 5to piso</p>
+			</div>
+			<div class="row">
+			<h3><i class="fa fa-phone fa-pull-left" aria-hidden="true"></i>Telefono:</h3>
+			<p>(+539) 983 372 923 / (+539) 2 5127 246</p>
+			</div>
+			<div class="row">
+			<h3><i class="fa fa-envelope-o fa-pull-left" aria-hidden="true"></i>Email:</h3>
+			<p>info@wasihome.com</p>
+			</div>
+			<div class="row redes">			        			        	
+		       	<a href="https://www.facebook.com/wasihomeinmobiliaria/"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>   
+			<a href="https://www.instagram.com/wasihomeinmobiliaria/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/wasihome"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+				<!-- <i class="fa fa-youtube fa-3x" aria-hidden="true"></i>		 -->
+		</div>			
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div id="mensaje"></div>
+			<form name="form_contact" novalidate>
+				<div class="form-group">
+				    <label for="exampleInputEmail1">Nombre</label>
+				    <input type="text" class="form-control" id="txtNombre" name="Name" ng-model="frm.Name" placeholder="Ingrese su nombre" required>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 email" style="padding-left: 0px;">	
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Email</label>
+				    <input type="email" class="form-control" id="txtEmail" name="Email" ng-model="frm.Email" placeholder="Ingrese su e-mail">
+				  </div>
+			  	</div>
+			  	<div class="col-md-6 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Teléfono</label>
+				    <input type="text" class="form-control" id="txtPhone" name="Phone" ng-model="frm.Phone" placeholder="Ingrese su numero telefonico">
+				  </div>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail1">¿Que le interesó?</label>
+					<select type="text" class="form-control" id="txtProduct" name="Producto" ng-model="frm.Producto">
+						<option value="" disabled selected>Seleccione una opción</option>
+						<option>Inmobiliaria</option>
+						<option>Servicios</option>
+						<option>Punto de Venta</option>
+						<option>Tecnología</option>
+					</select>
+				</div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Mensaje</label>
+			    <textarea class="form-control" rows="5" placeholder="¿Cómo podemos ayudarle?" id="txtMensaje" name="Mensaje" ng-model="frm.Mensaje"></textarea>
+			  </div>
+			 
+			  <button type="submit" class="btn btn-default btn-enviar" ng-click="cont.enviarDatos(frm)">ENVIAR</button>
+			</form>
+		</div>
+		
+		</div>
+	</div>
+
+	<div id="Footer" class="container-fluid">
+		<div class="row ">
+			<div class="col-xs-12 col-md-12 redes1" >
+			 	<a href="https://www.facebook.com/wasihomeinmobiliaria/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/wasihomeinmobiliaria/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/wasihome"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+			WasiHome Copyright: <i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;&nbsp; 2017. Todos los derechos reservados.
+			</div>
+		</div>
+	</div>
+	<script src="Info/js/jquery.min.js"></script>
+	<script src="Info/js/bootstrap.min.js"></script>
+	<script src="Info/js/parallax.js"></script>
+	<script src="Info/js/coverr.js"></script>
+	<script src="Info/js/codigo.js"></script>
+        <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'b5d2da30-efb7-44d7-ae32-366c6d7338b3', f: true }); done = true; } }; })();</script>
+</body>
+</html>
