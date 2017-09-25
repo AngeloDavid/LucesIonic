@@ -120,7 +120,8 @@ angular.module('indexPage', []).controller('index',function () {
             plan.cssShow=''
         }
     }
-}).controller('Contacto',function () {
+})
+    .controller('Contacto',function () {
     var contacto= this;
     contacto.titulo="Contacto";
     contacto.mapaMostrar=false;
@@ -245,7 +246,7 @@ angular.module('indexPage', []).controller('index',function () {
             link:'https://www.instagram.com/braininglabs/',
             disp:true
         }
-    ]
+    ];
     contacto.enviarMensaje=function (datosCont) {
         console.log(datosCont)  ;
         $.ajax({

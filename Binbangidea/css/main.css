@@ -1,3 +1,27 @@
+@font-face
+{
+    font-family: "BebasNeue";
+    src:url("../fonts/BebasNeue.otf");
+}
+
+@font-face
+{
+    font-family: "Roboto-Bold";
+    src:url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "Roboto-Regular";
+    src:url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "DecoNeue-Light";
+    src:url("../fonts/DecoNeue-Light.ttf") format("truetype");
+}
+
 
 
 #home{
@@ -18,13 +42,19 @@
     position: absolute;
     z-index: 4;
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 #home svg circle{
     top:0;
     right: 0;
 
     position: absolute;
+}
+#home .homebar{
+    width: 100%;
+}
+#home .homebar .col{
+    padding-right: 0px;
 }
 #home #puplila{
     position: absolute;
@@ -36,29 +66,484 @@
 nav{
     top:0;
     left: 0;
-    z-index: 5;
+    z-index: 10;
     position: absolute;
 }
 nav ul.navbar-nav li.nav-item a.nav-link {
     color: #E96E17;
     font-weight: bold;
     font-size: x-large;
-    padding-right: 15px;
+    padding-right: 25px;
+    text-align: right;
+
+}
+nav ul.navbar-nav li.nav-item a.nav-link:hover{
+    color: #AAC617 ;
+    font-family: "Roboto-Bold";
+}
+
+#home .icon{
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #AAC617;
+    border-radius: 50px;
+    padding-top: 2px;
+    margin: 2% auto;
+    margin-right: 10px;
+}
+#home .redes{
+    display: inline-flex;
+}
+#home .redes a{
+    color: white;
+    padding-right: 1px;
+
+}
+#home .redes :hover .icon{
+    background-color:  #ffffff;
+    color: #AAC617;
+}
+#home img{
     
+    width: 10%;
 }
 #home h1{
-    top:330px;
-    padding-left: 3%;
-    width:45%;
-    z-index: 3;
+    top:40%;
+    padding-left: 5%;
+    width:50%;
+    z-index: 6;
     position: absolute;
-    
-    font-size: 500%;
+    font-size:100px;
     color: #E96E17;
+    font-family: "BebasNeue";
+
 }
 #leyenda{
     background-color: #E96E17;
-    height: 500px;
+    height: 400px;
+
+}
+#leyenda .container{
+    padding-top: 7%;
 }
 
 
+#leyenda .texto{
+    color: white;
+}
+
+#leyenda .texto h1{
+    font-family: "DecoNeue-Light";
+    text-transform: uppercase;
+    font-size: 500%;
+}
+#leyenda .texto p{
+    padding-top: 15px;
+    font-family: "Roboto-Regular";
+    font-size: 200%;
+    text-align: center;
+}
+#leyenda svg{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+#servicios{
+    background-color: #EAE54D;
+    height: 601px;
+    padding-top: 7%;
+}
+#servicios  .row{
+    margin-bottom: 15px;
+}
+#servicios  .row p{
+    font-family: "Roboto-Regular";
+    font-size: 250%;
+}
+#servicios .contorno-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    border: 3px solid black;
+    background-color: white;
+    margin-bottom: 30px;
+}
+#servicios .contorno-img img{
+    height: 40px;
+    width: 35px;
+    margin: auto 25%;
+}
+#servicios .contorno-img.clsimg_0{
+    border-color: #D2569B;
+}
+#servicios .contorno-img.clsimg_1{
+    border-color: #BC0C24;
+}
+#servicios .contorno-img.clsimg_2{
+    border-color: #E96E17;
+}
+#servicios .contorno-img.clsimg_3{
+    border-color: #76C6DE;
+}
+#servicios .contorno-img.clsimg_4{
+    border-color: #4DA92C;
+}
+#servicios .contorno-img.clsimg_5{
+    border-color: #595B5A;
+}
+
+#servicios .serv{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+#servicios .media-body{
+    height: 70px;
+    padding-right: 14%;
+}
+#servicios .media-body h5{
+    font-family: "DecoNeue-Light";
+    font-size: 230%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 15px;
+    color: #BC0C24;
+}
+
+#servicios svg{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 512px;
+}
+
+#clientes{
+    z-index: 1;
+    background-color: #76C6DE;
+    height: 600px;
+    padding-top: 2%;
+    color: white;
+}
+
+#clientes h1{
+    font-family: "Roboto-Bold";
+    text-transform: uppercase;
+    font-size: 500%;
+    padding-bottom: 1%;
+}
+#clientes .carusel{
+    background-color: white;
+    height: 400px;
+    padding-bottom: 10px;
+}
+#clientes .carusel img,#clientes .carousel-item{
+    max-height: 350px;
+    max-width: 350px;
+}
+
+#clientes .carusel i{
+    color: #76C6DE;
+    font-size: xx-large;
+}
+
+#clientes .mas_cliente{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#clientes .mas_cliente button{
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto-Bold";
+    font-size: 150%;
+}
+#clientes .mas_cliente button:hover{
+    background-color: white;
+    color: #76C6DE ;
+}
+
+
+#Contactenos{
+    background-color: #595B5A;
+    min-height: 600px;
+    color: white;
+    padding-top: 5%;
+    font-family: "Roboto-Light";
+    margin-bottom: 0px;
+}
+#Contactenos h1{
+    text-align: center;
+    font-family: "Roboto-Bold";
+    text-transform: uppercase;
+    font-size: 400%;
+}
+#Contactenos .container .row{
+    padding-bottom: 30px;
+}
+.footer{
+    color: white;
+    background-color: #595B5A;
+    padding-bottom: 20px;
+}
+#Contactenos .container{
+    z-index: 4;
+}
+#Contactenos form{
+    margin-bottom: 25px;
+}
+#Contactenos form button.btSumbit{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-color: #454545;
+    border-bottom: 3px solid #454545;
+    width: 100%;
+    font-size: 100%;
+    font-family: "Batavia-Regular";
+    letter-spacing: 6px;
+
+}
+#Contactenos .form-group input{
+    
+    border-radius: 4px;
+    border-color: #454545;
+    border-bottom: 2px solid #454545;
+    color: #454545;
+}
+#Contactenos form textarea{
+    height: 100px;
+    color: #454545;
+}
+
+#Contactenos form button.btSumbit:hover{
+    background-color: #454545;
+}
+#Contactenos .info{
+    font-size: 100%;
+}
+#Contactenos .info h3{
+    font-size: 140%;
+}
+#Contactenos .info .row{
+    margin-bottom: 30px;
+}
+#Contactenos .icon{
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000000;
+    border-radius: 50px;
+    padding-top: 5px;
+    margin: 2% auto;
+}
+
+#Contactenos svg{
+
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 538px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    ul.navbar-nav{
+        background-color: #C1D629 ;
+        margin-left: 50%;
+        border-top: 3px solid #7D8924 ;
+    }
+    #home h1{
+        top:60%;
+        font-size: 300%;
+    }
+    #home img{
+        width: 30%;
+    }
+    #home .ojosvg circle{
+        cx:620
+    }
+    #home #puplila{
+        cx:290;
+        cy:250
+    }
+    #leyenda {
+        height: 200px;
+    }
+    #leyenda .texto h1{
+        font-size: 25px;
+    }
+    #leyenda .texto p,#servicios  .row p{
+        font-size: 100%;
+    }
+    #leyenda .ojosvg circle{
+        cx:350;
+        cy:100;
+        r:80
+    }
+    #leyenda .pupila circle{
+        cx:310;
+        cy:85;
+        r:30
+    }
+    #servicios  .row p{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #servicios .media-body h5{
+        font-size: 20px;
+    }
+    #servicios .contorno-img img{
+        height: 30px;
+        width: 30px;
+    }
+
+    #servicios .contorno-img{
+        height: 50px;
+        width: 50px;
+    }
+    #servicios .ojosvg circle{
+        cx:0;
+        cy:300;
+        r:200;
+    }
+    #clientes h1,#Contactenos h1{
+        font-size: 200%;
+    }
+    #clientes  .mas_cliente{
+        padding-top: 10%;
+    }
+    #clientes  .mas_cliente button{
+        font-size: 80%;
+    }
+
+    #Contactenos .info{
+        text-align: center;
+    }
+
+    #home .redes.visible-md{
+        display: none;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    #leyenda .ojosvg circle{
+        cx:550;
+        cy:100;
+        r:80
+    }
+    #leyenda .pupila circle{
+        cx:410;
+        cy:85;
+        r:30
+    }
+    #home .redes.visible-md{
+        display: none;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #home .redes.visible-md{
+        display: none;
+    }
+    #home img{
+            width: 20%;
+      }
+
+      #home h1{
+          font-size: 60px;
+          top:70%
+      }
+    ul.navbar-nav{
+        background-color: #C1D629 ;
+        margin-left: 70%;
+        border-top: 3px solid #7D8924 ;
+    }
+    #leyenda .ojosvg circle{
+        cx:800
+    }
+    #leyenda .pupila circle{
+        cx:630;
+        cy:250;
+        r:100
+    }
+    #servicios .ojosvg{
+        height: 547px;
+    }
+    #servicios .ojosvg circle{
+        cx:800;
+    }
+    #Contactenos svg{
+        height: 562px;
+    }
+    #Contactenos svg circle{
+        cx:750;
+        cy:600
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #home .redes.movil_md{
+        display: none;
+    }
+    #home .texto h1{
+        font-size: 80px;
+        top:46%;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #home .redes.movil_md{
+        display: none;
+    }
+    #home h1{
+        top:60%;
+        font-size: 70px;
+    }
+    #home .ojosvg circle{
+        cx:1000
+    }
+    #home #puplila{
+        r:130
+    }
+    #leyenda .ojosvg circle{
+        cx:1200;
+        cy:350;
+
+    }
+    #leyenda .pupila circle{
+        cx:1100;
+    }
+    #servicios .ojosvg circle{
+        cx:1400;
+        cy:400;
+    }
+    #servicios svg{
+        height: 500px;
+    }
+    #Contactenos svg{
+        height: 52px;
+    }
+
+ #Contactenos svg circle{
+        cx:1400
+    }
+    
+}
