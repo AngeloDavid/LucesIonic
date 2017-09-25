@@ -76,7 +76,7 @@ angular.module('indexPage', []).controller('index',function () {
     .controller('clientes',function () {
         var cliente=this;
         cliente.titulo="Clientes";
-        cliente.list=[
+        cliente.Empresas=[
             {
                 id:0,
                 logo:'./assets/clientes/LOGO-1.png',
@@ -111,7 +111,10 @@ angular.module('indexPage', []).controller('index',function () {
                 descp:'logo-5',
                 clss:'',
                 disp:true
-            },
+            }
+
+        ];
+        cliente.Artistas=[
             {
                 id:5,
                 logo:'./assets/clientes/LOGO-6.jpg',
@@ -124,7 +127,7 @@ angular.module('indexPage', []).controller('index',function () {
     .controller('Contacto',function () {
         var contacto= this;
         contacto.titulo="Contáctanos";
-        contacto.mapaMostrar=false;
+        contacto.mapaMostrar=true;
         contacto.servicios=[
             {id:0,titulo:'Ejecutivo', carac:[
                 '160 horas espacio Coworking',

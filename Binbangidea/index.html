@@ -135,7 +135,7 @@
     <div class="container-fluid ">
         <div class="row d-flex justify-content-center"><h1>{{cli.titulo}}</h1></div>
         <div class="row d-flex justify-content-center carusel">
-            <div id="clientes_carusel" class="carousel slide d-flex justify-content-center" data-ride="carousel">
+            <!--<div id="clientes_carusel" class="carousel slide d-flex justify-content-center" data-ride="carousel">
                 <div class="carousel-inner  d-flex align-items-center ">
                     <div class="carousel-item  {{cliItem.clss}}" ng-repeat="cliItem in cli.list">
                         <img class="d-block w-100" src="{{cliItem.logo}}" alt="{{cliItem.descp}}">
@@ -148,7 +148,39 @@
                 <a class="carousel-control-next d-flex align-items-end" href="#clientes_carusel" role="button" data-slide="next">
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </a>
+            </div>-->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row d-flex justify-content-center">
+                    <h3>Empresas</h3>
+                </div>
+                <div class="row  d-flex justify-content-center">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4"  ng-repeat="cliItem in cli.Empresas">
+                        <div class="card" >
+                            <div class="card-body d-flex justify-content-center">
+                                <img  src="{{cliItem.logo}}" alt="{{cliItem.descp}}">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row d-flex justify-content-center">
+                    <h3>Artistas</h3>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3" ng-repeat="cliItem in cli.Artistas">
+                        <div class="card" >
+                            <div class="card-body d-flex justify-content-center">
+                                <img  src="{{cliItem.logo}}" alt="{{cliItem.descp}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
         </div>
         <div class="row d-flex justify-content-center mas_cliente ">
             <button type="button" class="btn btn-outline-info">Más Clientes</button>
@@ -166,7 +198,7 @@
         <div class="conSer">
             <div class="row">
                 <div class="col" ng-if="contc.mapaMostrar">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1506008874974!6m8!1m7!1sxKnjnZXORAIqsACq4tc5og!2m2!1d-0.1968373862768871!2d-78.4800511282004!3f284.86512994315154!4f-4.88858558388705!5f0.4000000000000002"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2180.9921102159747!2d-78.48115150775061!3d-0.19644600302406448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMTEnNDguNCJTIDc4wrAyOCc0OC44Ilc!5e0!3m2!1ses-419!2sec!4v1506374562741" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="row">
@@ -183,7 +215,7 @@
                             <span class="fa fa-exclamation-circle" aria-hidden="true" ng-show="!form_contact.email.$pristine && form_contact.email.$error.email">  Por favor Ingrese un Email valido</span>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="asunto" aria-describedby="emailHelp" placeholder="Asunto" ng-model="datosCont.email" name="email" required>
+                            <input type="email" class="form-control" id="plan" aria-describedby="emailHelp" placeholder="Asunto" ng-model="datosCont.plan" name="plan" required>
                             <span class="fa fa-exclamation-circle" aria-hidden="true" ng-show="!form_contact.email.$pristine && form_contact.email.$error.required">  El Email es requerido.</span>
                             <span class="fa fa-exclamation-circle" aria-hidden="true" ng-show="!form_contact.email.$pristine && form_contact.email.$error.email">  Por favor Ingrese un Email valido</span>
                         </div>
@@ -194,7 +226,7 @@
                             </select>
                         </div>-->
                         <div class="form-group">
-                            <textarea class="form-control" id="mensaje_area" name="mensaje_area" rows="3" placeholder="Me intereso este plan por ..." ng-model="datosCont.mensaje" required ng-minlength="20"></textarea>
+                            <textarea class="form-control" id="mensaje_area" name="mensaje_area" rows="3" placeholder="Mensaje" ng-model="datosCont.mensaje" required ng-minlength="20"></textarea>
                             <span class="fa fa-exclamation-circle" aria-hidden="true" ng-show="!form_contact.mensaje_area.$pristine && form_contact.mensaje_area.$error.required">  El Mensaje es requerido.</span>
                             <span class="fa fa-exclamation-circle" aria-hidden="true" ng-show="!form_contact.mensaje_area.$pristine && form_contact.mensaje_area.$error.minlength">  Minimo caracteres: 20.</span>
                         </div>
@@ -223,7 +255,7 @@
 
         </div>
         <div class="row justify-content-center footer">
-            CopyRight@2017-BigBangIdea
+            CopyRight © 2017-BigBangIdea
         </div>
     </div>
 </div>

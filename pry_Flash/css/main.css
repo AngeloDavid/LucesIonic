@@ -263,6 +263,11 @@ header span:after{
 #Precios .row h1{
 
 }
+#Precios .collapse.show {
+    display: block;
+
+    z-index: 10;
+}
 #Precios .container  .row  button{
     background-color: #454545;
     color: white;
@@ -290,7 +295,8 @@ header span:after{
     padding: 0;
 }
 .modal-body{
-    margin: auto 3%;
+
+    margin: auto 4%;
     background-color: white;
     border-radius: 0 0 3px 3px;
     color:#ff9a08;

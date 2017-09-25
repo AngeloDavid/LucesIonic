@@ -124,7 +124,7 @@ angular.module('indexPage', []).controller('index',function () {
     .controller('Contacto',function () {
     var contacto= this;
     contacto.titulo="Contacto";
-    contacto.mapaMostrar=false;
+    contacto.mapaMostrar=true;
     contacto.planes=[
         {id:0,titulo:'Ejecutivo', carac:[
             '160 horas espacio Coworking',
