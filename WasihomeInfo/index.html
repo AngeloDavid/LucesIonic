@@ -22,20 +22,18 @@
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="/">
-	        <img alt="WasiHome_logo" src="Info/img/logos/logo_index.png">
+	        <img alt="WasiHome_logo" src="Info/img/logos/logo2.0.png" height="100" >
 	      </a>
 	      <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-right">
 	      	<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 	    </div>
 	    <div id="navbar" class="navbar side-collapse in">
-		      <ul class="nav navbar-nav navbar-right">
-				  <li class="active" ><a href="/" >INICIO</a></li>
-				  <li><a href="https://wasihome.com/inmobiliaria/">INMOBILIARIA</a></li>
-				  <li><a href="./servicios.html">SERVICIOS</a></li>
-				  <li><a href="./punto_venta.html">PUNTO DE VENTA</a></li>
-				  <li><a href="#Contactenos">CONTÁCTENOS</a></li>
-		          </ul>
-		        </li>
+		      <ul id="colornav" class="nav navbar-nav navbar-right">
+				  <li class="active" ><a href="/" >Inicio</a></li>
+				  <li><a href="https://wasihome.com/inmobiliaria/">Inmobiliaria</a></li>
+				  <li><a href="./servicios.html">Servicios</a></li>
+				  <!--<li><a href="./punto_venta.html">PUNTO DE VENTA</a></li> -->
+				  <li><a href="#Contactenos">Contáctanos</a></li>
 		      </ul>
 	    </div>
 	  </div>
@@ -47,9 +45,10 @@
 
 		        <div class="title-container">
 					<!--<button id="prueba">ohla</button>-->
-					<div id="txt1" class="row r1 animated bounceInRight"><img src="Info/img/index/f1.png" alt="Sueña en Grande"> </div>
-					<div id="txt2" class="row r2 animated bounceInLeft"><img src="Info/img/index/f7.png" alt="vive la realidad"> </div>
-			   		
+					<div class="raya"></div>
+					<div class="raya2"></div>
+					<div id="txt1" class="row r1 animated bounceInRight"><h1>Sueña en Grande</h1></div>
+					<div id="txt2" class="row r2 animated bounceInLeft"><h3>Vive la realidad</h3> </div>
 		        </div>
 		        <video autoplay loop class="fillWidth">
 		            <source src="Info/video/Mp4/Coverr-officebn.mp4" type="video/mp4" />Su navegador no soporta la etiqueta de vídeo. Le sugiero que actualice su navegador.
@@ -140,11 +139,11 @@
 	<div></div>
 	<div id="Contactenos" ng-controller="Contactenos as cont">
 		<div class="container">
-		<h1>Contáctenos</h1>
+		<h1>Contáctanos</h1>
 		<div class="col-md-6 col-sm-12 col-xs-12 datos">
 			<div class="row">
 			<h3><i class="fa fa-building-o fa-pull-left" aria-hidden="true"></i>Dirección:</h3>
-			<p>Juan Pablo Sanz e Iñaquito esquina – Edif. CAMICON 5to piso</p>
+			<p>Baron de Humboldt N31-11 y Av. La Coruña (Sentido norte sur)</p>
 			</div>
 			<div class="row">
 			<h3><i class="fa fa-phone fa-pull-left" aria-hidden="true"></i>Telefono:</h3>
@@ -165,23 +164,23 @@
 			<div id="mensaje"></div>
 			<form name="form_contact" novalidate>
 				<div class="form-group">
-				    <label for="exampleInputEmail1">Nombre</label>
+				    <label for="txtNombre">Nombre</label>
 				    <input type="text" class="form-control" id="txtNombre" name="Name" ng-model="frm.Name" placeholder="Ingrese su nombre" required>
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 email" style="padding-left: 0px;">	
 				  <div class="form-group">
-				    <label for="exampleInputEmail1">Email</label>
+				    <label for="txtEmail">Email</label>
 				    <input type="email" class="form-control" id="txtEmail" name="Email" ng-model="frm.Email" placeholder="Ingrese su e-mail">
 				  </div>
 			  	</div>
 			  	<div class="col-md-6 col-sm-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
 				  <div class="form-group">
-				    <label for="exampleInputEmail1">Teléfono</label>
+				    <label for="txtPhone">Teléfono</label>
 				    <input type="text" class="form-control" id="txtPhone" name="Phone" ng-model="frm.Phone" placeholder="Ingrese su numero telefonico">
 				  </div>
 				</div>
 				<div class="form-group">
-					<label for="exampleInputEmail1">¿Que le interesó?</label>
+					<label for="txtProduct">¿Que le interesó?</label>
 					<select type="text" class="form-control" id="txtProduct" name="Producto" ng-model="frm.Producto">
 						<option value="" disabled selected>Seleccione una opción</option>
 						<option>Inmobiliaria</option>
@@ -191,7 +190,7 @@
 					</select>
 				</div>
 			  <div class="form-group">
-			    <label for="exampleInputEmail1">Mensaje</label>
+			    <label for="txtMensaje">Mensaje</label>
 			    <textarea class="form-control" rows="5" placeholder="¿Cómo podemos ayudarle?" id="txtMensaje" name="Mensaje" ng-model="frm.Mensaje"></textarea>
 			  </div>
 			 
