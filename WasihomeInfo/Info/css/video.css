@@ -155,12 +155,14 @@
 	/*text-shadow: 3px 6px 1px rgba(0,0,0,0.3);*/
 	/*color: #5f4332;	*/
 	color: #fff;
+    letter-spacing: -2px;
 }
 .title-container h3{
 	font-family: "Roboto-Italic";
-	font-size: 55px;
+	font-size: 45px;
 	display: block;
 	margin-top: -4px;
+    text-transform: uppercase;
 	/*color: #5f4332;	*/
 	color: #fff;
 }
@@ -188,7 +190,6 @@
 .container-fluid{
 	height: 10px;
 }
-
 
 #Pasos{
 	padding-top: 10%;
@@ -220,6 +221,7 @@
 	color: #FFFFFF;
 	text-shadow: -1px 2px 3px #781d1d;
 
+
 	
 }
 #Pasos .celda{
@@ -246,10 +248,13 @@
 #Pasos a img{
 	width: 60%;
 	height: 60%;
+    background-color: #DE391A;
+    border-radius: 50%;
+    border: none;
 }
 #Pasos a i{
-	
 }
+
 
 /*#Pasos .collapse.in h4,#Pasos .collapse h4{
 	font-weight: bold;
