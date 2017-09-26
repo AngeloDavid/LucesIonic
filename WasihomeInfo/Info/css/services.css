@@ -248,7 +248,7 @@ text-align: right;
     border-radius:0px;
 }
 #E_Modal .modal-content .modal-header{
-    background-color: #caab8a;
+    background-color: #DE391A;
     color: white;
     border-bottom: none;
     font-weight: bold;
@@ -261,19 +261,186 @@ text-align: right;
     width :100%;
     height:500px;
 }
+@media (min-width: 780px) and (max-width: 1024px) {
+    #Contenedor .container h1{
+        font-size: 220%;
+    }
+    #Contenedor .container p{
+        font-size: 130%;
+        text-align: justify;
+    }
+    #Servicios .media-left img{
+        width: 200px;
+    }
+    #Servicios .media-body .media-heading {
+        font-size: 200%;
+    }
+    #Servicios .media-body .media-p {
+        font-size: 130%;
+    }
+    #Servicios .boton{
+        border-width: 2px;
+        border-radius: 12px;
+        margin: auto 37%;
+    }
+    #Servicios .boton a{
+        font-size: 140%;
+    }
+
+}
+@media (min-width: 780px) and (max-width: 960px) {
+    #Contenedor .container h1{
+        font-size: 220%;
+    }
+    #Contenedor .container p{
+        font-size: 130%;
+        text-align: justify;
+    }
+    #Servicios .media-left img{
+        width: 200px;
+    }
+    #Servicios .media-body .media-heading {
+        font-size: 200%;
+    }
+    #Servicios .media-body .media-p {
+        font-size: 130%;
+    }
+    #Servicios .boton{
+        border-width: 2px;
+        border-radius: 12px;
+        margin: auto 37%;
+    }
+    #Servicios .boton a{
+        font-size: 140%;
+    }
+
+}
+@media (min-width: 600px) and (max-width: 780px) {
+    #Contenedor .container h1{
+        font-size: 200%;
+        text-align: center;
+    }
+    #Contenedor .container p{
+        font-size: 110%;
+        text-align: justify;
+    }
+    #Servicios .media-left img{
+        width: 200px;
+    }
+    #Servicios .media-body .media-heading {
+        font-size: 190%;
+    }
+    #Servicios .media-body .media-p {
+        font-size: 120%;
+
+    }
+    #Servicios .boton{
+        border-width: 2px;
+        border-radius: 12px;
+        margin: auto 36%;
+    }
+    #Servicios .boton a{
+        font-size: 150%;
+    }
+
+}
+@media (min-width: 480px) and (max-width: 600px) {
+    #Contenedor .container h1{
+        font-size: 200%;
+        text-align: center;
+    }
+    #Contenedor .container p{
+        font-size: 110%;
+        text-align: justify;
+    }
+    #Servicios .media-left img{
+        width: 200px;
+    }
+    #Servicios .media-body .media-heading {
+        font-size: 170%;
+    }
+    #Servicios .media-body .media-p {
+        font-size: 100%;
+
+    }
+    #Servicios .boton{
+        border-width: 2px;
+        border-radius: 12px;
+        margin: 10% 33% 0 33%;
+    }
+    #Servicios .boton a{
+        font-size: 100%;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #Contenedor .container h1{
+        font-size: 200%;
+        text-align: center;
+    }
+    #Contenedor .container p{
+        font-size: 110%;
+        text-align: justify;
+    }
+    #Servicios .media{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Servicios .media-left img{
+        width: 104%;
+    }
+    #Servicios .media-body .media-heading {
+        font-size: 150%;
+    }
+    #Servicios .media-body .media-p {
+        font-size: 100%;
+
+    }
+    #Servicios .boton{
+        border-width: 2px;
+        border-radius: 12px;
+        margin: auto 32%;
+    }
+    #Servicios .boton a{
+        font-size: 150%;
+    }
+
+}
 
 @media (max-width: 320px) {
     #Contenedor .container h1{
-        font-size: 400%;
+        font-size: 200%;
+        text-align: center;
     }
-
-
-    #Contenedor p{
-        /*background-color: white;*/
-        /*opacity: 0.3;*/
+    #Contenedor .container p{
+        font-size: 110%;
         text-align: justify;
-        font-size: 180%;
+    }
+    #Servicios .media{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Servicios .media-left img{
+        width: 104%;
+    }
+    #Servicios .media-body .media-heading {
+        font-size: 100%;
+    }
+    #Servicios .media-body .media-p {
+        font-size: 80%;
 
     }
+    #Servicios .boton{
+        border-width: 2px;
+        border-radius: 12px;
+        margin: auto 32%;
+    }
+    #Servicios .boton a{
+        font-size: 100%;
+    }
+
 }
 
