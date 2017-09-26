@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <div id="Home" class="parallax-window" data-parallax="scroll" data-image-src ="Info/img/fondos/portadaSer.jpg" data-speed="0.1" data-bleed="3">
+    <div id="Home" class="parallax-window" data-parallax="scroll" data-image-src ="Info/img/fondos/portada-services.png" data-speed="0.1" data-bleed="3">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -49,10 +49,10 @@
 
         <div class="container-fluid">
             <div class="container">
-                <div class="row">
+                <div class="row container">
                     <div class="col"><h1>TECNOLOGÍA <br> INMOBILIARIA</h1></div>
                 </div>
-                <div class="row">
+                <div class="row container">
                     <div class="col"><p>WasiHome, es una nueva propuesta inmobiliaria en la que queremos acompañar a todos nuestros clientes
                         a vivir una experiencia única de su nuevo hogar y ayudarlos a tomar la mejor decisión</p></div>
                 </div>
@@ -62,126 +62,160 @@
 
         <div id="datos-contenedor" class="container">
 
-            <div id="Servicios" class="row container hidden-lg">
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.2.png">
-                        </div>
-                        <div class="caption">
-                            <h3>Realidad Virtual</h3>
-                            <p>Brinda a tus clientes la posibilidad de visitar más de una propiedad al instante desde cualquier lugar.</p>
-                            <!--<p class="boton"><a href="#" class="btn" role="button"> Ver más</a></p>-->
-                            <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="RV"> Ver más</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.7.png">
-                        </div>
-                        <div class="caption">
-                            <h3>Fotos y Videos de 360°</h3>
-                            <p>Te brindamos una vista global de tus propiedades.</p>
-                            <!--<p class="boton" ><a href="#" class="btn" role="button"> Ver más</a></p>-->
-                            <p class="boton" ><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="FV360"> Ver mas</a></p>
+            <div id="Servicios" class="container hidden-lg">
+                <!-- REALIDAD VIRTUAL -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.2.png" alt="Realidad Virtual">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Realidad Virtual</h1>
+                                <p class="media-p">Brinda a tus clientes la posibilidad de visitar más de una propiedad al instante desde cualquier lugar.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="RV"> Ver más</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.6.png">
-                        </div>
-                        <div class="caption">
-                        <h3>Fotos y videos Aéreos</h3>
-                        <p>Mira, aprecia y disfruta los mejores ángulos aéreos de tus proyectos inmobiliarios.</p>
-                        <!--<p class="boton"><a href="#" class="btn" role="button"> Ver más</a></p>-->
-                        <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="FVA"> Ver mas</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.1.png">
-                        </div>
-                        <div class="caption">
-                            <h3>Realidad Aumentada</h3>
-                            <p>Permite a tus clientes interactuar de forma fácil y sencilla desde cualquier dispositivo móvil.</p>
-                            <!-- <p class="boton"><a href="#" class="btn" role="button"> Ver más</a></p> -->
-                            <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="RA"> Ver mas</a></p>
-                        </div>
-                        </div>
-                    
-                </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.9.png">
-                        </div>
-                        <div class="caption">
-                            <h3>Maquetas y Render</h3>
-                            <p>Te permite presentar maquetas, levantamiento de planos, modelado y renderizado de manera unica.</p>
-                            <!--<p class="boton"><a href="#" class="btn" role="button"> Ver más</a></p>-->
-                            <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="MR"> Ver más</a></p>
+                <!-- FOTOS Y VIDEOS 360 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.7.png" alt="360">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Fotos y Videos de 360°</h1>
+                                <p class="media-p">Te brindamos una vista global de tus propiedades.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="FV360"> Ver más</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.4.png">
-                        </div>
-                        <div class="caption">
-                        <h3>Tour Virtual</h3>
-                        <p>Brinda a tus clientes la oportunidad de visualizar todo el proyecto inmobiliario desde cualquier lugar.</p>
-                        <!--<p class="boton"><a href="#" class="btn" role="button"> Ver más</a></p>-->
-                        <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="TV"> Ver mas</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.5.png">
-                        </div>
-                        <div class="caption">
-                        <h3>Domótica – Inmótica</h3>
-                        <p>Automatiza cualquier espacio de tu proyecto inmobiliario.</p>
-                        <!--<p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="DI"> Ver más</a></p>-->
-                            <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="DI"> Ver más</a></p>
+                <!-- FOTOS Y VIDEOS AEREOS -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.6.png" alt="360">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Fotos y Videos Aéreos</h1>
+                                <p class="media-p">Mira, aprecia y disfruta los mejores ángulos aéreos de tus proyectos inmobiliarios.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="FVA"> Ver más</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.3.png">
-                        </div>
-                        <div class="caption">
-                        <h3>Topografía con Drone</h3>
-                        <p>Te garantizamos la precisión, seguridad para el levantamiento de tus proyectos de construcción.</p>
-                        <!--<p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="TD" > Ver más</a></p>-->
-                            <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="TD" > Ver mas</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <div class="div-img hidden1">
-                            <img src="Info/img/services/1.8.png">
-                        </div>
-                        <div class="caption">
-                        <h3>Hologramas</h3>
-                        <p>Sé el centro de atención en todos tus eventos con la proyección de hologramas.</p>
-                        <!--<p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="HG"> Ver más</a></p>-->
-                            <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="HG"> Ver mas</a></p>
+                <!-- REALIDAD AUMENTADA -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.1.png" alt="360">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Realidad Aumentada</h1>
+                                <p class="media-p">Permite a tus clientes interactuar de forma fácil y sencilla desde cualquier dispositivo móvil.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="RA"> Ver más</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- MAQUETAS Y RENDER -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.9.png" alt="360">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Maquetas y Render</h1>
+                                <p class="media-p">Te permite presentar maquetas, levantamiento de planos, modelado y renderizado de manera única.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="MR"> Ver más</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TOUR VIRTUAL -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.4.png" alt="360">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Tour Virtual</h1>
+                                <p class="media-p">Brinda a tus clientes la oportunidad de visualizar todo el proyecto inmobiliario desde cualquier lugar.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="TV"> Ver más</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- DOMÓTICA - INMOTICA -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.5.png" alt="360">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Domótica – Inmótica</h1>
+                                <p class="media-p">Automatiza cualquier espacio de tu proyecto inmobiliario.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="DI"> Ver más</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TOPOGRAFÍA -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.3.png" alt="360">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Topografía con Drone</h1>
+                                <p class="media-p">Te garantizamos la precisión, seguridad para el levantamiento de tus proyectos de construcción.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="TD"> Ver más</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HOLOGRAMAS -->
+                <div class="row">
+                    <div class="col">
+                        <div class="media col">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="Info/img/services/1.8.png" alt="Hologramas">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading text-left">Hologramas</h1>
+                                <p class="media-p">Sé el centro de atención en todos tus eventos con la proyección de hologramas.</p>
+                                <p class="boton"><a href="#" class="btn" role="button" data-toggle="modal" data-target="#E_Modal" data-whatever="HG"> Ver más</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
