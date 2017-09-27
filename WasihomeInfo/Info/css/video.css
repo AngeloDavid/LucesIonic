@@ -19,6 +19,9 @@
 	font-family: "Roboto-Thin";
 	src:url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype");
 }
+body{
+    font-family: "Roboto-Regular";
+}
 /*Menu*/
 .menu{
 	background-color: transparent;
@@ -531,6 +534,10 @@
     .email{
         padding-right: 0px;
     }
+    .title-container{
+        top: 5%;
+    }
+
 
 }
 
@@ -633,6 +640,9 @@
     .email{
         padding-right: 0px;
     }
+    .title-container{
+        top: 0;
+    }
 
 
 }
@@ -734,6 +744,9 @@
     .email{
         padding-right: 0px;
     }
+    .title-container{
+        top: 0;
+    }
 
 }
 @media (max-width: 320px) {
@@ -833,6 +846,9 @@
 
     .email{
         padding-right: 0px;
+    }
+    .title-container{
+        top: 0;
     }
 
 }
