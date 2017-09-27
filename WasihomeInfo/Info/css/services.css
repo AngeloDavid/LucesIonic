@@ -148,7 +148,7 @@ text-align: right;
 
 }
 #Servicios .media-left img{
-    width: 320px;
+    width: 280px;
     transform: scale(1);
     -ms-transform: scale(1);
     -moz-transform: scale(1);
@@ -172,11 +172,12 @@ text-align: right;
 #Servicios .media-body{
     padding: 3% 2%;
 }
+
 #Servicios .media-body .media-heading {
-    font-size: 400%;
+    font-size: 250%;
 }
 #Servicios .media-body .media-p {
-    font-size: 180%;
+    font-size: 150%;
     margin: 3% auto;
 }
 #Servicios .boton{
@@ -184,14 +185,15 @@ text-align: right;
     border-color: #DE391A;
     border-width: 5px;
     border-radius: 12px;
-    margin: 4% 40% 0 40%;
+    text-align: center;
+    margin: auto 300px;
 }
 #Servicios .boton:hover{
     background-color: #DE391A;
 }
 #Servicios .boton a{
     color: #fff;
-    font-size: 120%;
+    font-size: 28px;
 }
 .container_img{
     width: 200px;
