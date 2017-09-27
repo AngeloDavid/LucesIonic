@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92174495-3039-4927-bbc3-5b0f482a122a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/img/fondos/index2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/img/fondos/portada-services.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/img/fondos/portadaSer.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/video/Snapshots/Coverr-office.jpg" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/video/Snapshots/Coverr-office.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/css/services.css" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/css/services.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/css/video.css" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/css/video.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/js/codigo.js" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/js/codigo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/index.html" afterPath="$PROJECT_DIR$/WasihomeInfo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/servicios.html" afterPath="$PROJECT_DIR$/WasihomeInfo/servicios.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,21 +22,24 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pry_Flash/js/main.js">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WasihomeInfo/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
                   <folding>
-                    <element signature="e#1063#4607#0" expanded="false" />
-                    <marker date="1506374434525" expanded="true" signature="9587:9594" ph="×" />
+                    <element signature="n#a#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="e#9464#9470#0" expanded="true" />
+                    <element signature="e#9470#9476#0" expanded="true" />
+                    <marker date="1506533343836" expanded="false" signature="7444:7462" ph="..." />
+                    <marker date="1506533343836" expanded="false" signature="7752:7790" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="plugins.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pry_Flash/js/plugins.js">
+          <file leaf-file-name="servicios.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/WasihomeInfo/servicios.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -50,11 +48,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Binbangidea/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="217" column="77" lean-forward="false" selection-start-line="217" selection-start-column="77" selection-end-line="217" selection-end-column="77" />
+                <state relative-caret-position="-289">
+                  <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
                   <folding>
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -62,12 +60,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pry_Flash/index.html">
+          <file leaf-file-name="punto_venta.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WasihomeInfo/punto_venta.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3383">
-                  <caret line="199" column="38" lean-forward="false" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
-                  <folding />
+                <state relative-caret-position="168">
+                  <caret line="178" column="18" lean-forward="true" selection-start-line="136" selection-start-column="12" selection-end-line="178" selection-end-column="18" />
+                  <folding>
+                    <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -76,66 +76,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Binbangidea/css/main.css">
+          <file leaf-file-name="codigo.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/js/codigo.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="636">
-                  <caret line="576" column="43" lean-forward="true" selection-start-line="576" selection-start-column="43" selection-end-line="576" selection-end-column="43" />
+                <state relative-caret-position="126">
+                  <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Binbangidea/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#587#772#0" expanded="false" />
-                    <element signature="e#814#2019#0" expanded="false" />
-                    <element signature="e#3503#6950#0" expanded="false" />
-                    <marker date="1506380396888" expanded="true" signature="8403:8410" ph="×" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WasihomeInfo/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="110" column="51" lean-forward="false" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="servicios.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WasihomeInfo/servicios.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3111">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="video.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="video.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/css/video.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8007">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="enviarDatos.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Binbangidea/js/enviarDatos.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                <state relative-caret-position="30">
+                  <caret line="194" column="18" lean-forward="false" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -164,6 +119,7 @@
       <find>carouselExampleControls</find>
       <find>#leyenda .texto</find>
       <find>background: rgba(0,0,0,0.25); */</find>
+      <find>#Pasos .container</find>
     </findStrings>
     <replaceStrings>
       <replace>clientes_carusel</replace>
@@ -175,9 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lucesOficina/src/modules/datos.json" />
-        <option value="$PROJECT_DIR$/lucesOficina/www/datos.json" />
-        <option value="$PROJECT_DIR$/appWebRtsp/proyect-cam/node_modules/streamedian/example/index.html" />
         <option value="$PROJECT_DIR$/appWebRtsp/proyect-cam/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/appWebRtsp/proyect-cam/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/lucesOficina/src/providers/luces-ctrl/datos.json" />
@@ -226,6 +179,9 @@
         <option value="$PROJECT_DIR$/Binbangidea/js/enviarDatos.php" />
         <option value="$PROJECT_DIR$/Binbangidea/index.html" />
         <option value="$PROJECT_DIR$/Binbangidea/css/main.css" />
+        <option value="$PROJECT_DIR$/WasihomeInfo/Info/js/codigo.js" />
+        <option value="$PROJECT_DIR$/WasihomeInfo/Info/css/video.css" />
+        <option value="$PROJECT_DIR$/WasihomeInfo/index.html" />
       </list>
     </option>
   </component>
@@ -265,6 +221,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,7 +285,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WasihomeInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WasihomeInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,8 +371,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,12 +530,13 @@
       <workItem from="1506310669358" duration="2037000" />
       <workItem from="1506353256618" duration="1592000" />
       <workItem from="1506374343369" duration="8240000" />
-      <workItem from="1506461983944" duration="1958000" />
+      <workItem from="1506461983944" duration="3980000" />
+      <workItem from="1506522383773" duration="12419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328891000" />
+    <option name="totallyTimeSpent" value="343332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -543,7 +548,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.003567182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25564805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -556,6 +561,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.003567182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22864722" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -570,53 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/icon/drawable-xxxhdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/icon/drawable-xxhdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/icon/drawable-xhdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/icon/drawable-mdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/icon/drawable-ldpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-hdpi-screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-mdpi-screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-xhdpi-screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appCondadoLC/ionic.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -826,6 +804,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pry_Flash/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pry_Flash/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="199" column="38" lean-forward="false" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binbangidea/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="576" column="43" lean-forward="true" selection-start-line="576" selection-start-column="43" selection-end-line="576" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pry_Flash/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -845,18 +845,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pry_Flash/css/main.css">
+    <entry file="file://$PROJECT_DIR$/Binbangidea/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pry_Flash/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3383">
-          <caret line="199" column="38" lean-forward="false" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="527">
+          <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+          <folding>
+            <element signature="e#587#772#0" expanded="false" />
+            <element signature="e#814#2019#0" expanded="false" />
+            <element signature="e#3503#6950#0" expanded="false" />
+            <marker date="1506380396888" expanded="true" signature="8403:8410" ph="×" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,57 +866,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Binbangidea/js/main.js">
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/punto_venta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+        <state relative-caret-position="168">
+          <caret line="178" column="18" lean-forward="true" selection-start-line="136" selection-start-column="12" selection-end-line="178" selection-end-column="18" />
           <folding>
-            <element signature="e#587#772#0" expanded="false" />
-            <element signature="e#814#2019#0" expanded="false" />
-            <element signature="e#3503#6950#0" expanded="false" />
-            <marker date="1506380396888" expanded="true" signature="8403:8410" ph="×" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/css/services.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Binbangidea/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="217" column="77" lean-forward="false" selection-start-line="217" selection-start-column="77" selection-end-line="217" selection-end-column="77" />
+        <state relative-caret-position="-289">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/img/index/VISITANOS.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/img/index/SIENTE.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/img/index/f1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/css/punto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/img/index/EXPERIMENTA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/img/index/AHORRO.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/js/codigo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/css/video.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8007">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="194" column="18" lean-forward="false" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WasihomeInfo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="110" column="51" lean-forward="false" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="n#a#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#9464#9470#0" expanded="true" />
+            <element signature="e#9470#9476#0" expanded="true" />
+            <marker date="1506533343836" expanded="false" signature="7444:7462" ph="..." />
+            <marker date="1506533343836" expanded="false" signature="7752:7790" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WasihomeInfo/servicios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3111">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binbangidea/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="576" column="43" lean-forward="true" selection-start-line="576" selection-start-column="43" selection-end-line="576" selection-end-column="43" />
           <folding />
         </state>
       </provider>

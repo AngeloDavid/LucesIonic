@@ -192,7 +192,7 @@
 }
 
 #Pasos{
-	padding-top: 10%;
+	padding-top: 20%;
 	padding-bottom: 20%;
 	/*background-color: #7a7a7a;*/
 	/*background-image: url("../img/fondos/index.png");*/
@@ -208,22 +208,25 @@
 	min-height: 600px;
 	background: transparent;
 }
-#Pasos h1{
-	/*font-family: 'Pacifico', cursive;*/
-	/*font-family: avenir, 'avenir next', helvetica, arial, sans-serif ,cursive; */
-	font-family:'Roboto-Regular';
-	font-size: 60px;
-	text-align: right;
-	margin-bottom: 10%;
-	font-weight: bold;
-	font-style: oblique;
-	/*color: #5f4332;*/
-	color: #FFFFFF;
-	text-shadow: -1px 2px 3px #781d1d;
-
-
-	
+#Pasos .container{
+    padding-left: 12%;
+    padding-right: 12%;
 }
+/*#Pasos h1{*/
+	/*!*font-family: 'Pacifico', cursive;*!*/
+	/*!*font-family: avenir, 'avenir next', helvetica, arial, sans-serif ,cursive; *!*/
+	/*font-family:'Roboto-Regular';*/
+	/*font-size: 60px;*/
+	/*text-align: right;*/
+	/*margin-bottom: 10%;*/
+	/*font-weight: bold;*/
+	/*font-style: oblique;*/
+	/*!*color: #5f4332;*!*/
+	/*color: #FFFFFF;*/
+	/*text-shadow: -1px 2px 3px #781d1d;*/
+	/**/
+/*}*/
+
 #Pasos .celda{
 	text-align: center;
 	height: 400px;
@@ -234,26 +237,28 @@
 	-ms-transform: scale(1.3);
 	transform: scale(1.3);
 }
-#Pasos a{
+#Pasos a.paso-div{
 	color: #fff;
-
 }
-#Pasos a h3{
-
+#Pasos a.paso-div:hover{
+    text-decoration: none;
+}
+#Pasos a.paso-div h3{
 	margin-top: 10px;
 	font-weight: bold;
 	font-size: 35px;
 
 }
-#Pasos a img{
-	width: 60%;
-	height: 60%;
+#Pasos a.paso-div img{
+	max-width: 60%;
+	max-height: 60%;
     background-color: #DE391A;
     border-radius: 50%;
     border: none;
 }
 #Pasos a i{
 }
+
 
 
 /*#Pasos .collapse.in h4,#Pasos .collapse h4{
@@ -264,6 +269,7 @@
 	text-align: center;
 
 }*/
+
 #Pasos .celda .cont-div ul{
 	text-align: left;
 	font-size: medium;
@@ -274,6 +280,11 @@
 }
 #Pasos .celda .cont-div h4{
     font-weight: bold;
+    font-size: 20px;
+    min-height: 20px;
+}
+#Pasos .celda .cont-div p,#Pasos .celda .cont-div li{
+    font-size:15px;
 }
 
 .popover.bottom {

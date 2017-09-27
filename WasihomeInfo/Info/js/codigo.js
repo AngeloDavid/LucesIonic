@@ -1,17 +1,20 @@
 /**
  * Created by angel on 27/04/2017.
  */
+console.log("cargado");
 $(document).ready(function(){
-    $(".btn").hover(
+    console.log("dentro");
+    
+    $(".celda").hover(
         function(){
             var thisdiv = jQuery(this).attr("aria-controls");
             thisdiv="#"+thisdiv;
-            $(thisdiv).collapse("show");
+            $(thisdiv).removeClass('hidden');
         },
         function(){
             var thisdiv = jQuery(this).attr("aria-controls");
             thisdiv="#"+thisdiv;
-            $(thisdiv).collapse("hide");
+            $(thisdiv).addClass('hidden');
         }
     );
     var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
