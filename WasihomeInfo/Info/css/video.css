@@ -21,6 +21,8 @@
 }
 body{
     font-family: "Roboto-Regular";
+    background-color: #3D3D3D;
+
 }
 /*Menu*/
 .menu{
@@ -32,7 +34,8 @@ body{
 	padding-top: 20px;
 }
 #colornav{
-	background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
 	opacity: 0.7;
 	margin: 3% 5% 0 -3%;
 }
@@ -65,6 +68,7 @@ body{
 	color: white;
 	padding-bottom: 15px;
     background-color: #DE391A;
+    background: #DE391A;
 
 }
 .navbar-default a{
@@ -365,13 +369,14 @@ body{
 
 /*seccion footer*/
 #Footer{
-	color: white;	
-	background-color: #DE391A;
-	padding-top: 2%;
-	padding-bottom: 1%;
+	color: white;
+    background-color: rgba(222, 57, 26, 0.8);
+    background: rgba(222, 57, 26, 0.8);
+	padding: 2% 0;
 	text-align: center;
 	height: auto;
 	opacity: 0.8;
+    margin-bottom: -50%;
 
 }
 .redes1{
@@ -395,6 +400,11 @@ body{
 
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .navbar-header .navbar-brand img{
+        width: 120px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
     .title-container h1{
         font-size: 70px;
     }
@@ -414,29 +424,49 @@ body{
         border-top-width: 6px;
     }
 
+    #Pasos img{
+        width: 160px;
+        height: 150px;
+        margin: 0px auto;
+    }
+    #Pasos .celda:hover img{
+        height: 110px;
+        width: 110px;
+    }
     #Pasos .celda:hover{
         -webkit-transform: none;
         -ms-transform: none;
         transform: none;
 
     }
-    #Pasos .celda:hover img{
-        height: 40%;
-        width: 40%;
-    }
     #Pasos .celda .cont-div{
-        padding-left: 4%;
-        padding-right: 4%;
-
+        margin-top: -20px;
+        padding: 0;
     }
     #Pasos .celda  ul{
-        padding-right: 15%;
-        padding-left: 25%;
+        padding: 0 10%;
         text-align: justify;
         /*list-style: none;*/
     }
+    #Pasos .celda .cont-div h4{
+        font-size: 25px;
+    }
+    #Pasos .celda .cont-div p,#Pasos .celda .cont-div li{
+        font-size:20px;
+    }
+    .title-container{
+        top: 3%;
+    }
+    .title-container .titulo{
+        margin-top: 250px;
+    }
 }
 @media (min-width: 600px) and (max-width: 768px) {
+    .navbar-header .navbar-brand img{
+        width: 120px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
     .title-container h1{
         font-size: 60px;
     }
@@ -455,15 +485,6 @@ body{
         margin: -3% 0 0 82%;
         border-top-width: 6px;
     }
-    .side-collapse-container{
-        width:100%;
-        position:relative;
-        left:0;
-        transition:left .4s;
-    }
-    .side-collapse-container.out{
-        top:200px;
-    }
     .side-collapse {
         float: right;
         text-align:right;
@@ -485,21 +506,13 @@ body{
         padding-right: 0px;
     }
     #Pasos img{
-        width: 55%;
-        height: 55%;
+        width: 160px;
+        height: 150px;
         margin: 0px auto;
-        display:block;
     }
-    #Pasos i{
-        margin-top: -10%;
-        display:block;
-    }
-    #Pasos .celda{
-        margin-bottom: 3%;
-        max-height: 350px;
-    }
-    #Pasos .celda #paso2{
-        max-height: 400px;
+    #Pasos .celda:hover img{
+        height: 110px;
+        width: 110px;
     }
     #Pasos .celda:hover{
         -webkit-transform: none;
@@ -507,35 +520,24 @@ body{
         transform: none;
 
     }
-
-    #Pasos .celda:hover img{
-        height: 40%;
-        width: 40%;
-    }
     #Pasos .celda .cont-div{
-        padding-left: 4%;
-        padding-right: 4%;
-
+        margin-top: -20px;
+        padding: 0;
     }
     #Pasos .celda  ul{
-        padding-right: 15%;
-        padding-left: 25%;
+        padding: 0 10%;
         text-align: justify;
         /*list-style: none;*/
     }
-    #menu{
-        max-height: 100px;
+    #Pasos .celda .cont-div h4{
+        font-size: 25px;
     }
-    .n1{
-        top: 2881.91px; /*top: 1632px!important;*/
+    #Pasos .celda .cont-div p,#Pasos .celda .cont-div li{
+        font-size:20px;
     }
 
-
-    .email{
-        padding-right: 0px;
-    }
     .title-container{
-        top: 5%;
+        top: 3%;
     }
 
 
@@ -543,6 +545,11 @@ body{
 
 
 @media (min-width: 480px) and (max-width: 600px) {
+    .navbar-header .navbar-brand img{
+        width: 120px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
     .title-container h1{
         font-size: 40px;
     }
@@ -561,15 +568,7 @@ body{
         margin: -3% 0 0 78%;
         border-top-width: 6px;
     }
-    .side-collapse-container{
-        width:100%;
-        position:relative;
-        left:0;
-        transition:left .4s;
-    }
-    .side-collapse-container.out{
-        top:200px;
-    }
+
     .side-collapse {
         float: right;
         text-align:right;
@@ -591,21 +590,13 @@ body{
         padding-right: 0px;
     }
     #Pasos img{
-        width: 55%;
-        height: 55%;
+        width: 160px;
+        height: 150px;
         margin: 0px auto;
-        display:block;
     }
-    #Pasos i{
-        margin-top: -10%;
-        display:block;
-    }
-    #Pasos .celda{
-        margin-bottom: 3%;
-        max-height: 350px;
-    }
-    #Pasos .celda #paso2{
-        max-height: 400px;
+    #Pasos .celda:hover img{
+        height: 110px;
+        width: 110px;
     }
     #Pasos .celda:hover{
         -webkit-transform: none;
@@ -613,32 +604,20 @@ body{
         transform: none;
 
     }
-
-    #Pasos .celda:hover img{
-        height: 40%;
-        width: 40%;
-    }
     #Pasos .celda .cont-div{
-        padding-left: 4%;
-        padding-right: 4%;
-
+        margin-top: -20px;
+        padding: 0;
     }
     #Pasos .celda  ul{
-        padding-right: 15%;
-        padding-left: 25%;
+        padding: 0 15%;
         text-align: justify;
         /*list-style: none;*/
     }
-    #menu{
-        max-height: 100px;
+    #Pasos .celda .cont-div h4{
+        font-size: 25px;
     }
-    .n1{
-        top: 2881.91px; /*top: 1632px!important;*/
-    }
-
-
-    .email{
-        padding-right: 0px;
+    #Pasos .celda .cont-div p,#Pasos .celda .cont-div li{
+        font-size:20px;
     }
     .title-container{
         top: 0;
@@ -647,6 +626,12 @@ body{
 
 }
 @media (min-width: 320px) and (max-width: 480px){
+
+    .navbar-header .navbar-brand img{
+        width: 120px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
     .title-container h1{
         font-size: 35px;
     }
@@ -665,15 +650,6 @@ body{
         margin: -3% 0 0 82%;
         border-top-width: 6px;
     }
-    .side-collapse-container{
-        width:100%;
-        position:relative;
-        left:0;
-        transition:left .4s;
-    }
-    .side-collapse-container.out{
-        top:200px;
-    }
     .side-collapse {
         float: right;
         text-align:right;
@@ -687,29 +663,22 @@ body{
         overflow:hidden;
         transition:height 2s;
     }
-    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover{
-        border-radius:0px;
-    }
     .side-collapse.in {
         width:0;
         padding-right: 0px;
     }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover{
+        border-radius:0px;
+    }
+
     #Pasos img{
-        width: 55%;
-        height: 55%;
+        width: 160px;
+        height: 150px;
         margin: 0px auto;
-        display:block;
     }
-    #Pasos i{
-        margin-top: -10%;
-        display:block;
-    }
-    #Pasos .celda{
-        margin-bottom: 3%;
-        max-height: 350px;
-    }
-    #Pasos .celda #paso2{
-        max-height: 400px;
+    #Pasos .celda:hover img{
+        height: 110px;
+        width: 110px;
     }
     #Pasos .celda:hover{
         -webkit-transform: none;
@@ -717,32 +686,20 @@ body{
         transform: none;
 
     }
-
-    #Pasos .celda:hover img{
-        height: 40%;
-        width: 40%;
-    }
     #Pasos .celda .cont-div{
-        padding-left: 4%;
-        padding-right: 4%;
-
+        margin-top: -20px;
+        padding: 0;
     }
     #Pasos .celda  ul{
-        padding-right: 15%;
-        padding-left: 25%;
+        padding: 0 15%;
         text-align: justify;
         /*list-style: none;*/
     }
-    #menu{
-        max-height: 100px;
+    #Pasos .celda .cont-div h4{
+        font-size: 25px;
     }
-    .n1{
-        top: 2881.91px; /*top: 1632px!important;*/
-    }
-
-
-    .email{
-        padding-right: 0px;
+    #Pasos .celda .cont-div p,#Pasos .celda .cont-div li{
+        font-size:20px;
     }
     .title-container{
         top: 0;
@@ -750,6 +707,11 @@ body{
 
 }
 @media (max-width: 320px) {
+    .navbar-header .navbar-brand img{
+        width: 100px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
     .title-container h1{
         font-size: 25px;
     }
@@ -768,51 +730,14 @@ body{
         margin: -3% 0 0 84%;
         border-top-width: 6px;
     }
-    .side-collapse-container{
-        width:100%;
-        position:relative;
-        left:0;
-        transition:left .4s;
-    }
-    .side-collapse-container.out{
-        top:200px;
-    }
-    .side-collapse {
-        float: right;
-        text-align:right;
-        top:5px;
-        bottom:0;
-        left:0px;
-        right: 10px;
-        width:160px;
-        padding-right: 15px;
-        position:static;
-        overflow:hidden;
-        transition:height 2s;
-    }
-    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover{
-        border-radius:0px;
-    }
-    .side-collapse.in {
-        width:0;
-        padding-right: 0px;
-    }
     #Pasos img{
-        width: 55%;
-        height: 55%;
+        width: 160px;
+        height: 150px;
         margin: 0px auto;
-        display:block;
     }
-    #Pasos i{
-        margin-top: -10%;
-        display:block;
-    }
-    #Pasos .celda{
-        margin-bottom: 3%;
-        max-height: 350px;
-    }
-    #Pasos .celda #paso2{
-        max-height: 400px;
+    #Pasos .celda:hover img{
+        height: 110px;
+        width: 100px;
     }
     #Pasos .celda:hover{
         -webkit-transform: none;
@@ -820,35 +745,15 @@ body{
         transform: none;
 
     }
-
-    #Pasos .celda:hover img{
-        height: 40%;
-        width: 40%;
-    }
     #Pasos .celda .cont-div{
-        padding-left: 4%;
-        padding-right: 4%;
-
+        margin-top: -20px;
+        padding: 0;
     }
     #Pasos .celda  ul{
-        padding-right: 15%;
-        padding-left: 25%;
+        padding: 0 15%;
         text-align: justify;
         /*list-style: none;*/
     }
-    #menu{
-        max-height: 100px;
-    }
-    .n1{
-        top: 2881.91px; /*top: 1632px!important;*/
-    }
 
-
-    .email{
-        padding-right: 0px;
-    }
-    .title-container{
-        top: 0;
-    }
 
 }
