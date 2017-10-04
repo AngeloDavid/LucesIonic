@@ -37,6 +37,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7);
     background: rgba(0, 0, 0, 0.7);
 	margin: 3% 5% 0 -3%;
+    border-radius: 2px;
 }
 
 .navbar-header .navbar-brand img{
@@ -57,7 +58,17 @@ body{
     background-image: none;
     box-shadow: none;
 
+
 }
+.navbar-default .navbar-toggle{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #DE391A;
+}
+
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover{
 	background-image: none;
@@ -546,6 +557,7 @@ body{
     .navbar-header .navbar-brand img{
         width: 120px;
         margin-left: 15px;
+
         margin-top: -10px;
     }
     .title-container h1{
@@ -709,6 +721,27 @@ body{
         width: 100px;
         margin-left: 15px;
         margin-top: -10px;
+    }
+    #colornav{
+        padding-right: -50px;
+        margin-right: -50px;
+    }
+
+    .side-collapse {
+        float: right;
+        text-align:left;
+        top:5px;
+        bottom:0;
+        left:0px;
+        right: 0px;
+        width:160px;
+        padding-right: -25px;
+        padding-left: 50px;
+        position:static;
+        overflow:hidden;
+        transition:height 2s;
+        font-size: x-small;
+
     }
     .title-container h1{
         font-size: 25px;

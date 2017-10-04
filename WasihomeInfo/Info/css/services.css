@@ -67,6 +67,14 @@ body{
 
 
 }
+.navbar-default .navbar-toggle{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #DE391A;
+}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover{
     background-image: none;
@@ -441,6 +449,32 @@ text-align: right;
 }
 
 @media (max-width: 320px) {
+    .navbar-header .navbar-brand img{
+        width: 100px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+    #colornav{
+        padding-right: -25px;
+        margin-right: -25px;
+    }
+
+    .collapse {
+        float: right;
+        text-align:left;
+        top:5px;
+        bottom:0;
+        left:0px;
+        right: 0px;
+        width:160px;
+        padding-right: -25px;
+        padding-left: 50px;
+        position:static;
+        overflow:hidden;
+        transition:height 2s;
+        font-size: x-small;
+
+    }
     #Contenedor .container h1{
         font-size: 200%;
         text-align: center;
