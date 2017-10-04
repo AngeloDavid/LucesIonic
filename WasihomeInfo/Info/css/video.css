@@ -36,7 +36,6 @@ body{
 #colornav{
     background-color: rgba(0, 0, 0, 0.7);
     background: rgba(0, 0, 0, 0.7);
-	opacity: 0.7;
 	margin: 3% 5% 0 -3%;
 }
 
@@ -375,7 +374,6 @@ body{
 	padding: 2% 0;
 	text-align: center;
 	height: auto;
-	opacity: 0.8;
     margin-bottom: -50%;
 
 }
