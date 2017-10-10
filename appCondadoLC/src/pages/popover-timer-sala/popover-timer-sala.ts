@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams,Events } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 /**
@@ -30,6 +30,7 @@ export class PopoverTimerSalaPage {
         public events:Events,public storage: Storage) {
     this.event.id=this.navParams.get('idPage');
     console.log(this.event.id);
+    console.log(storage.keys());
 
     this.events.subscribe('timerCount'+this.event.id,(tc)=>{
       console.log(tc);
@@ -61,9 +62,9 @@ export class PopoverTimerSalaPage {
     this.event.min=60*this.event.min;
     this.event.segs=this.event.min+this.event.seg;
     console.log(this.event.segs);
-    this.events.publish('segse',this.event.segs);
-    this.storage.set('des',this.event.des);
-    this.events.publish('startBool',this.event.startTimer);
+    this.events.publish('segse'+this.event.id,this.event.segs);
+    this.storage.set('des'+this.event.id,this.event.des);
+    this.events.publish('startBool'+this.event.id,this.event.startTimer);
 
 
   }
@@ -75,7 +76,7 @@ export class PopoverTimerSalaPage {
     this.storage.remove('timerCtrl');*/
 
     this.event.startTimer=true;
-    this.events.publish('startBool',this.event.startTimer);
+    this.events.publish('startBool'+this.event.id,this.event.startTimer);
     /*this.events.subscribe('TimerCtrl',(tc)=>{
       console.log(tc);
       clearTimeout(tc);

@@ -23,10 +23,10 @@ export class TabsmenuPage {
       id:0,
       descp:'Puerta',
       icon:'ios-albums',
-      ipluces:'192.168.0.115',
-      //ipluces:'localhost',
+      //ipluces:'192.168.0.115',
+      ipluces:'localhost:3001/entrada',
       idLuces:[
-        {id:1,title:'Tira led', estado: true,disp:false}
+        {id:1,title:'Tira led', estado: false,disp:false}
       ]
 
     },
@@ -34,8 +34,8 @@ export class TabsmenuPage {
       id:1,
       descp:'sala',
       icon:'ios-albums',
-      ipluces:'192.168.0.110',
-      //ipluces:'localhost',
+      //ipluces:'192.168.0.110',
+      ipluces:'localhost:3001/sala',
       idLuces:[
         {id:1,title:'Centrales', estado: false,disp:true},
         {id:2,title:'Comedor', estado: false,disp:true},
@@ -48,8 +48,8 @@ export class TabsmenuPage {
       id:2,
       descp:'Ventana',
       icon:'ios-albums',
-      ipluces:'192.168.0.111',
-      //ipluces:'localhost',
+      //ipluces:'192.168.0.111',
+      ipluces:'localhost:3001/ventana',
       idLuces:[
         {id:1,title:'Lateral', estado: false,disp:true}
       ]
@@ -61,9 +61,10 @@ export class TabsmenuPage {
       id:0,
       descp:'Dorm - Master',
       icon:'md-people',
-      ipluces:'192.168.0.112',
+      //ipluces:'192.168.0.112',
+      ipluces:'localhost:3001/dorm-master',
       idLuces:[
-        {id:1,title:'Tira Led', estado: true,disp:false},
+        {id:1,title:'Tira Led', estado: false,disp:false},
         {id:2,title:'Ditroicos laterales', estado: false,disp:true},
         {id:3,title:'Centrales', estado: false,disp:true}
       ]
@@ -72,7 +73,8 @@ export class TabsmenuPage {
       id:1,
       descp:'Dorm - Roberto',
       icon:'md-happy',
-      ipluces:'192.168.0.114',
+      //ipluces:'192.168.0.114',
+      ipluces:'localhost:3001/dorm-robert',
       idLuces:[
         {id:1,title:'Tira Led', estado: false,disp:true},
         {id:2,title:'Ditroicos laterales', estado: false,disp:true},
@@ -83,7 +85,8 @@ export class TabsmenuPage {
       id:2,
       descp:"Dorm - Belen",
       icon:'ios-happy-outline',
-      ipluces:'192.168.0.113',
+      //ipluces:'192.168.0.113',
+      ipluces:'localhost:3001/dorm-belen',
       idLuces:[
         {id:1,title:'Centrales', estado: false,disp:true},
         {id:2,title:'Tira Led', estado: false,disp:true},

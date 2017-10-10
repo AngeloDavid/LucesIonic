@@ -10,7 +10,7 @@
     <ion-title text-center>{{luz.descp| uppercase}}</ion-title>
     <ion-buttons end>
       <button ion-button icon-only (click)="timer=!timer">
-        <ion-icon name="timer"></ion-icon> {{timerCount}}
+        <ion-icon name="timer"></ion-icon> <span *ngIf="timer"> {{timerCount}}</span>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -18,7 +18,7 @@
 </ion-header>
 
 
-<ion-content padding class="no-scroll" >
+<ion-content padding  class="no-scroll"  text-center >
 
   <ion-refresher (ionRefresh)="verificarIp($event)">
     <ion-refresher-content
@@ -38,5 +38,5 @@
       <ion-toggle [disabled]="luces.disp" [checked]="luces.estado"></ion-toggle>
     </ion-item>
   </ion-list>
-  <button style="margin-left: 20%" ion-button large  round [disabled]="timerBotton"  *ngIf="timer" (click)="mostarTimer()">Temporizar</button>
+  <button   ion-button large  round [disabled]="timerBotton"  *ngIf="timer" (click)="mostarTimer()">Temporizar</button>
 </ion-content>

@@ -47,6 +47,7 @@ export class SalaPage {
 
     this.events.publish('msg',0);
     this.events.subscribe('timerCount'+ this.luz.id,(tc)=>{
+
       this.timerCount=tc;
     });
     this.events.subscribe('segse'+ this.luz.id,(segs)=>{
@@ -107,7 +108,8 @@ export class SalaPage {
       clearTimeout(this.timerCtrl);
         for (let lindex in this.luz.idLuces){
           if(this.luz.idLuces[lindex].temp &&!this.luz.idLuces[lindex].disp) {
-            this.storage.get('des').then(des => {
+            this.storage.get('des'+this.luz.id).then(des => {
+              console.log('variable',des);
               this.prenderTC(parseInt(lindex), des);
             });
           }
@@ -190,6 +192,8 @@ export class SalaPage {
   }
 
   mostarTimer(){
+    this.storage.set('startBool'+this.luz.id,true);
+    console.log(this.storage.keys());
     let popover = this.popoverCtrl.create(PopoverTimerSalaPage,{idPage:this.luz.id});
     popover.present();
 
