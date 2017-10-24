@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/appCondadoLC/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/appVideoStream/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/appvideo/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/lucesOficina/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />

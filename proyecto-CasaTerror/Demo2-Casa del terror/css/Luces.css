@@ -39,7 +39,7 @@ h2 {
     margin-right: 0;
     color: #fff;
     font: small-caption;
-    font-size: 230%;
+    font-size: 150%;
     text-align: center;
     font-weight: lighter;
 }
@@ -47,10 +47,9 @@ h2 {
 .switch {
   position: absolute;
   display: inline-block;
-  width: 80px;
-  height: 40px;
+  width: 60px;
+  height: 25px;
   margin-top: 2%;
-  margin-left: 40%;
   margin-rigth: 2%;
 }
 

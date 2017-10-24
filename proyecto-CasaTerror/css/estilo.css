@@ -4,7 +4,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.content-wrapper .contenido{
+    padding: 1%;
+}
+.content-wrapper .contenido .col-3{
+    padding: 10px;
+}
+.sector{
+    background-color: 	rgba(52, 58, 64,0.5);
+    min-height: 190px;
+    padding: 15px 15px 15px 30px;
+    border-radius: 2px;
+}
+.eme a{
+    font-size: 20px;
+    color: #dc3545 ;
+}
+.check a{
+    font-size: 20px;
+}
+h1{
+    font-size: 25px;
+}
 h1, p{
     color:white;
 }
@@ -15,7 +36,7 @@ h1, p{
 h3{
     color: #fff;
     font-family: 'Playfair Display', serif;
-    font-size: 200%;
+    font-size: 70px;
     font-weight: 100;
     text-align: center;
 
@@ -24,7 +45,7 @@ h3{
 h2{
     color: #fff;
     font-family: 'Playfair Display', serif;
-    font-size: 100%;
+    font-size: 50px;
     font-weight: 100;
     text-align: center;
     margin: 0;
