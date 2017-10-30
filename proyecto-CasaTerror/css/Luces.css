@@ -247,4 +247,5 @@ input:checked + .slider:before {
 footer.sticky-footer{
       background-color: black;
       color: white;
+
   }

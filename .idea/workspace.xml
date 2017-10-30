@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92174495-3039-4927-bbc3-5b0f482a122a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-hdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-ldpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-mdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-xhdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-xxhdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-hdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-ldpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-mdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-xhdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-xxhdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-568h@2x~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-667h.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-667h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-736h.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-736h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape-736h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape@~ipadpro.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape@~ipadpro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Portrait@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Portrait@~ipadpro.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Portrait@~ipadpro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Portrait~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default@2x~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default~iphone.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/splash.png" afterPath="$PROJECT_DIR$/appCondadoLC/resources/splash.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appVideoStream" afterPath="$PROJECT_DIR$/appVideoStream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appvideo" afterPath="$PROJECT_DIR$/appvideo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Desarrollo.iml" afterPath="$PROJECT_DIR$/.idea/Desarrollo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/config.xml" afterPath="$PROJECT_DIR$/appCondadoLC/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/package.json" afterPath="$PROJECT_DIR$/appCondadoLC/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCondadoLC/resources/splash.png.md5" afterPath="$PROJECT_DIR$/appCondadoLC/resources/splash.png.md5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/css/estilo.css" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/css/estilo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/css/sb-admin.css" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/css/sb-admin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/js/main.js" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/navbar.html" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/navbar.html" />
     </list>
@@ -50,41 +22,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.231203">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="401" column="23" lean-forward="false" selection-start-line="401" selection-start-column="23" selection-end-line="401" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#1228#1774#0" expanded="false" />
-                    <element signature="e#1784#2326#0" expanded="false" />
-                    <element signature="e#2336#3092#0" expanded="false" />
-                    <element signature="e#3102#3652#0" expanded="false" />
-                    <element signature="e#3662#4214#0" expanded="false" />
-                    <element signature="e#4224#4767#0" expanded="false" />
-                    <element signature="e#4777#5320#0" expanded="false" />
-                    <element signature="e#5330#5871#0" expanded="false" />
-                    <element signature="e#5881#6435#0" expanded="false" />
-                    <element signature="e#6445#6986#0" expanded="false" />
-                    <element signature="e#6996#7545#0" expanded="false" />
-                    <element signature="e#7555#8097#0" expanded="false" />
-                    <element signature="e#8107#8653#0" expanded="false" />
-                    <element signature="e#8663#9207#0" expanded="false" />
-                    <element signature="e#9217#9767#0" expanded="false" />
-                    <element signature="e#12316#13490#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/navbar.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="43" column="64" lean-forward="false" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+                <state relative-caret-position="374">
+                  <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -93,8 +38,18 @@
           <file leaf-file-name="Luces.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+                <state relative-caret-position="4233">
+                  <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Luces.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/css/Luces.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -113,12 +68,107 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/js/script.js">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="110" column="85" lean-forward="true" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="85" />
+                <state relative-caret-position="272">
+                  <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+                  <folding>
+                    <marker date="1509381333622" expanded="true" signature="742:749" ph="×" />
+                    <marker date="1509381333622" expanded="true" signature="1914:1921" ph="×" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="891" column="38" lean-forward="false" selection-start-line="891" selection-start-column="37" selection-end-line="891" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#366#13315#0" expanded="false" />
+                    <element signature="e#13343#26024#0" expanded="false" />
+                    <marker date="1509377987819" expanded="false" signature="400:1127" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="634:1109" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="635:859" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="860:1087" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="1145:1871" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="1378:1853" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="1379:1603" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="1604:1831" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="1889:2615" ph="{&quot;id&quot;: 3...}" />
+                    <marker date="1509377987819" expanded="false" signature="2122:2597" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="2123:2347" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="2348:2575" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="2633:3355" ph="{&quot;id&quot;: 4...}" />
+                    <marker date="1509377987819" expanded="false" signature="2862:3337" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="2863:3087" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="3088:3315" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="3373:4366" ph="{&quot;id&quot;: 5...}" />
+                    <marker date="1509377987819" expanded="false" signature="3607:4348" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="3633:3857" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="3858:4098" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="4099:4326" ph="{&quot;id&quot;: 3...}" />
+                    <marker date="1509377987819" expanded="false" signature="4384:5114" ph="{&quot;id&quot;: 6...}" />
+                    <marker date="1509377987819" expanded="false" signature="4621:5096" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="4622:4846" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="4847:5074" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="5132:5864" ph="{&quot;id&quot;: 7...}" />
+                    <marker date="1509377987819" expanded="false" signature="5371:5846" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="5372:5596" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="5597:5824" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="5882:6605" ph="{&quot;id&quot;: 8...}" />
+                    <marker date="1509377987819" expanded="false" signature="6112:6587" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="6113:6337" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="6338:6565" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="6623:7346" ph="{&quot;id&quot;: 9...}" />
+                    <marker date="1509377987819" expanded="false" signature="6853:7328" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="6854:7078" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="7079:7306" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="7364:8085" ph="{&quot;id&quot;: 10...}" />
+                    <marker date="1509377987819" expanded="false" signature="7592:8067" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="7593:7817" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="7818:8045" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="8103:8837" ph="{&quot;id&quot;: 11...}" />
+                    <marker date="1509377987819" expanded="false" signature="8344:8819" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="8345:8569" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="8570:8797" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="8855:9576" ph="{&quot;id&quot;: 12...}" />
+                    <marker date="1509377987819" expanded="false" signature="9083:9558" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="9084:9308" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="9309:9536" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="9594:10323" ph="{&quot;id&quot;: 13...}" />
+                    <marker date="1509377987819" expanded="false" signature="9830:10305" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="9831:10055" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="10056:10283" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="10341:11063" ph="{&quot;id&quot;: 14...}" />
+                    <marker date="1509377987819" expanded="false" signature="10570:11045" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="10571:10795" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="10796:11023" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="11081:11807" ph="{&quot;id&quot;: 15...}" />
+                    <marker date="1509377987819" expanded="false" signature="11314:11789" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="11315:11539" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="11540:11767" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="11825:12549" ph="{&quot;id&quot;: 16...}" />
+                    <marker date="1509377987819" expanded="false" signature="12056:12531" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="12057:12281" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="12282:12509" ph="{&quot;id&quot;: 2...}" />
+                    <marker date="1509377987819" expanded="false" signature="12567:13297" ph="{&quot;id&quot;: 17...}" />
+                    <marker date="1509377987819" expanded="false" signature="12804:13279" ph="[...]" />
+                    <marker date="1509377987819" expanded="false" signature="12805:13029" ph="{&quot;id&quot;: 1...}" />
+                    <marker date="1509377987819" expanded="false" signature="13030:13257" ph="{&quot;id&quot;: 2...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="148" column="68" lean-forward="true" selection-start-line="147" selection-start-column="8" selection-end-line="148" selection-end-column="68" />
                   <folding />
                 </state>
               </provider>
@@ -149,9 +199,12 @@
       <find>background: rgba(0,0,0,0.25); */</find>
       <find>#Pasos .container</find>
       <find>DEFAULT_URL</find>
+      <find>inicio</find>
+      <find>ind.</find>
     </findStrings>
     <replaceStrings>
       <replace>clientes_carusel</replace>
+      <replace>$scope</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -160,11 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lucesOficina/src/pages/index.pages.ts" />
-        <option value="$PROJECT_DIR$/lucesOficina/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/lucesOficina/src/pages/oficinas/oficinas.html" />
-        <option value="$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.html" />
-        <option value="$PROJECT_DIR$/lucesOficina/src/pages/oficinas/oficinas.ts" />
         <option value="$PROJECT_DIR$/lucesOficina/src/pages/modal-cronometro/modal-cronometro.html" />
         <option value="$PROJECT_DIR$/lucesOficina/src/pages/modal-cronometro/modal-cronometro.ts" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.scss" />
@@ -207,10 +255,15 @@
         <option value="$PROJECT_DIR$/Clase8/server.js" />
         <option value="$PROJECT_DIR$/appVideoStream/node_modules/npm-debug.log" />
         <option value="$PROJECT_DIR$/appCondadoLC/package.json" />
-        <option value="$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css" />
         <option value="$PROJECT_DIR$/proyecto-CasaTerror/css/estilo.css" />
-        <option value="$PROJECT_DIR$/proyecto-CasaTerror/js/main.js" />
         <option value="$PROJECT_DIR$/proyecto-CasaTerror/navbar.html" />
+        <option value="$PROJECT_DIR$/proyecto-CasaTerror/js/main.js" />
+        <option value="$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css" />
+        <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/css/Luces.css" />
+        <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/js/main.js" />
+        <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/index.html" />
+        <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/css/estilo.css" />
+        <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/js/script.js" />
       </list>
     </option>
   </component>
@@ -223,6 +276,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Clase8/node_modules" />
     <handled-path value="$PROJECT_DIR$/appCamara/node_modules" />
+    <handled-path value="$PROJECT_DIR$/appCardReader/jquery.cardswipe/node_modules" />
+    <handled-path value="$PROJECT_DIR$/appCardReader/preuba-card/node_modules" />
     <handled-path value="$PROJECT_DIR$/appCondadoLC/node_modules" />
     <handled-path value="$PROJECT_DIR$/appCondadoLC/plugins/cordova-sqlite-storage/node_modules" />
     <handled-path value="$PROJECT_DIR$/appVideoStream/node_modules" />
@@ -275,7 +330,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proyecto-CasaTerror" />
+              <option name="myItemId" value="DemoFinal-Casadel Terror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,7 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proyecto-CasaTerror" />
+              <option name="myItemId" value="DemoFinal-Casadel Terror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -307,7 +362,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proyecto-CasaTerror" />
+              <option name="myItemId" value="DemoFinal-Casadel Terror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -317,14 +372,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/proyecto-CasaTerror" />
+    <property name="last_opened_file_path" value="E:/proyecto-CasaTerror" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -495,24 +550,35 @@
       <workItem from="1508365156039" duration="703000" />
       <workItem from="1508430585798" duration="4746000" />
       <workItem from="1508590959035" duration="14000" />
-      <workItem from="1508855101006" duration="20374000" />
+      <workItem from="1508855101006" duration="26300000" />
+      <workItem from="1508898830613" duration="639000" />
+      <workItem from="1508941372545" duration="1158000" />
+      <workItem from="1508961451851" duration="10412000" />
+      <workItem from="1508987363354" duration="6403000" />
+      <workItem from="1509027596448" duration="699000" />
+      <workItem from="1509035379081" duration="13604000" />
+      <workItem from="1509062342666" duration="413000" />
+      <workItem from="1509114541389" duration="2445000" />
+      <workItem from="1509117702292" duration="4791000" />
+      <workItem from="1509139500376" duration="586000" />
+      <workItem from="1509292919047" duration="1255000" />
+      <workItem from="1509376122199" duration="8032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420725000" />
+    <option name="totallyTimeSpent" value="477088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22792174" sideWeight="0.49392098" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15600212" sideWeight="0.49392098" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25481313" sideWeight="0.50185084" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25481313" sideWeight="0.49814913" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25481313" sideWeight="0.49814913" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22792174" sideWeight="0.506079" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,41 +625,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/xampp/htdocs/pdf-flipbook-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wasihome/Luces_Control_js/Luces_Oficina/codigo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="75" column="1" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pry_Flash/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/app/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/providers/luces-ctrl/luces-ctrl.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer/popover-timer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -815,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,22 +874,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="110" column="85" lean-forward="true" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -870,34 +884,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="401" column="23" lean-forward="false" selection-start-line="401" selection-start-column="23" selection-end-line="401" selection-end-column="23" />
-          <folding>
-            <element signature="e#1228#1774#0" expanded="false" />
-            <element signature="e#1784#2326#0" expanded="false" />
-            <element signature="e#2336#3092#0" expanded="false" />
-            <element signature="e#3102#3652#0" expanded="false" />
-            <element signature="e#3662#4214#0" expanded="false" />
-            <element signature="e#4224#4767#0" expanded="false" />
-            <element signature="e#4777#5320#0" expanded="false" />
-            <element signature="e#5330#5871#0" expanded="false" />
-            <element signature="e#5881#6435#0" expanded="false" />
-            <element signature="e#6445#6986#0" expanded="false" />
-            <element signature="e#6996#7545#0" expanded="false" />
-            <element signature="e#7555#8097#0" expanded="false" />
-            <element signature="e#8107#8653#0" expanded="false" />
-            <element signature="e#8663#9207#0" expanded="false" />
-            <element signature="e#9217#9767#0" expanded="false" />
-            <element signature="e#12316#13490#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="880" column="35" lean-forward="false" selection-start-line="880" selection-start-column="35" selection-end-line="880" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="64" lean-forward="false" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4233">
+          <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/css/Luces.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="148" column="68" lean-forward="true" selection-start-line="147" selection-start-column="8" selection-end-line="148" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <marker date="1509381333622" expanded="true" signature="742:749" ph="×" />
+            <marker date="1509381333622" expanded="true" signature="1914:1921" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="891" column="38" lean-forward="false" selection-start-line="891" selection-start-column="37" selection-end-line="891" selection-end-column="38" />
+          <folding>
+            <element signature="e#366#13315#0" expanded="false" />
+            <element signature="e#13343#26024#0" expanded="false" />
+            <marker date="1509377987819" expanded="false" signature="400:1127" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="634:1109" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="635:859" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="860:1087" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="1145:1871" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="1378:1853" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="1379:1603" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="1604:1831" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="1889:2615" ph="{&quot;id&quot;: 3...}" />
+            <marker date="1509377987819" expanded="false" signature="2122:2597" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="2123:2347" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="2348:2575" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="2633:3355" ph="{&quot;id&quot;: 4...}" />
+            <marker date="1509377987819" expanded="false" signature="2862:3337" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="2863:3087" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="3088:3315" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="3373:4366" ph="{&quot;id&quot;: 5...}" />
+            <marker date="1509377987819" expanded="false" signature="3607:4348" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="3633:3857" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="3858:4098" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="4099:4326" ph="{&quot;id&quot;: 3...}" />
+            <marker date="1509377987819" expanded="false" signature="4384:5114" ph="{&quot;id&quot;: 6...}" />
+            <marker date="1509377987819" expanded="false" signature="4621:5096" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="4622:4846" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="4847:5074" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="5132:5864" ph="{&quot;id&quot;: 7...}" />
+            <marker date="1509377987819" expanded="false" signature="5371:5846" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="5372:5596" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="5597:5824" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="5882:6605" ph="{&quot;id&quot;: 8...}" />
+            <marker date="1509377987819" expanded="false" signature="6112:6587" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="6113:6337" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="6338:6565" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="6623:7346" ph="{&quot;id&quot;: 9...}" />
+            <marker date="1509377987819" expanded="false" signature="6853:7328" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="6854:7078" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="7079:7306" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="7364:8085" ph="{&quot;id&quot;: 10...}" />
+            <marker date="1509377987819" expanded="false" signature="7592:8067" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="7593:7817" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="7818:8045" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="8103:8837" ph="{&quot;id&quot;: 11...}" />
+            <marker date="1509377987819" expanded="false" signature="8344:8819" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="8345:8569" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="8570:8797" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="8855:9576" ph="{&quot;id&quot;: 12...}" />
+            <marker date="1509377987819" expanded="false" signature="9083:9558" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="9084:9308" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="9309:9536" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="9594:10323" ph="{&quot;id&quot;: 13...}" />
+            <marker date="1509377987819" expanded="false" signature="9830:10305" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="9831:10055" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="10056:10283" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="10341:11063" ph="{&quot;id&quot;: 14...}" />
+            <marker date="1509377987819" expanded="false" signature="10570:11045" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="10571:10795" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="10796:11023" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="11081:11807" ph="{&quot;id&quot;: 15...}" />
+            <marker date="1509377987819" expanded="false" signature="11314:11789" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="11315:11539" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="11540:11767" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="11825:12549" ph="{&quot;id&quot;: 16...}" />
+            <marker date="1509377987819" expanded="false" signature="12056:12531" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="12057:12281" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="12282:12509" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1509377987819" expanded="false" signature="12567:13297" ph="{&quot;id&quot;: 17...}" />
+            <marker date="1509377987819" expanded="false" signature="12804:13279" ph="[...]" />
+            <marker date="1509377987819" expanded="false" signature="12805:13029" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1509377987819" expanded="false" signature="13030:13257" ph="{&quot;id&quot;: 2...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,102 @@
+/* The switch - the box around the slider */
+#lucestitulo h2 {
+    position: relative;
+    display: inline-block;
+    margin-top: 3.5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 0;
+    color: #fff;
+    font: small-caption;
+    font-size: 150%;
+    text-align: center;
+    font-weight: lighter;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 75px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff2d1e;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 32px;
+    width: 32px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #00c853;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #00c853;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(41px);
+    -ms-transform: translateX(41px);
+    transform: translateX(41px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+/*----------- ON/OFF CSS -------------*/
+.h3ON, .h3OFF{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 9.5px;
+}
+.h3ON{
+    position: relative;
+    margin-left: 9px;
+}
+.h3OFF{
+    position: absolute;
+    margin-left: 11px;
+}
+.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+footer.sticky-footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+.tiempo{
+    width: 65px;
+}
+
+
+
+
