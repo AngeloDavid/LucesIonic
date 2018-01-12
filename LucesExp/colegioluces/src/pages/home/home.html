@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title text-center>Control de luces</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+  <ion-refresher (ionRefresh)="verificarIp($event)">
+    <ion-refresher-content
+      pullingIcon="arrow-dropdown"
+      pullingText="Pulse para actualizar"
+      refreshingSpinner="bubbles"
+      refreshingText="Actualizando">
+    </ion-refresher-content>
+  </ion-refresher>
+  <h2>{{luzdt.descp}}</h2>
+  <ion-item-group>
+    <ion-item *ngFor="let m of luzdt.idLuces; let i = index " (click)="prender(i)">
+      <ion-label>{{m.title}}</ion-label>
+      <ion-toggle [disabled]="m.disp" [checked]="m.estado" ></ion-toggle>
+    </ion-item>
+  </ion-item-group>
+</ion-content>
+
+

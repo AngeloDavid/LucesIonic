@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92174495-3039-4927-bbc3-5b0f482a122a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/img/fondos/index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/img/fondos/punto_venta.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/img/fondos/index2.jpg" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/img/fondos/index2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCardReader/jquery.cardswipe" afterPath="$PROJECT_DIR$/appCardReader/jquery.cardswipe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appVideoStream" afterPath="$PROJECT_DIR$/appVideoStream" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appvideo" afterPath="$PROJECT_DIR$/appvideo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Desarrollo.iml" afterPath="$PROJECT_DIR$/.idea/Desarrollo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/js/main.js" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto-CasaTerror/navbar.html" afterPath="$PROJECT_DIR$/proyecto-CasaTerror/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clase8/server.js" afterPath="$PROJECT_DIR$/Clase8/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/Info/css/video.css" afterPath="$PROJECT_DIR$/WasihomeInfo/Info/css/video.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WasihomeInfo/index.html" afterPath="$PROJECT_DIR$/WasihomeInfo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lucesOficina/ionic.config.json" afterPath="$PROJECT_DIR$/lucesOficina/ionic.config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.html" afterPath="$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.ts" afterPath="$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,161 +29,119 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.231203">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/navbar.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Luces.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4233">
-                  <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Luces.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/css/Luces.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/estilo.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-                  <folding>
-                    <marker date="1509381333622" expanded="true" signature="742:749" ph="×" />
-                    <marker date="1509381333622" expanded="true" signature="1914:1921" ph="×" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="891" column="38" lean-forward="false" selection-start-line="891" selection-start-column="37" selection-end-line="891" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#366#13315#0" expanded="false" />
-                    <element signature="e#13343#26024#0" expanded="false" />
-                    <marker date="1509377987819" expanded="false" signature="400:1127" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="634:1109" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="635:859" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="860:1087" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="1145:1871" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="1378:1853" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="1379:1603" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="1604:1831" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="1889:2615" ph="{&quot;id&quot;: 3...}" />
-                    <marker date="1509377987819" expanded="false" signature="2122:2597" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="2123:2347" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="2348:2575" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="2633:3355" ph="{&quot;id&quot;: 4...}" />
-                    <marker date="1509377987819" expanded="false" signature="2862:3337" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="2863:3087" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="3088:3315" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="3373:4366" ph="{&quot;id&quot;: 5...}" />
-                    <marker date="1509377987819" expanded="false" signature="3607:4348" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="3633:3857" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="3858:4098" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="4099:4326" ph="{&quot;id&quot;: 3...}" />
-                    <marker date="1509377987819" expanded="false" signature="4384:5114" ph="{&quot;id&quot;: 6...}" />
-                    <marker date="1509377987819" expanded="false" signature="4621:5096" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="4622:4846" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="4847:5074" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="5132:5864" ph="{&quot;id&quot;: 7...}" />
-                    <marker date="1509377987819" expanded="false" signature="5371:5846" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="5372:5596" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="5597:5824" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="5882:6605" ph="{&quot;id&quot;: 8...}" />
-                    <marker date="1509377987819" expanded="false" signature="6112:6587" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="6113:6337" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="6338:6565" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="6623:7346" ph="{&quot;id&quot;: 9...}" />
-                    <marker date="1509377987819" expanded="false" signature="6853:7328" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="6854:7078" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="7079:7306" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="7364:8085" ph="{&quot;id&quot;: 10...}" />
-                    <marker date="1509377987819" expanded="false" signature="7592:8067" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="7593:7817" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="7818:8045" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="8103:8837" ph="{&quot;id&quot;: 11...}" />
-                    <marker date="1509377987819" expanded="false" signature="8344:8819" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="8345:8569" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="8570:8797" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="8855:9576" ph="{&quot;id&quot;: 12...}" />
-                    <marker date="1509377987819" expanded="false" signature="9083:9558" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="9084:9308" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="9309:9536" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="9594:10323" ph="{&quot;id&quot;: 13...}" />
-                    <marker date="1509377987819" expanded="false" signature="9830:10305" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="9831:10055" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="10056:10283" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="10341:11063" ph="{&quot;id&quot;: 14...}" />
-                    <marker date="1509377987819" expanded="false" signature="10570:11045" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="10571:10795" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="10796:11023" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="11081:11807" ph="{&quot;id&quot;: 15...}" />
-                    <marker date="1509377987819" expanded="false" signature="11314:11789" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="11315:11539" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="11540:11767" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="11825:12549" ph="{&quot;id&quot;: 16...}" />
-                    <marker date="1509377987819" expanded="false" signature="12056:12531" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="12057:12281" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="12282:12509" ph="{&quot;id&quot;: 2...}" />
-                    <marker date="1509377987819" expanded="false" signature="12567:13297" ph="{&quot;id&quot;: 17...}" />
-                    <marker date="1509377987819" expanded="false" signature="12804:13279" ph="[...]" />
-                    <marker date="1509377987819" expanded="false" signature="12805:13029" ph="{&quot;id&quot;: 1...}" />
-                    <marker date="1509377987819" expanded="false" signature="13030:13257" ph="{&quot;id&quot;: 2...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="148" column="68" lean-forward="true" selection-start-line="147" selection-start-column="8" selection-end-line="148" selection-end-column="68" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="tabsmenu.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/tabsmenu/tabsmenu.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#542#1395#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabsmenu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/tabsmenu/tabsmenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="131" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="131" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="luces.interfaces.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/interfaces/luces.interfaces.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCamara/src/pages/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appCamara/src/pages/home/home.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="23" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="95" column="6" lean-forward="false" selection-start-line="95" selection-start-column="6" selection-end-line="101" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sala.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2414">
+              <caret line="147" column="33" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="luces-ctrl.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCondadoLC/src/providers/luces-ctrl/luces-ctrl.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="2" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -201,6 +166,8 @@
       <find>DEFAULT_URL</find>
       <find>inicio</find>
       <find>ind.</find>
+      <find>title</find>
+      <find>ctx</find>
     </findStrings>
     <replaceStrings>
       <replace>clientes_carusel</replace>
@@ -213,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lucesOficina/src/pages/modal-cronometro/modal-cronometro.html" />
-        <option value="$PROJECT_DIR$/lucesOficina/src/pages/modal-cronometro/modal-cronometro.ts" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.scss" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/home/home.scss" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/app/app.scss" />
@@ -235,8 +200,6 @@
         <option value="$PROJECT_DIR$/Binbangidea/index.html" />
         <option value="$PROJECT_DIR$/Binbangidea/css/main.css" />
         <option value="$PROJECT_DIR$/WasihomeInfo/Info/js/codigo.js" />
-        <option value="$PROJECT_DIR$/WasihomeInfo/index.html" />
-        <option value="$PROJECT_DIR$/WasihomeInfo/Info/css/video.css" />
         <option value="$PROJECT_DIR$/proyecto-CasaTerror/js/script.js" />
         <option value="C:/xampp/htdocs/pdf-flipbook-master/pdfjs/viewer.js" />
         <option value="$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer/popover-timer.scss" />
@@ -264,6 +227,10 @@
         <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/index.html" />
         <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/css/estilo.css" />
         <option value="$PROJECT_DIR$/DemoFinal-Casadel Terror/js/script.js" />
+        <option value="$PROJECT_DIR$/WasihomeInfo/Info/css/video.css" />
+        <option value="$PROJECT_DIR$/WasihomeInfo/index.html" />
+        <option value="$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.html" />
+        <option value="$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.ts" />
       </list>
     </option>
   </component>
@@ -275,6 +242,8 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Clase8/node_modules" />
+    <handled-path value="$PROJECT_DIR$/LucesExp/colegio/node_modules" />
+    <handled-path value="$PROJECT_DIR$/LucesExp/colegioluces/node_modules" />
     <handled-path value="$PROJECT_DIR$/appCamara/node_modules" />
     <handled-path value="$PROJECT_DIR$/appCardReader/jquery.cardswipe/node_modules" />
     <handled-path value="$PROJECT_DIR$/appCardReader/preuba-card/node_modules" />
@@ -285,6 +254,7 @@
     <handled-path value="$PROJECT_DIR$/appvideo/node_modules" />
     <handled-path value="$PROJECT_DIR$/lucesOficina/node_modules" />
     <handled-path value="$PROJECT_DIR$/prBBl/node_modules" />
+    <handled-path value="$PROJECT_DIR$/proyecto/pryprueba/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -308,6 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,7 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DemoFinal-Casadel Terror" />
+              <option name="myItemId" value="WasihomeInfo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,11 +315,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DemoFinal-Casadel Terror" />
+              <option name="myItemId" value="WasihomeInfo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="Info" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,7 +333,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DemoFinal-Casadel Terror" />
+              <option name="myItemId" value="WasihomeInfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Info" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -370,10 +345,393 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucesOficina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucesOficina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucesOficina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucesOficina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="punto-venta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucesOficina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luces-ctrl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabsmenu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCondadoLC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamara" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamara" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamara" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamara" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,30 +921,37 @@
       <workItem from="1509139500376" duration="586000" />
       <workItem from="1509292919047" duration="1255000" />
       <workItem from="1509376122199" duration="8154000" />
+      <workItem from="1510782884776" duration="2442000" />
+      <workItem from="1510844460633" duration="746000" />
+      <workItem from="1510845892401" duration="2574000" />
+      <workItem from="1510935896063" duration="10803000" />
+      <workItem from="1510968983554" duration="849000" />
+      <workItem from="1510985349838" duration="867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="477210000" />
+    <option name="totallyTimeSpent" value="504301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15600212" sideWeight="0.49392098" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25481313" sideWeight="0.50185084" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6806342" sideWeight="0.49814913" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22792174" sideWeight="0.506079" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19705549" sideWeight="0.49814913" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22792174" sideWeight="0.506079" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -625,103 +990,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer/popover-timer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer/popover-timer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer-sala/popover-timer-sala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/tabsmenu/tabsmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/tabsmenu/tabsmenu.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="88" column="40" lean-forward="false" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/popover-timer/popover-timer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="111" column="42" lean-forward="false" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/splash.png.md5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/ios/icon/icon-40@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/ios/icon/icon-40.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/ios/icon/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape~ipad.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appCondadoLC/resources/ios/splash/Default-Landscape@~ipadpro.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -758,13 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appCamara/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appVideoStream/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -790,13 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="150" column="55" lean-forward="false" selection-start-line="150" selection-start-column="55" selection-end-line="150" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -878,7 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,27 +1149,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4233">
-          <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/css/Luces.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="600">
           <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,7 +1160,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/css/Luces.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto-CasaTerror/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -932,18 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="148" column="68" lean-forward="true" selection-start-line="147" selection-start-column="8" selection-end-line="148" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding>
-            <marker date="1509381333622" expanded="true" signature="742:749" ph="×" />
-            <marker date="1509381333622" expanded="true" signature="1914:1921" ph="×" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,78 +1188,155 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="891" column="38" lean-forward="false" selection-start-line="891" selection-start-column="37" selection-end-line="891" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoFinal-Casadel Terror/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="301" column="0" lean-forward="false" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/css/services.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="75" column="30" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/servicios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WasihomeInfo/Info/css/video.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="319" column="21" lean-forward="false" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wasihome/Luces_Control_js/Luces_Led_interfaz/web-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="541" column="5" lean-forward="false" selection-start-line="486" selection-start-column="4" selection-end-line="541" selection-end-column="5" />
           <folding>
-            <element signature="e#366#13315#0" expanded="false" />
-            <element signature="e#13343#26024#0" expanded="false" />
-            <marker date="1509377987819" expanded="false" signature="400:1127" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="634:1109" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="635:859" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="860:1087" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="1145:1871" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="1378:1853" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="1379:1603" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="1604:1831" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="1889:2615" ph="{&quot;id&quot;: 3...}" />
-            <marker date="1509377987819" expanded="false" signature="2122:2597" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="2123:2347" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="2348:2575" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="2633:3355" ph="{&quot;id&quot;: 4...}" />
-            <marker date="1509377987819" expanded="false" signature="2862:3337" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="2863:3087" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="3088:3315" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="3373:4366" ph="{&quot;id&quot;: 5...}" />
-            <marker date="1509377987819" expanded="false" signature="3607:4348" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="3633:3857" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="3858:4098" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="4099:4326" ph="{&quot;id&quot;: 3...}" />
-            <marker date="1509377987819" expanded="false" signature="4384:5114" ph="{&quot;id&quot;: 6...}" />
-            <marker date="1509377987819" expanded="false" signature="4621:5096" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="4622:4846" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="4847:5074" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="5132:5864" ph="{&quot;id&quot;: 7...}" />
-            <marker date="1509377987819" expanded="false" signature="5371:5846" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="5372:5596" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="5597:5824" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="5882:6605" ph="{&quot;id&quot;: 8...}" />
-            <marker date="1509377987819" expanded="false" signature="6112:6587" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="6113:6337" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="6338:6565" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="6623:7346" ph="{&quot;id&quot;: 9...}" />
-            <marker date="1509377987819" expanded="false" signature="6853:7328" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="6854:7078" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="7079:7306" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="7364:8085" ph="{&quot;id&quot;: 10...}" />
-            <marker date="1509377987819" expanded="false" signature="7592:8067" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="7593:7817" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="7818:8045" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="8103:8837" ph="{&quot;id&quot;: 11...}" />
-            <marker date="1509377987819" expanded="false" signature="8344:8819" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="8345:8569" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="8570:8797" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="8855:9576" ph="{&quot;id&quot;: 12...}" />
-            <marker date="1509377987819" expanded="false" signature="9083:9558" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="9084:9308" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="9309:9536" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="9594:10323" ph="{&quot;id&quot;: 13...}" />
-            <marker date="1509377987819" expanded="false" signature="9830:10305" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="9831:10055" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="10056:10283" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="10341:11063" ph="{&quot;id&quot;: 14...}" />
-            <marker date="1509377987819" expanded="false" signature="10570:11045" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="10571:10795" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="10796:11023" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="11081:11807" ph="{&quot;id&quot;: 15...}" />
-            <marker date="1509377987819" expanded="false" signature="11314:11789" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="11315:11539" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="11540:11767" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="11825:12549" ph="{&quot;id&quot;: 16...}" />
-            <marker date="1509377987819" expanded="false" signature="12056:12531" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="12057:12281" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="12282:12509" ph="{&quot;id&quot;: 2...}" />
-            <marker date="1509377987819" expanded="false" signature="12567:13297" ph="{&quot;id&quot;: 17...}" />
-            <marker date="1509377987819" expanded="false" signature="12804:13279" ph="[...]" />
-            <marker date="1509377987819" expanded="false" signature="12805:13029" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1509377987819" expanded="false" signature="13030:13257" ph="{&quot;id&quot;: 2...}" />
+            <element signature="e#14880#17077#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucesOficina/src/pages/punto-venta/punto-venta.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="81" column="1" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="81" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/tabsmenu/tabsmenu.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#542#1395#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/tabsmenu/tabsmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="131" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/providers/luces-ctrl/luces-ctrl.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/interfaces/luces.interfaces.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/sala/sala.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="147" column="33" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCondadoLC/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="95" column="6" lean-forward="false" selection-start-line="95" selection-start-column="6" selection-end-line="101" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamara/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamara/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

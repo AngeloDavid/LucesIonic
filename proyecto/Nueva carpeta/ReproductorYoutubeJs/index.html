@@ -1,0 +1,210 @@
+<html>
+<head>
+	<style>
+	@font-face {
+	  font-family: "DS-DIGI";
+	  src: url("DS-DIGI.TTF");
+	}
+	#video-placeholder{
+		display: none;
+	}
+	button{
+		background: transparent;
+		border:none;
+	}
+	button:focus{
+		outline: none;
+	}
+	.paralante{	
+		margin-top:50px; 	
+		width: 100px;
+		height: 100px;
+		display: -webkit-flex; /* Safari */
+	    -webkit-align-items: center; /* Safari 7.0+ */
+	    display: flex;
+	    align-items: center;
+	    text-align: center;
+	    display: -webkit-flex; /* Safari */
+	    -webkit-justify-content: space-around; /* Safari 6.1+ */
+	    display: flex;
+	    justify-content: space-around;
+	}
+	.paralante img{
+		position: absolute;
+	}
+	.container-button{
+		position: absolute;
+
+	}
+	.container-button button{
+		cursor: pointer;
+		color: #7b7b7c;
+	}
+
+	.clockdate-wrapper {
+	    max-width:350px;
+	    width:100%;
+	    text-align:center;
+	    border-radius:5px;
+	    margin:0 auto;
+	    margin-top:15%;
+	}
+	#clock{
+	    font-family: "DS-DIGI";
+	    font-size:20px;
+	    text-shadow:0px 0px 1px #fff;
+	    color:#fff;
+	    padding-bottom: 4px;
+	}
+	#clock span {
+	    /*color:#888;*/
+	    /*text-shadow:0px 0px 1px #333;*/
+	    font-size:20px;
+	    position:relative;
+	    /*top:-27px;
+	    left:-10px;*/
+	}	
+</style>
+<script src="https://use.fontawesome.com/785f5fdffd.js"></script>	
+<Title>parlante</Title>
+</head>
+
+<body onload="startTime()">
+
+<div class="paralante">
+	<img id="parlante" src="parlante.png" width="100px">
+
+	<div class="container-button"> 
+		
+		  <div class="clockdate-wrapper">
+		    <div id="clock"></div>		    
+		  </div>		
+		<button id="play"></button>
+		<button id="mute-toggle"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+	</div>
+
+	
+</div>
+<!--  -->
+
+<div id="video-placeholder"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script type="text/javascript">
+	var player;
+	var playif;
+	var idVideo= 'Ti2pA5JgrMI';
+
+	function onYouTubeIframeAPIReady() {
+		playif=true;
+	    player = new YT.Player('video-placeholder', {
+	        width: 600,
+	        height: 400,
+	        autoplay:1,
+	        videoId: idVideo ,
+	        playerVars: {
+	        	autoplay: 1,
+                loop: 1,
+	            color: 'white',
+	            playlist: 'taJ60kskkns,FG0fTKAqZ5g'
+	        },
+	        events: {
+	            onReady: initialize
+	        }
+	    });
+	    
+	   ifplay($('#play'));
+	}
+
+	function initialize(){
+
+	    // Update the controls on load
+	    updateTimerDisplay();
+	    updateProgressBar();
+
+	    // Clear any old interval.
+	    clearInterval(time_update_interval);
+
+	    // Start interval to update elapsed time display and
+	    // the elapsed part of the progress bar every second.
+	    time_update_interval = setInterval(function () {
+	        updateTimerDisplay();
+	        updateProgressBar();
+	    }, 1000)
+
+
+
+	}
+
+	$('#play').on('click', function () {
+		if(!playif){
+			console.log('play')
+			$(this).html('<i class="fa fa-pause" aria-hidden="true"></i>');
+			player.playVideo();
+			
+		}else{
+			$(this).html('<i class="fa fa-play" aria-hidden="true"></i>');
+			console.log('pause',$(this))
+			player.pauseVideo();		
+		}
+		playif=!playif;
+	});
+
+	function ifplay(boton){
+		console.log(playif)
+		console.log(boton);
+		if(playif){
+			console.log('play');
+			$(boton).html('<i class="fa fa-pause" aria-hidden="true"></i>');		
+		}else{
+			$(boton).html('<i class="fa fa-play" aria-hidden="true"></i>');
+		}
+	}
+	$('#pause').on('click', function () {
+
+    player.pauseVideo();
+
+	});
+
+	$('#mute-toggle').on('click', function() {
+	    var mute_toggle = $(this);
+
+	    if(player.isMuted()){
+	        player.unMute();
+	        mute_toggle.html('<i class="fa fa-volume-up" aria-hidden="true"></i>');
+	    }
+	    else{
+	        player.mute();
+	        mute_toggle.html('<i class="fa fa-volume-off" aria-hidden="true"></i>');
+	    }
+	});
+
+
+	function startTime() {
+    var today = new Date();
+    var hr = today.getHours();
+    var min = today.getMinutes();
+    var sec = today.getSeconds();
+    var ap = (hr < 12) ? "<span>AM</span>" : "<span>PM</span>";
+    hr = (hr == 0) ? 12 : hr;
+    hr = (hr > 12) ? hr - 12 : hr;
+    //Add a zero in front of numbers<10
+    min = checkTime(min);
+    sec = checkTime(sec);
+    document.getElementById("clock").innerHTML = hr + " : " + min + "<br> " + sec+" "+ap;
+    // document.getElementById("clock").innerHTML = hr + " : " + min ;
+    var time = setTimeout(function(){ startTime() }, 500);
+	}
+
+	function checkTime(i) {
+	    if (i < 10) {
+	        i = "0" + i;
+	    }
+	    return i;
+	}
+</script>
+
+</body>
+</html>

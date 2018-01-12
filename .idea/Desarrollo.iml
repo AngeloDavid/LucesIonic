@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/LucesExp/colegioluces/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/appCardReader/jquery.cardswipe/node_modules/jshint/src/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/appCondadoLC/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/appVideoStream/platforms" />

@@ -4,8 +4,17 @@ const bodyParser = require('body-parser');
 const app = express();
 
 app.use(bodyParser.urlencoded({extend:true}));
-app.get('/play',function (req,res) {
+/*app.get('/play',function (req,res) {
   	res.sendFile(__dirname + '/index.html');
+});*/
+
+app.get('/dato',function (req,res) {
+  	res.sendFile(__dirname + '/dato.html');
+});
+app.get('/dato/status',function (req,res) {
+	res.header('Access-Control-Allow-Origin' , '*' );
+  	res.header('Access-Control-Allow-Credentials', true);
+  	res.sendFile(__dirname + '/192.168.0.111.xml');
 });
 
 app.post('/quotes',function(req,res){

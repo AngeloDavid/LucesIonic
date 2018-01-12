@@ -1,0 +1,8 @@
+{
+  "name": "colegioluces",
+  "app_id": "48280d74",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
